@@ -1,0 +1,2926 @@
+
+
+
+<!doctype html>
+
+
+<head><script type="text/javascript">_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_clientid='AE3445B0D8A9DEEACC034A654F6B76D4';</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/yui/ext-yui-adapter.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-core.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/resizable.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/dragdrop/dragdrop.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/util.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/build/state/State-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/widget-core.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/dialog/dialogs.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/cf/cf.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/dl.css" />
+
+
+
+<title>Proceedings of the 14th annual ACM symposium on User interface software and technology</title>
+<style type="text/css"><!--
+    body {margin-left: 0em; margin-top: 0}
+    a:link {text-decoration: underline; 	Color: #1d4d0f;}
+    a:visited  { color: #990033; text-decoration: underline;}
+    a:hover {color: red; text-decoration: none}
+    a.dLink1:link {color:#336699}
+    a.dLink1:visited {color:#666666}
+	a.isblack:link {text-decoration: underline; 	Color: #000000;}
+    a.isblack:visited  { color: #000000; text-decoration: underline;}
+    a.isblack:hover {color: #000000; text-decoration: none}
+    h1 {font-size: 140%; margin-bottom: 0}
+	ul {margin-top: .25em; list-style-type: disc}
+	ol {margin-top: .25em;}
+	li {padding-bottom: .25em}
+    h2 {color: white; background-color: #069; 
+        font-size: 100%; padding-left: 1em;
+		margin: 0}
+	h3 {color: black; background-color: yellow; 
+    	font-size: 100%;
+		margin: 0}
+	 h4 {color: black; background-color: #99c5e8; 
+        font-size: 100%;
+		margin: 0}
+    hr {color: #39176d;}
+    form {margin-top: 10}
+    form.xrs {margin-top: 0}
+	
+	a {text-decoration: none; }
+	
+	input {font-size: 1em;}
+	.chevron {color: #ff0000;}
+	.light-blue {color:#336699;}
+	.black {color:#000000;}
+	
+	/* ### standard text styles, smallest to largest ### */
+	
+	.footer-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .75em; line-height: 1.33em;
+		text-indent: -.75 em; margin-left: 2em; margin-right: .75em;}
+		
+	.footer-copy-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em; line-height: 1.3em;
+		margin-left: .75em; margin-right: .75em;}
+		
+	.small-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; padding-bottom : 2px;
+	  	padding-top : 2px;}
+
+	.smallerer-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .65em;}
+	.smaller-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em;}		
+	.small-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em;}
+	.small-textb {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; font-weight: bold;}
+	.medium-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em;}
+	.mediumb-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em; font-weight: bold;}
+	.large-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1.3em;}		
+	.instr-text {font-family: Arial, Helvetica, sans-serif;
+		color:#666666; font-size: .83em;}
+		
+	.list-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .83em; line-height: 1.3em;}
+	.list-link-btext {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; line-height: 1.3em;}
+	
+	.searchbox-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;}
+	.footer-header-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;
+		margin-left: .75em; margin-right: .75em;}
+	.medium-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold; line-height: 1em;
+		text-indent: -1.25em; margin-left: 2em; margin-right: .75em;}
+	
+	.text16 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 16px;}
+		
+	.text14 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 14px;}
+	
+	.text12 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 12px;}
+		
+	.text10 {font-family: Arial, Helvetica, sans-serif;
+	    color:#000000; font-size: 12px;}
+		
+	.text9 {font-family: Arial, Helvetica, sans-serif;
+	   color:#000000; font-size: 12px;}
+	
+	.error-text {color:red;}
+	
+	.small-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: .75em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+
+	.medium-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1.3em; line-height: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.medium-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+
+		#side {
+			width: 10px;
+			float: left;
+			margin-left: -1px;
+			padding: 2px;
+			}
+							
+		#content {
+			padding: 2px;
+			margin-left: 25px;
+			
+		        
+		        }
+	 .fulltext_lnk {border:0px;
+	 				 margin-right: 2px;
+					 vertical-align:baseline;
+	 				}
+	 
+	  .leftcoltab { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:530px;  /* for IE5/WIN */
+		  width:520px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	  .rightcoltab {
+    float: right;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    right: 50px;
+    top: 25px;
+    width: 350px;
+    z-index: 99;
+}
+	  .centercoltab {
+		  position:absolute;
+		  padding:0 0px;
+		  }
+	  .alt {
+		background: #ece9d8;
+		margin: 0;
+		padding: 1px;
+		}
+		.leftcolc { 
+	position:relative;
+	top:5px;
+	left:5px;
+	float:left;
+	width:420px;  /* for IE5/WIN */
+	width:400px; /* actual value */
+	margin:0 0 0px 0;
+	padding:5px;
+	z-index:100;
+	}
+.rightcolc {
+	position:relative;
+	top:0px;
+	right:0px;
+	float:right;
+	margin:0 0px;
+	padding:0px;
+	width:500px;
+	z-index:99;
+	}
+.centercolc {
+	position:absolute;
+	padding:0 0px;
+	}
+	
+	.leftcoltabv { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:460px;  /* for IE5/WIN */
+		  width:350px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	.rightcoltabv {
+		position:relative;
+		top:5px;
+		right:0px;
+		float:right;
+		margin:0 0px 0 0;
+		padding:15px;
+		width:480px;
+		z-index:99;
+		}
+	
+  --></style>
+ 
+
+
+<script type="text/javascript" src="cfformprotect/js/cffp.js"></script>
+
+
+<script type="text/javascript">
+ function expandcollapse(anchor,whichone) {
+	 var inner = document.getElementById(anchor);
+	 var theshow = "toShow" + whichone;
+ 	 var thehide = "toHide" + whichone;
+	 var span = document.getElementById(theshow);
+     span.style.display = (span.style.display=='inline')?'none':'inline';
+     var span = document.getElementById(thehide);
+     span.style.display = (span.style.display=='none')?'inline':'none';
+     inner.innerHTML = (inner.innerHTML=='collapse')?'expand':'collapse';
+    }
+
+  function setDiv() {
+	var m = document.getElementById('divmain');
+	var mh = m.offsetHeight;
+	var t = document.getElementById('divtools');
+	var th = t.offsetHeight;
+	var tg = document.getElementById('divtags');
+	var tgh = tg.offsetHeight;
+	var calcheight = mh - th;
+	if (tgh > calcheight  ){
+	  var x = (th + tgh) - mh;
+	  if ( (th + tgh) - mh < 65) {
+	  }
+	  else {
+		 document.getElementById('divtags').innerHTML = ""; 
+		 var tg = document.getElementById('divtags');
+		 var tgh = tg.offsetHeight;
+		 tg.style.height = tgh  + 'px';
+	  }
+	}
+	else {
+		tg.style.height = calcheight + 'px';
+		document.getElementById('divtags').innerHTML = "";
+	}
+
+//  do I need to check after I resize to be sure I didn't go too big?
+//	var tg2 = document.getElementById('divtags');
+//	var tgh2 = tg.offsetHeight;	
+//	if (tgh2 > mh + 65) {
+//	  var y = mh + 65;
+//	  alert('expanded too much ' + tgh2 + ' should be at most ' + y);
+//	  tg.style.height = y + 'px';
+//	  document.getElementById('divtags').innerHTML = "";
+//	}
+
+  }
+</script>
+
+<script type="text/javascript">
+ /* <!-- Begin
+	if(document.layers || document.all) {
+	a = 1;
+	setInterval("Jump()", 10);
+	}
+	function Jump() {
+	a = a + 1;
+	//self.moveBy((Math.random() * a * 2 - a), (Math.random() * a * 2) - a);
+	}
+//  End --> */
+</script>
+
+
+
+<meta name="citation_publisher" content="ACM"> <meta name="citation_authors" content="Conference Chair-Marks, Joe; Program Chair-Mynatt, Elizabeth"> <meta name="citation_title" content="Proceedings of the 14th annual ACM symposium on User interface software and technology"> <meta name="citation_date" content="11/11/2001"> <meta name="citation_isbn" content="1-58113-438-X"> <meta name="citation_abstract_html_url" content="http://dl.acm.org/citation.cfm?id=502348"> 
+
+
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFFORM');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFDIV');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFWINDOW');
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338153738503=function()
+	{
+		_cf_bind_init_1338153738504=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'theguide_body','bindExpr':['whatisguide.cfm']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338153738504);var _cf_window=ColdFusion.Window.create('theguide','The ACM Guide to Computing Literature','whatisguide.cfm',{ modal:false, closable:true, divid:'cf_window1338153738502', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338153738503);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338153738506=function()
+	{
+		_cf_bind_init_1338153738507=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'thetags_body','bindExpr':['showthetags.cfm?id=502348']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338153738507);var _cf_window=ColdFusion.Window.create('thetags','All Tags','showthetags.cfm?id=502348',{ modal:false, closable:true, divid:'cf_window1338153738505', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338153738506);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338153738509=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theformats','Export Formats','',{ modal:false, closable:true, divid:'cf_window1338153738508', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:250, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338153738509);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338153738511=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theexplaination','','',{ modal:false, closable:true, divid:'cf_window1338153738510', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338153738511);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338153738513=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theservices','','',{ modal:false, closable:true, divid:'cf_window1338153738512', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338153738513);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338153738515=function()
+	{
+		_cf_bind_init_1338153738516=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'savetobinder_body','bindExpr':['savetobinder.cfm?id=502348']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338153738516);var _cf_window=ColdFusion.Window.create('savetobinder','Save to Binder','savetobinder.cfm?id=502348',{ modal:false, closable:true, divid:'cf_window1338153738514', draggable:true, resizable:true, fixedcenter:true, width:600, height:600, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false, _cf_refreshOnShow:true});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338153738515);
+</script>
+</head>
+
+<body style="text-align:center" onLoad="window.focus();">
+
+<script type="text/javascript">
+						addthis_pub             = 'acm'; 
+						//addthis_logo            = 'http://www.addthis.com/images/yourlogo.png';
+						addthis_logo            = 'http://dl.acm.org/images/ACM_transparent.png';
+						addthis_logo_background = 'c2d5fc';
+						addthis_logo_color      = '000000';
+						addthis_brand           = 'Citation Page';
+						addthis_options         = 'favorites, email, slashdot, citeulike, digg, delicious, twitter, myspace, facebook, google, more';
+						</script>
+                        
+<script src='AC_RunActiveContent.js' type="text/javascript"></script>
+
+
+
+
+<div style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+<a id="CIT"></a>
+
+
+
+<table style="table-layout:fixed; margin-top: 5px; margin-bottom: 10px; border:0px; width:100%; border-collapse:collapse;">
+	
+    <tr style="vertical-align:top">
+		
+		<td style="padding-left: 5px; padding-right:10px; padding-bottom:0px; width:300px" class="small-link-text"  ><img src="http://dl.acm.org/images/ACMDL_Logo.jpg" alt="ACM DL" style="border:0px" usemap="#port" />
+		</td>
+        
+        <td style="padding-left: 5px; padding-right:10px; padding-bottom:0px;" class="small-link-text">
+        	<table style="width:100%; border-collapse:collapse; padding:0px">
+			<tr><td style="text-align:center">
+				
+                            <div style="margin:0px auto;color:#356b20;font-size:10pt;line-height:10%;"> </div>
+                    
+					</td>		
+			</tr>
+			</table> 
+        </td>
+		<td style="padding-top: 0px; padding-left: 0px; padding-bottom:0px; text-align:right;" class="small-link-text">
+			 <p style="margin-top:0px; margin-bottom:10px;">
+					
+                            <a href="https://dl.acm.org/signin.cfm?cfid=84922752&amp;cftoken=83314714" class="small-link-text" title="Sign in to personalize your Digital Library experience">SIGN IN</a>
+                            &nbsp;&nbsp;<a href="https://dl.acm.org/signin.cfm?cfid=84922752&amp;cftoken=83314714"  class="small-link-text" title="Sign up to personalize your Digital Library experience">SIGN UP</a>
+						
+			 </p>
+            
+			<table style="padding: 5px; border-collapse:collapse; float:right">
+				
+				
+                            
+                            <tr>
+                            <td class="small-link-text" style="text-align:right">
+                            <form name="qiksearch" action="results.cfm?h=1&amp;cfid=84922752&amp;cftoken=83314714" method="post">
+                           
+                           
+                            
+                                     
+                                    <span style="margin-left:0px"><label><input type="text" name="query" size="34" value=" " /></label>&nbsp;
+                                    <input style="vertical-align:top;" type="image" alt="Search" name="Go" src="http://dl.acm.org/images/search_small.jpg" />
+                                    
+                                    </span>
+							  </form>
+                                </td>
+                            </tr>
+                          
+				  
+			</table>
+
+			
+			
+		</td>
+
+	</tr>
+    
+    
+    <tr><td colspan="3" class="small-link-text" style="padding-bottom:5px; padding-top:0px; text-align:center">
+		<div style="margin:0px auto;color:#356b20;line-height:10%;"> </div>
+         
+         </td>
+    </tr>
+    </table>
+	
+<map name="port" id="port" > 
+  <area shape="rect" coords="1,1,60,50" href="http://www.acm.org/" alt="ACM Home Page" />
+  <area shape="rect" coords="65,1,275,68" href="http://dl.acm.org/dl.cfm?CFID=84922752&CFTOKEN=83314714" alt="ACM Digital Library Home Page" />
+</map>
+
+<table style="table-layout:fixed; padding-bottom:10px; width:100%; padding:0px;">
+	<tr style="vertical-align:top">
+		<td style="padding-right:10px; text-align:left" class="small-link-text">
+        	<div id="divmain" style="border:1px solid #356b20;">
+				 
+				<div class="large-text" style="text-align:left; margin-left:2px;margin-bottom:5px;">
+					
+                    	<h1 class="mediumb-text" style="margin-top:0px; margin-bottom:0px;"><strong>Proceedings of the 14th annual ACM symposium on User interface software and technology</strong></h1>
+                        
+                </div>
+                
+                  
+
+<table class="medium-text" style="border-collapse:collapse; padding:0px;">
+
+<col style="width:540px" />
+
+<tr style="vertical-align:top">
+  <td>
+    <table style="border-collapse:collapse; padding:2px;" class="medium-text">
+      <col style="width:80px;" />
+      <col style="width:auto" />
+      <tr style="vertical-align:top">
+        
+      </tr>
+    </table>
+
+	
+        <table style="margin-top: 10px; border-collapse:collapse; padding:2px;" class="medium-text">
+            <col style="width:80px" />
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             Conference Chairs:
+                
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100484340&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=84922752&amp;cftoken=83314714" title="Author Profile Page" target="_self">Joe Marks</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <a href="inst_page.cfm?id=2000040&CFID=84922752&CFTOKEN=83314714" title="Institutional Profile Page"><small>Mitsubishi Electric Research Laboratories</small></a>
+                      	
+            </td>
+            </tr>
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             Program Chairs:
+                
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100331104&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=84922752&amp;cftoken=83314714" title="Author Profile Page" target="_self">Elizabeth Mynatt</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <a href="inst_page.cfm?id=1009158&CFID=84922752&CFTOKEN=83314714" title="Institutional Profile Page"><small>Georgia Institute of Technology</small></a>
+                      	
+            </td>
+            </tr>
+            
+        </table>
+    
+        <table style="margin-top: 10px" border="0" class="medium-text" cellpadding="2" cellspacing="0">
+            <tr><td><table border="0" class="medium-text" cellpadding="1" cellspacing="0">
+
+<tr valign="top">
+    <td nowrap="nowrap" style="padding-top:10px;">Publication of:</td>
+</tr>
+
+	<tr valign="top">
+    	<td nowrap="nowrap" style="padding-bottom:0px">&middot;&nbsp;Conference</td>
+	</tr>
+    <tr valign="top">
+	    <td style="padding-left:10px;">
+		   <a href="http://www.acm.org/uist/index.html" title="Conference Website"  target="_self" class="link-text">UIST '01</a> ACM Symposium on User Interface Software and Technology 
+        </td>
+	</tr>
+    
+    <tr valign="top">
+	    <td style="padding-left:10px; padding-bottom:10px"> Orlando, FL, USA &mdash; November 11 - 14, 2001
+                    
+                  <br />
+                    
+                  <a href="http://www.acm.org/publications" class="small-link-text" title="ACM">ACM</a> <span class="small-link-text">New York, NY</span><span class="small-link-text">, USA</span> <span class="small-link-text">  &copy;2001</span> 
+                  <br />           
+                  
+      </td>
+	</tr>
+	 
+
+</table></td></tr>
+        </table>
+    
+
+  </td>
+
+  <td rowspan="20" nowrap="nowrap">
+	<table border="0" class="medium-text" cellpadding="0" cellspacing="0">
+		<tr>
+        	<td align="center" style="padding-bottom: 5px;">
+			  
+               <img src="http://portalparts.acm.org/510000/502348/thumb/502348_thumb.jpg" title="Proceedings of the 14th annual ACM symposium on User interface software and technology" height="100"  width="76" ALT="Proceedings of the 14th annual ACM symposium on User interface software and technology" /> 
+              </td>
+              <td valign="top" align="left" nowrap="nowrap">
+	             <img src="images/acm_mini.jpg" title="Published by ACM" alt="Published by ACM" /> 2001 Proceeding<br />
+                 
+        	 </td>
+        </tr>
+        
+        <tr>
+        	<td colspan="2" valign="baseline" style="padding-bottom:5px;">
+            <img src="img/stats.jpg" alt="Bibliometrics Data" />&nbsp;
+            <a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a>
+            </td>
+         </tr>
+         <tr>
+            <td  class="small-text" colspan="2" valign="top" style="padding-left:30px;">
+				
+	                    	&middot;&nbsp;Downloads (6 Weeks): 354<br />
+    	                    &middot;&nbsp;Downloads (12 Months): 2,442<br />
+                          
+                        &middot;&nbsp;Citation Count: 1,355 
+			</td>
+         </tr>
+
+	</table>
+  </td>
+</tr>
+</table>
+
+<br clear="all" />
+
+                  
+                 <br clear="all" />
+			</div>
+			
+		</td>
+		<td style="padding-left: 5px; vertical-align:top; text-align:left; width:170px" class="small-link-text">
+	
+            <div id="divtools" style="background-color:#ece9d8; text-align:left; padding-top:5px; padding-bottom:5px; ">
+              <div class="medium-text" style="margin-left:3px; margin-top:10px;"><h1 class="mediumb-text" style="margin-top:-15px;"><strong>Tools and Resources</strong></h1></div>
+
+
+<ul title="Tools and Resources" style="list-style: none; list-style-position:inside;
+margin-left: 0px;
+padding-left: 0em;
+text-indent: 5px;
+margin-bottom: 0px;">
+
+
+<li style="list-style-image:url(img/toc_small.gif);margin-top:10px;"><span style="margin-left:6px;">
+   <span class="small-link-text">TOC Service:</span>
+   	  
+	  <img src="http://dl.acm.org/images/blanks.gif" border="0" alt="Spacer Image reserves space for checkmark when TOC Service is updated" name="saved" />
+      <ul style="margin-left: 0; padding-left: 0; display:inline;">
+      	
+        <li style="list-style:none; display:inline"><br /><img src="img/email_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Email</a></li>
+        <li style="list-style:none; display:inline"><img src="img/rss_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');"  class="small-link-text">RSS</a></li>
+		        
+      </ul>
+    </span>
+</li>
+
+        <li style="list-style-image:url(img/binder.gif);margin-top:10px;"><span style="margin-left:6px;">
+        <a href="citation.cfm?id=502348&preflayout=flat#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Save to Binder</a>
+         </span></li>
+    
+
+
+
+
+<li style="list-style-image:url(img/binder_green.gif);margin-top:10px;"><span style="margin-left:6px; margin-bottom:0px">
+   <span class="small-link-text">Export Formats:</span>
+      <ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=502348&expformat=bibtex','theformats');" class="small-link-text">BibTeX</a></li>
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=502348&expformat=endnotes','theformats');" class="small-link-text">EndNote</a></li>
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=502348&expformat=acmref','theformats');" class="small-link-text">ACM&nbsp;Ref</a></li>
+      </ul>
+    </span>
+</li>
+
+
+
+ 
+   <li style="list-style-image:url(img/calbullet.jpg);margin-top:15px;"><span style="margin-left:6px; margin-bottom:0px">
+   <span class="small-link-text">Upcoming Conference:</span>
+      <ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+        <li style="list-style:disc; display:inline; margin-bottom:0px; margin-left:25px;"><a href="http://www.acm.org/uist/" title="The 25th Annual ACM Symposium on User Interface Software and Technology" class="small-link-text">UIST '12</a></li>
+      </ul>
+    </span>
+	</li>
+    
+
+
+</ul>           
+
+  <!-- ADDTHIS BUTTON BEGIN -->
+  
+  <!-- ADDTHIS BUTTON END -->
+
+<p class="small-link-text" style="padding-top: 0px; margin-left:6px; margin-bottom:0px">Share:</p>
+  <!-- AddThis Button BEGIN -->
+
+
+
+<!-- AddThis Button BEGIN -->
+<div style="margin-left:5px;" class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_email"></a>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_slashdot"></a>
+<a class="addthis_button_reddit"></a>
+
+
+<span class="addthis_separator">|</span>
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=acm" class="addthis_button_expanded" title="more"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=acm"></script>
+<!-- AddThis Button END -->
+
+  
+ 
+
+  
+  
+            </div>
+            
+		</td>
+	</tr>
+    
+</table>
+
+
+
+</div>
+
+
+<div class="layout" style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+
+
+
+
+<div id="fback" style="text-align:left; padding-top:10px; padding-bottom:20px">
+<span class="small-text" style="padding-right:10px; margin-bottom:0px;">
+<a title="feedback" href="mailto:portal-feedback@hq.acm.org?subject=Comments_on_new_design" style=" vertical-align:middle"><img src="img/feedbackg.gif" width="20" height="19" alt="feedback" border="0" /></a>
+<a title="feedback" href="mailto:portal-feedback@hq.acm.org?subject=Comments_on_new_design"><strong>Feedback</strong></a>
+
+<span style="padding:10px;">|</span>
+
+
+
+
+<span>Switch to <a href="citation.cfm?id=502348&amp;preflayout=tabs">tabbed view</a> <noscript> (javascript required)</noscript></span>
+
+
+</span>
+
+ 
+<div class="small-text" style="margin-top:10px; margin-bottom:5px;"> 
+<br />
+
+    <a href="#abstract"  title="Abstract" style="padding:5px"><span>Abstract</span></a> |
+    
+    <a href="#authors"  title="Authors" style="padding:5px"><span>Authors</span></a> |
+    <a href="#references"  title="References" style="padding:5px"><span style='color:#999999'>References</span></a> |
+    <a href="#citedby"  title="Cited By" style="padding:5px"><span style='color:#999999'>Cited By</span></a> |
+    <a href="#indexterms"  title="Index Terms" style="padding:5px"><span style='color:#999999'>Index Terms</span></a> |
+    <a href="#source"  title="Publication" style="padding:5px"><span>Publication</span></a> |
+    <a href="#revs"  title="Reviews" style="padding:5px"><span style='color:#999999'>Reviews</span></a> |               
+	<a href="#comments"  title="Comments" style="padding:5px"><span>Comments</span></a>
+	
+     |               
+	<a href="#prox"  title="Table of Contents" style="padding:5px"><span>Table of Contents</span></a>
+    
+</div>
+    
+<div style="right: 0pt; border-top:1px solid #356b20; font-size:1px; margin-bottom:20px;"/>
+
+
+
+</div>
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="abstract" class="small-text">ABSTRACT</A></h1>
+       	
+			<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+			
+
+		
+			
+           
+			
+				
+				<p>
+					<div style="display:inline">UIST is the premier forum on innovative engineering of the human-computer interface. The symposium brings together user-interface researchers and practitioners with an interest in techniques, tools, and technology for constructing quality, innovative user interfaces. UIST grew out of a series of SIGGRAPH-supported workshops on User Interface Management Systems (UIMS).</div>
+				</p>
+   				
+           	</div>
+			
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="authors" class="small-text"><SPAN class="heading">AUTHORS</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<dl title="Authors" style="margin-top:0px">
+
+
+
+
+<dt style="float: left; clear: left; width: 100%; margin-top: 0px; margin-bottom: 0px;">
+ <strong>
+ Conference Chairs 
+  </strong>
+ </dt> 
+          
+          <dd style="margin: 0 0 0 60px; padding: 0 0 0.5em 0;">
+			
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Joe Marks" href="author_page.cfm?id=81100484340&CFID=84922752&CFTOKEN=83314714">Joe Marks</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1990-2010</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">44</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">456</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">21</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">100</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">809</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Joe Marks" href="author_page.cfm?id=81100484340&amp;dsp=coll&amp;trk=1&amp;CFID=84922752&CFTOKEN=83314714" target="_self">View colleagues</a> of Joe Marks
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+			</dd>
+                              
+
+
+
+<dt style="float: left; clear: left; width: 100%; margin-top: 0px; margin-bottom: 0px;">
+ <strong>
+ Program Chairs 
+  </strong>
+ </dt> 
+          
+          <dd style="margin: 0 0 0 60px; padding: 0 0 0.5em 0;">
+			
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Elizabeth Mynatt" href="author_page.cfm?id=81100331104&CFID=84922752&CFTOKEN=83314714">Elizabeth Mynatt</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1992-2012</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">107</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">1,826</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">86</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">711</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">6,120</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Elizabeth Mynatt" href="author_page.cfm?id=81100331104&amp;dsp=coll&amp;trk=1&amp;CFID=84922752&CFTOKEN=83314714" target="_self">View colleagues</a> of Elizabeth Mynatt
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+			</dd>
+                              
+
+</dl>
+</div>
+
+		  
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="references" class="small-text"><SPAN class="heading">REFERENCES</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	References are not available
+
+</div>
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="citedby" class="small-text"><SPAN class="heading">CITED BY</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	Citings are not available
+		
+ </div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="indexterms" class="small-text"><SPAN class="heading">INDEX TERMS</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+Index Terms are not available
+
+
+</div>
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="source" class="small-text"><SPAN class="heading">PUBLICATION</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+
+<table border="0" class="medium-text" cellpadding="0" cellspacing="5">
+
+
+
+    <tr valign="top">
+    	<td>Title</td> 
+	    <td>
+		   <a href="http://www.acm.org/uist/index.html" title="Conference Website"  target="_self" class="link-text">UIST '01</a> ACM Symposium on User Interface Software and Technology 
+        </td>
+	</tr>
+    <tr><td></td><td>Orlando, FL, USA &mdash; November 11 - 14, 2001</td></tr> <tr><td>Pages</td><td>237</td></tr> 
+                 <tr>
+                 
+                     <td>Sponsors</td>
+                    
+                  <td>
+                  <a href="sig.cfm?id=SP932&CFID=84922752&CFTOKEN=83314714"> SIGGRAPH</a> ACM Special Interest Group on Computer Graphics and Interactive Techniques
+                  </td>
+                  </tr>
+              
+                 <tr>
+                 
+                      <td></td>
+                  
+                  <td>
+                  <a href="sig.cfm?id=SP923&CFID=84922752&CFTOKEN=83314714"> SIGCHI</a> ACM Special Interest Group on Computer-Human Interaction
+                  </td>
+                  </tr>
+              
+                  <tr><td>Publisher</td><td><a href="http://www.acm.org/publications">ACM</a> New York, NY, USA</td>
+				  </tr>
+             <tr><td>ISBN</td><td>1-58113-438-X </td></tr> <tr><td>Order Number</td><td>ACM Order No.: 429012</td></tr> 
+			<tr valign="top">
+        	<td>Conference</td>
+            <td valign="top" align="left"  style="padding-bottom: 25px;">
+	            <strong style="padding-right:10px">UIST</strong><a href="event.cfm?id=RE172&CFID=84922752&CFTOKEN=83314714" title="User Interface Software and Technology">User Interface Software and Technology</a>
+                
+                       
+                        <a href="event.cfm?id=RE172&CFID=84922752&CFTOKEN=83314714" title="User Interface Software and Technology"><img border="0" src="http://portalparts.acm.org/event_logos/RE172.jpg" title="UIST logo" height="22"  width="100" ALT="UIST logo" style="vertical-align:top"></a>
+						 
+
+        	 </td>
+            </tr>
+		    <tr valign="top"><td style="pading-top:20px;" colspan="2">Overall Acceptance Rate 317 of 1,548 submissions, 20%</td></tr>
+                       <tr valign="top">
+                        <td colspan="2" style="padding-left:25px;">
+                        	<table>
+                            	<tr><td>
+                                        <!-- WebCharts3D v5.1(2077) -->
+<IMG SRC="/CFIDE/GraphData.cfm?graphCache=wc50&graphID=Images/5484072980572590.JPG" id="Images_5484072980572590_JPG" name="Images_5484072980572590_JPG" usemap="#Images_5484072980572590_JPG_map" border="0"/>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAB' id='GP1338153738745AAAB'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>UIST '03</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>116</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAC' id='GP1338153738745AAAC'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>UIST '03</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>25</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAD' id='GP1338153738745AAAD'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>UIST '04</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>170</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAE' id='GP1338153738745AAAE'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>UIST '04</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>36</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAF' id='GP1338153738745AAAF'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>UIST '05</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>159</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAG' id='GP1338153738745AAAG'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>UIST '05</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>31</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAH' id='GP1338153738745AAAH'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>UIST '07</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>129</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAI' id='GP1338153738745AAAI'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>UIST '07</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>24</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAJ' id='GP1338153738745AAAJ'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>UIST '08</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>115</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAK' id='GP1338153738745AAAK'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>UIST '08</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>25</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAL' id='GP1338153738745AAAL'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>UIST '09</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>183</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAM' id='GP1338153738745AAAM'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>UIST '09</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>33</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAN' id='GP1338153738745AAAN'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>UIST '10</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>207</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAO' id='GP1338153738745AAAO'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>UIST '10</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>38</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAP' id='GP1338153738745AAAP'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>UIST '11</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>262</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338153738745AAAQ' id='GP1338153738745AAAQ'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>UIST '11</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>67</td></tr></table>
+<MAP name='Images_5484072980572590_JPG_map'>
+<AREA shape='rect' coords='0,0,1,1'/>
+<AREA shape="rect" coords="295,166,309,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAQ",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAQ",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAQ",event)'/>
+<AREA shape="rect" coords="281,69,295,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAP",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAP",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAP",event)'/>
+<AREA shape="rect" coords="260,181,274,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAO",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAO",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAO",event)'/>
+<AREA shape="rect" coords="246,97,260,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAN",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAN",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAN",event)'/>
+<AREA shape="rect" coords="225,183,239,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAM",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAM",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAM",event)'/>
+<AREA shape="rect" coords="211,109,225,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAL",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAL",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAL",event)'/>
+<AREA shape="rect" coords="190,187,204,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAK",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAK",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAK",event)'/>
+<AREA shape="rect" coords="176,142,190,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAJ",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAJ",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAJ",event)'/>
+<AREA shape="rect" coords="155,188,169,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAI",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAI",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAI",event)'/>
+<AREA shape="rect" coords="141,135,155,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAH",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAH",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAH",event)'/>
+<AREA shape="rect" coords="120,184,134,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAG",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAG",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAG",event)'/>
+<AREA shape="rect" coords="106,121,120,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAF",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAF",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAF",event)'/>
+<AREA shape="rect" coords="85,182,99,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAE",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAE",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAE",event)'/>
+<AREA shape="rect" coords="71,115,85,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAD",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAD",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAD",event)'/>
+<AREA shape="rect" coords="50,187,64,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAC",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAC",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAC",event)'/>
+<AREA shape="rect" coords="36,142,50,199" onMouseover='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAB",event,true)' onMouseout='xx_set_visible("Images_5484072980572590_JPG","GP1338153738745AAAB",event,false)' onMousemove='xx_move_tag("Images_5484072980572590_JPG","GP1338153738745AAAB",event)'/>
+<AREA shape="rect" coords="160,13,227,27"/>
+<AREA shape="rect" coords="89,13,160,27"/>
+</MAP>
+
+<script language="javascript" src="/CFIDE/GraphData.cfm?graphCache=wc50&graphID=script.js"></script>
+
+                                      </td>
+                                      <td style="padding-left:20px;">
+                                             <table style="border-width: 1px; border-style: solid; width:100%;  border-spacing: 6px;" class="text12">
+                                                <tr bgcolor="#ffffff">
+                                                  <th style="width:50%">Year</th>
+                                                  <th  align="right" style="width:15%">Submitted</th>
+                                                  <th  align="right" style="width:15%">Accepted</th>
+                                                  <th  align="center">Rate</th>
+                                                </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>UIST '03</td>
+                                                            <td align="right">116</td>
+                                                            <td align="right">25</td>
+                                                            <td align="center">22%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>UIST '04</td>
+                                                            <td align="right">170</td>
+                                                            <td align="right">36</td>
+                                                            <td align="center">21%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>UIST '05</td>
+                                                            <td align="right">159</td>
+                                                            <td align="right">31</td>
+                                                            <td align="center">19%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>UIST '07</td>
+                                                            <td align="right">129</td>
+                                                            <td align="right">24</td>
+                                                            <td align="center">19%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>UIST '08</td>
+                                                            <td align="right">115</td>
+                                                            <td align="right">25</td>
+                                                            <td align="center">22%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>UIST '09</td>
+                                                            <td align="right">183</td>
+                                                            <td align="right">33</td>
+                                                            <td align="center">18%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>UIST '10</td>
+                                                            <td align="right">207</td>
+                                                            <td align="right">38</td>
+                                                            <td align="center">18%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>UIST '10</td>
+                                                            <td align="right">207</td>
+                                                            <td align="right">38</td>
+                                                            <td align="center">18%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>UIST '11</td>
+                                                            <td align="right">262</td>
+                                                            <td align="right">67</td>
+                                                            <td align="center">26%</td>
+                                                         </tr>
+                                                
+                                                 <tr bgcolor="#ffffff">
+                                                    <td><strong>Overall</strong></td>
+                                                    <td align="right">1,548</td>
+                                                    <td align="right">317</td>
+                                                    <td align="center">20%</td>
+                                                  </tr>
+                                                </table>
+                                       </td>
+                                     </tr>
+                               </table>
+                        </td>
+                    </tr>
+                     
+                     
+            
+</table>
+
+
+</table>
+
+
+
+
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="revs" class="small-text"><SPAN class="heading">REVIEWS</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	<br />Reviews are not available for this item
+        
+        <div align="left" style="margin-top:30px">
+					<a title="Computing Reviews" href="ocr_review_main.cfm?CFID=84922752&CFTOKEN=83314714">
+                 <img src="http://dl.acm.org/images/ocrs-s.jpg" alt="Computing Reviews logo" border="0" style="vertical-align:middle"></a>
+        
+        
+       		<ul style="list-style:disc; display:inline-block">
+	            <li>Access <a href="ocr_review_main.cfm?CFID=84922752&CFTOKEN=83314714" target="_blank">critical reviews</a> of computing literature.</li>
+            	<li><a href="http://www.computingreviews.com/Reviewer/"  target="_blank">Become a reviewer</a> for Computing Reviews</li>
+            </ul>
+        </div>
+        
+</div>
+
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="comments" class="small-text"><SPAN class="heading">COMMENTS</SPAN></A></h1>
+         
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<div>
+<div>
+	
+	<p style="margin-left:5px;">
+    <strong>Be the first to comment</strong>
+    	
+          	To Post a comment please <a href="signin.cfm?CFID=84922752&CFTOKEN=83314714">sign in or create</a> a free Web account</a>
+        
+    
+    
+	 </p>
+	   	
+ 
+</div>
+
+
+</div>
+
+	
+		<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="prox" class="small-text">Table of Contents</A></h1>
+        
+<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;" >
+
+<h5 style="margin-bottom:0px; margin-top:0px" class="medium-text">Proceedings of the 14th annual ACM symposium on User interface software and technology</h5>
+
+
+<h5 class="medium-text" style="margin-bottom:10px; margin-top:10px;">Table of Contents</h5>
+
+<div style="clear:both">
+    
+        <div style="margin-top:5px; margin-bottom: 10px;" class="small-text"><a href="citation.cfm?id=354401&picked=prox&CFID=84922752&CFTOKEN=83314714" title="previous: UIST '00"><img hspace="5" align="absmiddle" border="0" src="img/prev.gif" width="19" height="11" alt="previous" />previous proceeding</a> <span style="padding-left:5px;padding-right:5px;">|</span><a href="citation.cfm?id=571985&picked=prox&CFID=84922752&CFTOKEN=83314714" title="Next: UIST '02">next proceeding <img align="absmiddle" hspace="5" border="0" src="img/next.gif" width="19" height="11" alt="next" /></a></div>
+        
+</div>
+
+
+ 
+<table class="text12" border="0">
+
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: Tangible support for collaboration</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502350&CFID=84922752&CFTOKEN=83314714">The designers' outpost: a tangible interface for collaborative web site</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100364989&CFID=84922752&CFTOKEN=83314714">Scott R. Klemmer</a>, 
+                        <a href="author_page.cfm?id=81406594629&CFID=84922752&CFTOKEN=83314714">Mark W. Newman</a>, 
+                        <a href="author_page.cfm?id=81100596108&CFID=84922752&CFTOKEN=83314714">Ryan Farrell</a>, 
+                        <a href="author_page.cfm?id=81100077073&CFID=84922752&CFTOKEN=83314714">Mark Bilezikjian</a>, 
+                        <a href="author_page.cfm?id=81100103519&CFID=84922752&CFTOKEN=83314714">James A. Landay</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 1-10</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502350" title="DOI">10.1145/502348.502350</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502350&ftid=63880&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow2" style="display:inline;"><br /><div style="display:inline">In our previous studies into web design, we found that pens, paper, walls, and tables were often used for explaining, developing, and communicating ideas during the early phases of design. These wall-scale paper-based design practices inspired The Designers' ...</div></span>
+          <span id="toHide2" style="display:none;"><br /><div style="display:inline">In our previous studies into web design, we found that pens, paper, walls, and tables were often used for explaining, developing, and communicating ideas during the early phases of design. These wall-scale paper-based design practices inspired The Designers' Outpost, a tangible user interface that combines the affordances of paper and large physical workspaces with the advantages of electronic media to support information design. With Outpost, users collaboratively author web site information architectures on an electronic whiteboard using physical media (Post-it notes and images), structuring and annotating that information with electronic pens. This interaction is enabled by a touch-sensitive SMART Board augmented with a robust computer vision system, employing a rear-mounted video camera for capturing movement and a front-mounted high-resolution camera for capturing ink. We conducted a participatory design study with fifteen professional web designers. The study validated that Outpost supports information architecture work practice, and led to our adding support for fluid transitions to other tools.</div></span> <a id="expcoll2" href="JavaScript: expandcollapse('expcoll2',2)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502351&CFID=84922752&CFTOKEN=83314714">Connectables: dynamic coupling of displays for the flexible creation of shared workspaces</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100330034&CFID=84922752&CFTOKEN=83314714">Peter Tandler</a>, 
+                        <a href="author_page.cfm?id=81100206654&CFID=84922752&CFTOKEN=83314714">Thorsten Prante</a>, 
+                        <a href="author_page.cfm?id=81100249927&CFID=84922752&CFTOKEN=83314714">Christian M&#252;ller-Tomfelde</a>, 
+                        <a href="author_page.cfm?id=81100032890&CFID=84922752&CFTOKEN=83314714">Norbert Streitz</a>, 
+                        <a href="author_page.cfm?id=81100171846&CFID=84922752&CFTOKEN=83314714">Ralf Steinmetz</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 11-20</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502351" title="DOI">10.1145/502348.502351</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502351&ftid=63881&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow3" style="display:inline;"><br /><div style="display:inline">We present the ConnecTable, a new mobile, networked and context-aware information appliance that provides affordances for pen-based individual and cooperative work as well as for the seamless transition between the two. In order to dynamically enlarge ...</div></span>
+          <span id="toHide3" style="display:none;"><br /><div style="display:inline">We present the ConnecTable, a new mobile, networked and context-aware information appliance that provides affordances for pen-based individual and cooperative work as well as for the seamless transition between the two. In order to dynamically enlarge an interaction area for the purpose of shared use, a flexible coupling of displays has been realized that overcomes the restrictions of display sizes and borders. Two ConnecTable displays dynamically form a homogeneous display area when moved close to each other. The appropriate triggering signal comes from built-in sensors allowing users to temporally combine their individual displays to a larger shared one by a simple physical movement in space. Connected ConnecTables allow their users to work in parallel on an ad-hoc created shared workspace as well as exchanging information by simply shuffling objects from one display to the other. We discuss the user interface and related issues as well as the software architecture. We also present the physical realization of the ConnecTables.</div></span> <a id="expcoll3" href="JavaScript: expandcollapse('expcoll3',3)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: Off the wall</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502353&CFID=84922752&CFTOKEN=83314714">Fluid interaction with high-resolution wall-size displays</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100301845&CFID=84922752&CFTOKEN=83314714">Fran&#231;ois Guimbreti&#232;re</a>, 
+                        <a href="author_page.cfm?id=81100388123&CFID=84922752&CFTOKEN=83314714">Maureen Stone</a>, 
+                        <a href="author_page.cfm?id=81100454567&CFID=84922752&CFTOKEN=83314714">Terry Winograd</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 21-30</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502353" title="DOI">10.1145/502348.502353</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502353&ftid=63882&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow5" style="display:inline;"><br /><div style="display:inline">This paper describes new interaction techniques for direct pen-based interaction on the Interactive Mural, a large (6&prime;x3.5&prime;) high resolution (64 dpi) display. They have been tested in a digital brainstorming tool that has been used by groups ...</div></span>
+          <span id="toHide5" style="display:none;"><br /><div style="display:inline">This paper describes new interaction techniques for direct pen-based interaction on the Interactive Mural, a large (6&prime;x3.5&prime;) high resolution (64 dpi) display. They have been tested in a digital brainstorming tool that has been used by groups of professional product designers. Our "interactive wall" metaphor for interaction has been guided by several goals: to support both free-hand sketching and high-resolution materials, such as images, 3D models and GUI application windows; to present a visual appearance that does not clutter the content with control devices; and to support fluid interaction, which minimizes the amount of attention demanded and interruption due to the mechanics of the interface. We have adapted and extended techniques that were developed for electronic whiteboards and generalized the use of the FlowMenu to execute a wide variety of actions in a single pen stroke, While these techniques were designed for a brainstorming tool, they are very general and can be used in a wide variety of application domains using interactive surfaces.</div></span> <a id="expcoll5" href="JavaScript: expandcollapse('expcoll5',5)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502354&CFID=84922752&CFTOKEN=83314714">Focus plus context screens: combining display technology with visualization techniques</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100137268&CFID=84922752&CFTOKEN=83314714">Patrick Baudisch</a>, 
+                        <a href="author_page.cfm?id=81423596141&CFID=84922752&CFTOKEN=83314714">Nathaniel Good</a>, 
+                        <a href="author_page.cfm?id=81100263740&CFID=84922752&CFTOKEN=83314714">Paul Stewart</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 31-40</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502354" title="DOI">10.1145/502348.502354</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502354&ftid=63883&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow6" style="display:inline;"><br /><div style="display:inline">Computer users working with large visual documents, such as large layouts, blueprints, or maps perform tasks that require them to simultaneously access overview information while working on details. To avoid the need for zooming, users currently have ...</div></span>
+          <span id="toHide6" style="display:none;"><br /><div style="display:inline">Computer users working with large visual documents, such as large layouts, blueprints, or maps perform tasks that require them to simultaneously access overview information while working on details. To avoid the need for zooming, users currently have to choose between using a sufficiently large screen or applying appropriate visualization techniques. Currently available hi-res "wall-size" screens, however, are cost-intensive, space-intensive, or both. Visualization techniques allow the user to more efficiently use the given screen space, but in exchange they either require the user to switch between multiple views or they introduce distortion.In this paper, we present a novel approach to simultaneously display focus and context information. <i>Focus plus context screens</i> consist of a hi-res display and a larger low-res display. Image content is displayed such that the scaling of the display content is preserved, while its resolution may vary according to which display region it is displayed in. Focus plus context screens are applicable to practically all tasks that currently use overviews or fisheye views, but unlike these visualization techniques, focus plus context screens provide a single, non-distorted view. We present a prototype that seamlessly integrates an LCD with a projection screen and demonstrate four applications that we have adapted so far.</div></span> <a id="expcoll6" href="JavaScript: expandcollapse('expcoll6',6)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502355&CFID=84922752&CFTOKEN=83314714">Support for multitasking and background awareness using interactive peripheral displays</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100099162&CFID=84922752&CFTOKEN=83314714">Blair MacIntyre</a>, 
+                        <a href="author_page.cfm?id=81100331104&CFID=84922752&CFTOKEN=83314714">Elizabeth D. Mynatt</a>, 
+                        <a href="author_page.cfm?id=81100147302&CFID=84922752&CFTOKEN=83314714">Stephen Voida</a>, 
+                        <a href="author_page.cfm?id=81450593173&CFID=84922752&CFTOKEN=83314714">Klaus M. Hansen</a>, 
+                        <a href="author_page.cfm?id=81100056841&CFID=84922752&CFTOKEN=83314714">Joe Tullio</a>, 
+                        <a href="author_page.cfm?id=81100117199&CFID=84922752&CFTOKEN=83314714">Gregory M. Corso</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 41-50</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502355" title="DOI">10.1145/502348.502355</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502355&ftid=63884&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow7" style="display:inline;"><br /><div style="display:inline">In this paper, we describe Kimura, an augmented office environment to support common multitasking practices. Previous systems, such as Rooms, limit users by constraining the interaction to the desktop monitor. In Kimura, we leverage interactive projected ...</div></span>
+          <span id="toHide7" style="display:none;"><br /><div style="display:inline">In this paper, we describe Kimura, an augmented office environment to support common multitasking practices. Previous systems, such as Rooms, limit users by constraining the interaction to the desktop monitor. In Kimura, we leverage interactive projected peripheral displays to support the perusal, manipulation and awareness of background activities. Furthermore, each activity is represented by a montage comprised of images from current and past interaction on the desktop. These montages help remind the user of past actions, and serve as a springboard for ambient context-aware reminders and notifications.</div></span> <a id="expcoll7" href="JavaScript: expandcollapse('expcoll7',7)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: Information visualization</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502357&CFID=84922752&CFTOKEN=83314714">Parallel bargrams for consumer-based information exploration and choice</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100365702&CFID=84922752&CFTOKEN=83314714">Kent Wittenburg</a>, 
+                        <a href="author_page.cfm?id=81100009534&CFID=84922752&CFTOKEN=83314714">Tom Lanning</a>, 
+                        <a href="author_page.cfm?id=81100508785&CFID=84922752&CFTOKEN=83314714">Michael Heinrichs</a>, 
+                        <a href="author_page.cfm?id=81100250821&CFID=84922752&CFTOKEN=83314714">Michael Stanton</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 51-60</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502357" title="DOI">10.1145/502348.502357</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502357&ftid=63885&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow9" style="display:inline;"><br /><div style="display:inline">In this paper we introduce multidimensional visualization and interaction techniques that are an extension to related work in parallel histograms and dynamic querying. Bargrams are, in effect, histograms whose bars have been tipped over and lined up ...</div></span>
+          <span id="toHide9" style="display:none;"><br /><div style="display:inline">In this paper we introduce multidimensional visualization and interaction techniques that are an extension to related work in parallel histograms and dynamic querying. Bargrams are, in effect, histograms whose bars have been tipped over and lined up end-to-end. We discuss affordances of parallel bargrams in the context of systems that support consumer-based information exploration and choice based on the attributes of the items in the choice set. Our tool called EZChooser has enabled a number of prototypes in such domains as Internet shopping, investment decisions, college choice, and so on, and a limited version has been deployed for car shopping. Evaluations of the techniques include an experiment indicating that trained users prefer EZChooser over static tables for choice tasks among sets of 50 items with 7-9 attributes.</div></span> <a id="expcoll9" href="JavaScript: expandcollapse('expcoll9',9)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502358&CFID=84922752&CFTOKEN=83314714">A framework for unifying presentation space</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81452616173&CFID=84922752&CFTOKEN=83314714">M. S. T. Carpendale</a>, 
+                        <a href="author_page.cfm?id=81100204277&CFID=84922752&CFTOKEN=83314714">Catherine Montagnese</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 61-70</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502358" title="DOI">10.1145/502348.502358</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502358&ftid=63886&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow10" style="display:inline;"><br /><div style="display:inline">Making effective use of the available display space has long been a fundamental issue in user interface design. We live in a time of rapid advances in available CPU power and memory. However, the common sizes of our computational display spaces have ...</div></span>
+          <span id="toHide10" style="display:none;"><br /><div style="display:inline">Making effective use of the available display space has long been a fundamental issue in user interface design. We live in a time of rapid advances in available CPU power and memory. However, the common sizes of our computational display spaces have only minimally increased or in some cases, such as hand held devices, actually decreased. In addition, the size and scope of the information spaces we wish to explore are also expanding. Representing vast amounts of information on our relatively small screens has become increasingly problematic and has been associated with problems in navigation, interpretation and recognition. User interface research has proposed several differing presentation approaches to address these problems. These methods create displays that vary considerably, visually and algorithmically. We present a unified framework that provides a way of relating seemingly distinct methods, facilitating the inclusion of more than one presentation method in a single interface. Furthermore, it supports extrapolation between the presentation methods it describes. Of particular interest are the presentation possibilities that exist in the ranges between various distortion presentations, magnified insets and detail-in-context presentations, and between detail-in-context presentations and a full-zooming environment. This unified framework offers a geometric presentation library in which presentation variations are available independently of the mode of graphic representation. The intention is to promote the ease of exploration and experimentation into the use of varied presentation combinations.</div></span> <a id="expcoll10" href="JavaScript: expandcollapse('expcoll10',10)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502359&CFID=84922752&CFTOKEN=83314714">PhotoMesa: a zoomable image browser using quantum treemaps and bubblemaps</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100083927&CFID=84922752&CFTOKEN=83314714">Benjamin B. Bederson</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 71-80</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502359" title="DOI">10.1145/502348.502359</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502359&ftid=63887&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow11" style="display:inline;"><br /><div style="display:inline">PhotoMesa is a zoomable image browser that uses a novel treemap algorithm to present large numbers of images grouped by directory, or other available metadata. It uses a new interaction technique for zoomable user interfaces designed for novices and ...</div></span>
+          <span id="toHide11" style="display:none;"><br /><div style="display:inline">PhotoMesa is a zoomable image browser that uses a novel treemap algorithm to present large numbers of images grouped by directory, or other available metadata. It uses a new interaction technique for zoomable user interfaces designed for novices and family use that makes it straightforward to navigate through the space of images, and impossible to get lost.PhotoMesa groups images using one of two new algorithms that lay out groups of objects in a 2D space-filling manner. <i>Quantum treemaps</i> are designed for laying out images or other objects of indivisible (quantum) size. They are a variation on existing treemap algorithms in that they guarantee that every generated rectangle will have a width and height that are an integral multiple of an input object size. <i>Bubblemaps</i> also fill space with groups of quantum-sized objects, but generate non-rectangular blobs, and utilize space more efficiently.</div></span> <a id="expcoll11" href="JavaScript: expandcollapse('expcoll11',11)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: Managing user interaction</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502361&CFID=84922752&CFTOKEN=83314714">Outlier finding: focusing user attention on possible errors</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100162232&CFID=84922752&CFTOKEN=83314714">Robert C. Miller</a>, 
+                        <a href="author_page.cfm?id=81100013136&CFID=84922752&CFTOKEN=83314714">Brad A. Myers</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 81-90</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502361" title="DOI">10.1145/502348.502361</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502361&ftid=63888&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow13" style="display:inline;"><br /><div style="display:inline">When users handle large amounts of data, errors are hard to notice. Outlier finding is a new way to reduce errors by directing the user's attention to inconsistent data which may indicate errors. We have implemented an outlier finder for text, ...</div></span>
+          <span id="toHide13" style="display:none;"><br /><div style="display:inline">When users handle large amounts of data, errors are hard to notice. <i>Outlier finding</i> is a new way to reduce errors by directing the user's attention to inconsistent data which may indicate errors. We have implemented an outlier finder for text, which can detect both unusual matches and unusual mismatches to a text pattern. When integrated into the user interface of a PBD text editor and tested in a user study, outlier finding substantially reduced errors.</div></span> <a id="expcoll13" href="JavaScript: expandcollapse('expcoll13',13)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502362&CFID=84922752&CFTOKEN=83314714">A modular geometric constraint solver for user interface applications</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100494259&CFID=84922752&CFTOKEN=83314714">Hiroshi Hosobe</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 91-100</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502362" title="DOI">10.1145/502348.502362</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502362&ftid=63889&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow14" style="display:inline;"><br /><div style="display:inline">Constraints have been playing an important role in the user interface field since its infancy. A prime use of constraints in this field is to automatically maintain geometric layouts of graphical objects. To facilitate the construction of constraint-based ...</div></span>
+          <span id="toHide14" style="display:none;"><br /><div style="display:inline">Constraints have been playing an important role in the user interface field since its infancy. A prime use of constraints in this field is to automatically maintain geometric layouts of graphical objects. To facilitate the construction of constraint-based user interface applications, researchers have proposed various constraint satisfaction methods and constraint solvers. Most previous research has focused on either local propagation or linear constraints, excluding more general nonlinear ones. However, nonlinear geometric constraints are practically useful to various user interfaces, e.g., drawing editors and information visualization systems. In this paper, we propose a novel constraint solver called Chorus, which realizes various powerful nonlinear geometric constraints such as Euclidean geometric, non-overlapping, and graph layout constraints. A key feature of Chorus is its module mechanism that allows users to define new kinds of geometric constraints. Also, Chorus supports "soft" constraints with hierarchical strengths or preferences (i.e., constraint hierarchies). We describe its framework, algorithm, implementation, and experimental results.</div></span> <a id="expcoll14" href="JavaScript: expandcollapse('expcoll14',14)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502363&CFID=84922752&CFTOKEN=83314714">View management for virtual and augmented reality</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100406026&CFID=84922752&CFTOKEN=83314714">Blaine Bell</a>, 
+                        <a href="author_page.cfm?id=81100427474&CFID=84922752&CFTOKEN=83314714">Steven Feiner</a>, 
+                        <a href="author_page.cfm?id=81100002957&CFID=84922752&CFTOKEN=83314714">Tobias H&#246;llerer</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 101-110</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502363" title="DOI">10.1145/502348.502363</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502363&ftid=63890&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow15" style="display:inline;"><br /><div style="display:inline">We describe a view-management component for interactive 3D user interfaces. By view management, we mean maintaining visual constraints on the projections of objects on the view plane, such as locating related objects near each other, or preventing ...</div></span>
+          <span id="toHide15" style="display:none;"><br /><div style="display:inline">We describe a view-management component for interactive 3D user interfaces. By <i>view management,</i> we mean maintaining visual constraints on the projections of objects on the view plane, such as locating related objects near each other, or preventing objects from occluding each other. Our view-management component accomplishes this by modifying selected object properties, including position, size, and transparency, which are tagged to indicate their constraints. For example, some objects may have geometric properties that are determined entirely by a physical simulation and which cannot be modified, while other objects may be annotations whose position and size are flexible.We introduce algorithms that use upright rectangular extents to represent on the view plane a dynamic and efficient approximation of the occupied space containing the projections of visible portions of 3D objects, as well as the unoccupied space in which objects can be placed to avoid occlusion. Layout decisions from previous frames are taken into account to reduce visual discontinuities. We present augmented reality and virtual reality examples to which we have applied our approach, including a dynamically labeled and annotated environment.</div></span> <a id="expcoll15" href="JavaScript: expandcollapse('expcoll15',15)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: On the move</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502365&CFID=84922752&CFTOKEN=83314714">LetterWise: prefix-based disambiguation for mobile text input</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100367406&CFID=84922752&CFTOKEN=83314714">I. Scott MacKenzie</a>, 
+                        <a href="author_page.cfm?id=81100144328&CFID=84922752&CFTOKEN=83314714">Hedy Kober</a>, 
+                        <a href="author_page.cfm?id=81100080005&CFID=84922752&CFTOKEN=83314714">Derek Smith</a>, 
+                        <a href="author_page.cfm?id=81100554809&CFID=84922752&CFTOKEN=83314714">Terry Jones</a>, 
+                        <a href="author_page.cfm?id=81100436486&CFID=84922752&CFTOKEN=83314714">Eugene Skepner</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 111-120</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502365" title="DOI">10.1145/502348.502365</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502365&ftid=63891&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow17" style="display:inline;"><br /><div style="display:inline">A new technique to enter text using a mobile phone keypad is described. For text input, the traditional touchtone phone keypad is ambiguous because each key encodes three or four letters. Instead of using a stored dictionary to guess the intended word, ...</div></span>
+          <span id="toHide17" style="display:none;"><br /><div style="display:inline">A new technique to enter text using a mobile phone keypad is described. For text input, the traditional touchtone phone keypad is ambiguous because each key encodes three or four letters. Instead of using a stored dictionary to guess the intended word, our technique uses probabilities of letter sequences --- "prefixes" --- to guess the intended letter. Compared to dictionary-based methods, this technique, called <i>LetterWise,</i> takes significantly less memory and allows entry of non-dictionary words without switching to a special input mode. We conducted a longitudinal study to compare <i>LetterWise</i> to <i>Multitap</i>, the conventional text entry method for mobile phones. The experiment included 20 participants (10 <i>LetterWise</i>, 10 <i>Multitap</i>), and each entered phrases of text for 20 sessions of about 30 minutes each. Error rates were similar between the techniques; however, by the end of the experiment the mean entry speed was 36% faster with <i>LetterWise</i> than with <i>Multitap</i>.</div></span> <a id="expcoll17" href="JavaScript: expandcollapse('expcoll17',17)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502366&CFID=84922752&CFTOKEN=83314714">From desktop to phonetop: a UI for web interaction on very small devices</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100037894&CFID=84922752&CFTOKEN=83314714">Jonathan Trevor</a>, 
+                        <a href="author_page.cfm?id=81100323893&CFID=84922752&CFTOKEN=83314714">David M. Hilbert</a>, 
+                        <a href="author_page.cfm?id=81100481929&CFID=84922752&CFTOKEN=83314714">Bill N. Schilit</a>, 
+                        <a href="author_page.cfm?id=81100578313&CFID=84922752&CFTOKEN=83314714">Tzu Khiau Koh</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 121-130</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502366" title="DOI">10.1145/502348.502366</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502366&ftid=63892&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow18" style="display:inline;"><br /><div style="display:inline">While it is generally accepted that new Internet terminals should leverage the installed base of Web content and services, the differences between desktop computers and very small devices makes this challenging. Indeed, the browser interaction model ...</div></span>
+          <span id="toHide18" style="display:none;"><br /><div style="display:inline">While it is generally accepted that new Internet terminals should leverage the installed base of Web content and services, the differences between desktop computers and very small devices makes this challenging. Indeed, the browser interaction model has evolved on desktop computers having a unique combination of user interface (large display, keyboard, pointing device), hardware, and networking capabilities. In contrast, Internet enabled cell phones, typically with 3-10 lines of text, sacrifice usability as Web terminals in favor of portability and other functions. Based on our earlier experiences building and using a Web browser for small devices we propose a new UI that splits apart the integrated activities of link following and reading into separate modes: <i>navigating</i> to; and <i>acting</i> on web content. This interaction technique for very small devices is both simpler for navigating and allows users to do more than just read. The M-Links system incorporates modal browsing interaction and addresses a number of associated problems. We have built our system with an emphasis on simplicity and user extensibility and describe the design, implementation and evolution of the user interface.</div></span> <a id="expcoll18" href="JavaScript: expandcollapse('expcoll18',18)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502367&CFID=84922752&CFTOKEN=83314714">Join and capture: a model for nomadic interaction</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81410595121&CFID=84922752&CFTOKEN=83314714">Dan R. Olsen, Jr.</a>, 
+                        <a href="author_page.cfm?id=81100582867&CFID=84922752&CFTOKEN=83314714">S. Travis Nielsen</a>, 
+                        <a href="author_page.cfm?id=81100311591&CFID=84922752&CFTOKEN=83314714">David Parslow</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 131-140</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502367" title="DOI">10.1145/502348.502367</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502367&ftid=63893&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow19" style="display:inline;"><br /><div style="display:inline">The XWeb architecture delivers interfaces to a wide variety of interactive platforms. XWeb's SUBSCRIBE mechanism allows multiple interactive clients to synchronize with each other. We define the concept of Join as the mechanism for acquiring access to ...</div></span>
+          <span id="toHide19" style="display:none;"><br /><div style="display:inline">The XWeb architecture delivers interfaces to a wide variety of interactive platforms. XWeb's SUBSCRIBE mechanism allows multiple interactive clients to synchronize with each other. We define the concept of Join as the mechanism for acquiring access to a service's interface. Join also allows the formation of spontaneous collaborations with other people. We define the concept of Capture as the means for users to assemble suites of interactive resources to apply to a particular problem. These mechanisms allow users to access devices that they encounter in their environment rather than carrying all their devices with them. We describe two prototype implementations of Join and Capture. One uses a Java ring to carry a user's identification and to make connections. The other uses a set of cameras to watch where users are and what they touch. Lastly we present algorithms for resolving conflicts generated when independent interactive clients manipulate the same information.</div></span> <a id="expcoll19" href="JavaScript: expandcollapse('expcoll19',19)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: Expressive user interfaces</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502369&CFID=84922752&CFTOKEN=83314714">Aesthetic information collages: generating decorative displays that contain information</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100142271&CFID=84922752&CFTOKEN=83314714">James Fogarty</a>, 
+                        <a href="author_page.cfm?id=81100492013&CFID=84922752&CFTOKEN=83314714">Jodi Forlizzi</a>, 
+                        <a href="author_page.cfm?id=81328488846&CFID=84922752&CFTOKEN=83314714">Scott E. Hudson</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 141-150</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502369" title="DOI">10.1145/502348.502369</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502369&ftid=63894&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow21" style="display:inline;"><br /><div style="display:inline">Normally, the primary purpose of an information display is to convey information. If information displays can be aesthetically interesting, that might be an added bonus. This paper considers an experiment in reversing this imperative. It describes the ...</div></span>
+          <span id="toHide21" style="display:none;"><br /><div style="display:inline">Normally, the primary purpose of an information display is to convey information. If information displays can be aesthetically interesting, that might be an added bonus. This paper considers an experiment in reversing this imperative. It describes the <i>Kandinsky</i> system which is designed to create displays which are first aesthetically interesting, and then as an added bonus, able to convey information. The Kandinsky system works on the basis of aesthetic properties specified by an artist (in a visual form). It then explores a space of collages composed from information bearing images, using an optimization technique to find compositions which best maintain the properties of the artist's aesthetic expression.</div></span> <a id="expcoll21" href="JavaScript: expandcollapse('expcoll21',21)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502370&CFID=84922752&CFTOKEN=83314714">Cursive: a novel interaction technique for controlling expressive avatar gesture</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100550178&CFID=84922752&CFTOKEN=83314714">Francesca Barrientos</a>, 
+                        <a href="author_page.cfm?id=81100415489&CFID=84922752&CFTOKEN=83314714">John Canny</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 151-152</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502370" title="DOI">10.1145/502348.502370</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502370&ftid=63895&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow22" style="display:inline;"><br /><div style="display:inline">We are developing an interaction technique for rich nonverbal communication through an avatar. By writing a single letter on a pen tablet device, a user can express their ideas or intentions, non-verbally, using their avatar body. Our system solves the ...</div></span>
+          <span id="toHide22" style="display:none;"><br /><div style="display:inline">We are developing an interaction technique for rich nonverbal communication through an avatar. By writing a single letter on a pen tablet device, a user can express their ideas or intentions, non-verbally, using their avatar body. Our system solves the difficult problem of controlling the movements of a highly articulated, 3D avatar model using a common input device within the context of an office environment. We believe that <i>writing</i> is a richly expressive and natural means for controlling expressive avatar gesture.</div></span> <a id="expcoll22" href="JavaScript: expandcollapse('expcoll22',22)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502371&CFID=84922752&CFTOKEN=83314714">Novel interaction techniques for overlapping windows</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100644686&CFID=84922752&CFTOKEN=83314714">Michel Beaudouin-Lafon</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 153-154</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502371" title="DOI">10.1145/502348.502371</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502371&ftid=63896&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow23" style="display:inline;"><br /><div style="display:inline">This note presents several techniques to improve window management with overlapping windows: tabbed windows, turning and peeling back windows, and snapping and zipping windows.</div></span>
+          <span id="toHide23" style="display:none;"><br /><div style="display:inline">This note presents several techniques to improve window management with overlapping windows: tabbed windows, turning and peeling back windows, and snapping and zipping windows.</div></span> <a id="expcoll23" href="JavaScript: expandcollapse('expcoll23',23)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502372&CFID=84922752&CFTOKEN=83314714">Voice as sound: using non-verbal voice input for interactive control</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100444444&CFID=84922752&CFTOKEN=83314714">Takeo Igarashi</a>, 
+                        <a href="author_page.cfm?id=81100166298&CFID=84922752&CFTOKEN=83314714">John F. Hughes</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 155-156</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502372" title="DOI">10.1145/502348.502372</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502372&ftid=63897&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow24" style="display:inline;"><br /><div style="display:inline">We describe the use of non-verbal features in voice for direct control of interactive applications. Traditional speech recognition interfaces are based on an indirect, conversational model. First the user gives a direction and then the system performs ...</div></span>
+          <span id="toHide24" style="display:none;"><br /><div style="display:inline">We describe the use of non-verbal features in voice for direct control of interactive applications. Traditional speech recognition interfaces are based on an indirect, conversational model. First the user gives a direction and then the system performs certain operation. Our goal is to achieve more direct, immediate interaction like using a button or joystick by using lower-level features of voice such as pitch and volume. We are developing several prototype interaction techniques based on this idea, such as "control by continuous voice", "rate-based parameter control by pitch," and "discrete parameter control by tonguing." We have implemented several prototype systems, and they suggest that voice-as-sound techniques can enhance traditional voice recognition approach.</div></span> <a id="expcoll24" href="JavaScript: expandcollapse('expcoll24',24)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">DEMONSTRATION SESSION: <strong>Invited demonstrations</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502374&CFID=84922752&CFTOKEN=83314714">TSI (teething ring sound instrument): a design of the sound instrument for the baby</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100645003&CFID=84922752&CFTOKEN=83314714">Naoko Kubo</a>, 
+                        <a href="author_page.cfm?id=81100367153&CFID=84922752&CFTOKEN=83314714">Kazuhiro Jo</a>, 
+                        <a href="author_page.cfm?id=81100287998&CFID=84922752&CFTOKEN=83314714">Ken Matsunaga</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 157-158</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502374" title="DOI">10.1145/502348.502374</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502374&ftid=63898&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow26" style="display:inline;"><br /><div style="display:inline">In this paper, we will describe the TSI (Teething ring Sound Instrument), a new sound instrument given to babies, which consists of a teething ring, a knob, an I-CubeX Digitizer [1] and a computer which processes MIDI messages. The TSI is designed to ...</div></span>
+          <span id="toHide26" style="display:none;"><br /><div style="display:inline">In this paper, we will describe the TSI (Teething ring Sound Instrument), a new sound instrument given to babies, which consists of a teething ring, a knob, an I-CubeX Digitizer [1] and a computer which processes MIDI messages. The TSI is designed to bring music experience to baby with the movement of the babies reflex sucking motion. We provided the TSI to a baby and observed her action to the TSI and her reaction to the generated sound. This experiment showed the high potential of the TSI.</div></span> <a id="expcoll26" href="JavaScript: expandcollapse('expcoll26',26)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502375&CFID=84922752&CFTOKEN=83314714">Tools for expressive text-to-speech markup</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100081020&CFID=84922752&CFTOKEN=83314714">Erik Blankinship</a>, 
+                        <a href="author_page.cfm?id=81100022773&CFID=84922752&CFTOKEN=83314714">Richard Beckwith</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 159-160</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502375" title="DOI">10.1145/502348.502375</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502375&ftid=63899&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow27" style="display:inline;"><br /><div style="display:inline">This paper describes handicapped accessible text-to-speech markup software developed for poetry and performance. Most text-to-speech software allows the user to select a voice, but provides no control over performance parameters such as rate, volume, ...</div></span>
+          <span id="toHide27" style="display:none;"><br /><div style="display:inline">This paper describes handicapped accessible text-to-speech markup software developed for poetry and performance. Most text-to-speech software allows the user to select a voice, but provides no control over performance parameters such as rate, volume, and pitch. For users with vocal disabilities, the default "computer voice" is often dreaded since it provides no personalization. Evolving standards exist for text-to-speech markup (Sable, Java Speech Markup Language, Spoken Text Markup Language), but few tools exist for non-experts to modify documents using these prosody options [1, 5]. Furthermore, we could find fewer tools allowing for straightforward live performance using a synthesized voice [3]. Thus we created an easy to learn text-to-speech markup tool that requires little training to use.</div></span> <a id="expcoll27" href="JavaScript: expandcollapse('expcoll27',27)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502376&CFID=84922752&CFTOKEN=83314714">Conducting a realistic electronic orchestra</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100443423&CFID=84922752&CFTOKEN=83314714">Jan O. Borchers</a>, 
+                        <a href="author_page.cfm?id=81100507138&CFID=84922752&CFTOKEN=83314714">Wolfgang Samminger</a>, 
+                        <a href="author_page.cfm?id=81100305085&CFID=84922752&CFTOKEN=83314714">Max M&#252;hlh&#228;user</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 161-162</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502376" title="DOI">10.1145/502348.502376</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502376&ftid=63900&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow28" style="display:inline;"><br /><div style="display:inline">Personal Orchestra is the first system to let users conduct an actual audio and video recording of an orchestra, using an infrared baton to control tempo, volume, and instrument sections. A gesture recognition algorithm interprets user input, ...</div></span>
+          <span id="toHide28" style="display:none;"><br /><div style="display:inline"><i>Personal Orchestra</i> is the first system to let users conduct an actual audio and video recording of an orchestra, using an infrared baton to control tempo, volume, and instrument sections. A gesture recognition algorithm interprets user input, and a novel high-fidelity playback algorithm renders audio and video data at variable speed without time-stretching artifacts. The system is installed as a public exhibit in the <sc>HOUSE OF MUSIC VIENNA</sc>.</div></span> <a id="expcoll28" href="JavaScript: expandcollapse('expcoll28',28)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: 3D drawing</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502378&CFID=84922752&CFTOKEN=83314714">Simplicial families of drawings</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100314305&CFID=84922752&CFTOKEN=83314714">Lucas Kovar</a>, 
+                        <a href="author_page.cfm?id=81100342764&CFID=84922752&CFTOKEN=83314714">Michael Gleicher</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 163-172</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502378" title="DOI">10.1145/502348.502378</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502378&ftid=63901&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow30" style="display:inline;"><br /><div style="display:inline">In this paper we present a method for helping artists make artwork more accessible to casual users. We focus on the specific case of drawings, showing how a small number of drawings can be transformed into a richer object containing an entire family ...</div></span>
+          <span id="toHide30" style="display:none;"><br /><div style="display:inline">In this paper we present a method for helping artists make artwork more accessible to casual users. We focus on the specific case of drawings, showing how a small number of drawings can be transformed into a richer object containing an entire family of similar drawings. This object is represented as a simplicial complex approximating a set of valid interpolations in configuration space. The artist does not interact directly with the simplicial complex. Instead, she guides its construction by answering a specially chosen set of yes/no questions. By combining the flexibility of a simplicial complex with direct human guidance, we are able to represent very general constraints on membership in a family. The constructed simplicial complex supports a variety of algorithms useful to an end user, including random sampling of the space of drawings, constrained interpolation between drawings, projection of another drawing into the family, and interactive exploration of the family.</div></span> <a id="expcoll30" href="JavaScript: expandcollapse('expcoll30',30)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502379&CFID=84922752&CFTOKEN=83314714">A suggestive interface for 3D drawing</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100444444&CFID=84922752&CFTOKEN=83314714">Takeo Igarashi</a>, 
+                        <a href="author_page.cfm?id=81100166298&CFID=84922752&CFTOKEN=83314714">John F. Hughes</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 173-181</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502379" title="DOI">10.1145/502348.502379</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502379&ftid=63902&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow31" style="display:inline;"><br /><div style="display:inline">This paper introduces a new type of interface for 3D drawings that improves the usability of gestural interfaces and augments typical command-based modeling systems. In our suggestive interface, the user gives hints about a desired operation to the system ...</div></span>
+          <span id="toHide31" style="display:none;"><br /><div style="display:inline">This paper introduces a new type of interface for 3D drawings that improves the usability of gestural interfaces and augments typical command-based modeling systems. In our suggestive interface, the user gives hints about a desired operation to the system by highlighting related geometric components in the scene. The system then infers possible operations based on the hints and presents the results of these operations as small thumbnails. The user completes the editing operation simply by clicking on the desired thumbnail. The hinting mechanism lets the user specify geometric relations among graphical components in the scene, and the multiple thumbnail suggestions make it possible to define many operations with relatively few distinct hint patterns. The suggestive interface system is implemented as a set of suggestion engines working in parallel, and is easily extended by adding customized engines. Our prototype 3D drawing system, Chateau, shows that a suggestive interface can effectively support construction of various 3D drawings.</div></span> <a id="expcoll31" href="JavaScript: expandcollapse('expcoll31',31)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: Novel user input</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502381&CFID=84922752&CFTOKEN=83314714">Empirical measurements of intrabody communication performance under varied physical configurations</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100558733&CFID=84922752&CFTOKEN=83314714">Kurt Partridge</a>, 
+                        <a href="author_page.cfm?id=81100192681&CFID=84922752&CFTOKEN=83314714">Bradley Dahlquist</a>, 
+                        <a href="author_page.cfm?id=81100263838&CFID=84922752&CFTOKEN=83314714">Alireza Veiseh</a>, 
+                        <a href="author_page.cfm?id=81100506596&CFID=84922752&CFTOKEN=83314714">Annie Cain</a>, 
+                        <a href="author_page.cfm?id=81100249872&CFID=84922752&CFTOKEN=83314714">Ann Foreman</a>, Joseph Goldberg, 
+                        <a href="author_page.cfm?id=81100123081&CFID=84922752&CFTOKEN=83314714">Gaetano Borriello</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 183-190</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502381" title="DOI">10.1145/502348.502381</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502381&ftid=63903&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow33" style="display:inline;"><br /><div style="display:inline">Intrabody communication (IBC) is a wireless communications technology that uses a person's body as the transmission medium for imperceptible electrical signals. Because communication is limited to the vicinity of a person's body, ambiguities arising ...</div></span>
+          <span id="toHide33" style="display:none;"><br /><div style="display:inline">Intrabody communication (IBC) is a wireless communications technology that uses a person's body as the transmission medium for imperceptible electrical signals. Because communication is limited to the vicinity of a person's body, ambiguities arising from communication between personal devices and environmental devices when multiple people are present can, in theory, be solved simply. Intrabody communication also potentially allows data to be transferred when a person touches an IBC-enabled device. We have designed and constructed an intrabody communication system, modeled after Zimmerman's original design, and extended it to operate up to 38.4Kbps and to calculate signal strength. In this paper, we present quantitative measurements of data error rates and signal strength while varying hand distance to transceiver plate, electrode location on the body, touch plate size and shape, and several other factors. We find that plate size and shape have only minor effects, but that the distance to plate and the coupling mechanism significantly effect signal strength. We also find that portable devices, with poor ground coupling, suffer more significant signal attenuation. Our goal is to promote design guidelines for this technology and identify the best contexts for its effective deployment.</div></span> <a id="expcoll33" href="JavaScript: expandcollapse('expcoll33',33)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502382&CFID=84922752&CFTOKEN=83314714">Toward more sensitive mobile phones</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100519448&CFID=84922752&CFTOKEN=83314714">Ken Hinckley</a>, 
+                        <a href="author_page.cfm?id=81100323543&CFID=84922752&CFTOKEN=83314714">Eric Horvitz</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 191-192</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502382" title="DOI">10.1145/502348.502382</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502382&ftid=63904&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow34" style="display:inline;"><br /><div style="display:inline">Although cell phones are extremely useful, they can be annoying and distracting to owners and others nearby. We describe sensing techniques intended to help make mobile phones more polite and less distracting. For example, our phone's ringing quiets ...</div></span>
+          <span id="toHide34" style="display:none;"><br /><div style="display:inline">Although cell phones are extremely useful, they can be annoying and distracting to owners and others nearby. We describe sensing techniques intended to help make mobile phones more polite and less distracting. For example, our phone's ringing quiets as soon as the user responds to an incoming call, and the ring mutes if the user glances at the caller ID and decides not to answer. We also eliminate the need to press a TALK button to answer an incoming call by recognizing if the user picks up the phone and listens to it.</div></span> <a id="expcoll34" href="JavaScript: expandcollapse('expcoll34',34)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502383&CFID=84922752&CFTOKEN=83314714">Real-time audio buffering for telephone applications</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100246613&CFID=84922752&CFTOKEN=83314714">Paul H. Dietz</a>, 
+                        <a href="author_page.cfm?id=81100641019&CFID=84922752&CFTOKEN=83314714">William S. Yerazunis</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 193-194</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502383" title="DOI">10.1145/502348.502383</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502383&ftid=63905&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow35" style="display:inline;"><br /><div style="display:inline">A system that uses an ear proximity sensor to actively manage periods of distraction during telephone conversations is described. We detect when the phone is removed from the ear, record any incoming audio, and play it back when the phone is returned ...</div></span>
+          <span id="toHide35" style="display:none;"><br /><div style="display:inline">A system that uses an ear proximity sensor to actively manage periods of distraction during telephone conversations is described. We detect when the phone is removed from the ear, record any incoming audio, and play it back when the phone is returned to the ear. By dropping silent intervals and speeding up playback with a pitch-preserving algorithm, we quickly return to real-time without the loss of information. This real-time audio buffering technique also allows us to create a user-activated, lossless instant replay function.</div></span> <a id="expcoll35" href="JavaScript: expandcollapse('expcoll35',35)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502384&CFID=84922752&CFTOKEN=83314714">Pop through mouse button interactions</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100099358&CFID=84922752&CFTOKEN=83314714">Robert Zeleznik</a>, 
+                        <a href="author_page.cfm?id=81407592913&CFID=84922752&CFTOKEN=83314714">Timothy Miller</a>, 
+                        <a href="author_page.cfm?id=81100250503&CFID=84922752&CFTOKEN=83314714">Andrew Forsberg</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 195-196</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502384" title="DOI">10.1145/502348.502384</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502384&ftid=63906&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow36" style="display:inline;"><br /><div style="display:inline">We present a range of novel interactions enabled by a simple modification in the design of a computer mouse. By converting each mouse button to pop through tactile push-buttons, similar to the focus/shutter-release buttons used in many cameras, ...</div></span>
+          <span id="toHide36" style="display:none;"><br /><div style="display:inline">We present a range of novel interactions enabled by a simple modification in the design of a computer mouse. By converting each mouse button to <i>pop through</i> tactile push-buttons, similar to the focus/shutter-release buttons used in many cameras, users can feel, and the computer can sense, two distinct "clicks" corresponding to pressing lightly and pressing firmly to pop through. Despite the prototypical status of our hardware and software implementations, our current pop through mouse interactions are compelling and warrant further investigation. In particular, we demonstrate that pop through buttons not only yield an additional button activation state that is composable with, or even preferable to, techniques such as double-clicking, but also can endow a qualitatively novel user experience when meaningfully and consistently applied. We propose a number of software guidelines that may provide a consistent, systemic benefit; for example, light pressure may invoke default interaction (short menu), and firm pressure may supply more detail (long menu).</div></span> <a id="expcoll36" href="JavaScript: expandcollapse('expcoll36',36)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502385&CFID=84922752&CFTOKEN=83314714">Guided gesture support in the paper PDA</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100367734&CFID=84922752&CFTOKEN=83314714">Daniel Avrahami</a>, 
+                        <a href="author_page.cfm?id=81328488846&CFID=84922752&CFTOKEN=83314714">Scott E. Hudson</a>, 
+                        <a href="author_page.cfm?id=81407594532&CFID=84922752&CFTOKEN=83314714">Thomas P. Moran</a>, 
+                        <a href="author_page.cfm?id=81100005313&CFID=84922752&CFTOKEN=83314714">Brian D. Williams</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 197-198</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502385" title="DOI">10.1145/502348.502385</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502385&ftid=63907&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow37" style="display:inline;"><br /><div style="display:inline">Ordinary paper offers properties of readability, fluidity, flexibility, cost, and portability that current electronic devices are often hard pressed to match. In fact, a lofty goal for many interactive systems is to be "as easy to use as pencil and paper". ...</div></span>
+          <span id="toHide37" style="display:none;"><br /><div style="display:inline">Ordinary paper offers properties of readability, fluidity, flexibility, cost, and portability that current electronic devices are often hard pressed to match. In fact, a lofty goal for many interactive systems is to be "as easy to use as pencil and paper". However, the static nature of paper does not support a number of capabilities, such as search and hyperlinking that an electronic device can provide. The <i>Paper PDA</i> project explores ways in which hybrid paper electronic interfaces can bring some of the capabilities of the electronic medium to interactions occurring on real paper. Key to this effort is the invention of on-paper interaction techniques which retain the flexibility and fluidity of normal pen and paper, but which are structured enough to allow robust interpretation and processing in the digital world. This paper considers the design of a class of simple printed templates that allow users to make common marks in a fluid fashion, and allow additional gestures to be invented by the users to meet their needs, but at the same time encourages marks that are quite easy to recognize.</div></span> <a id="expcoll37" href="JavaScript: expandcollapse('expcoll37',37)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Papers: Tactile user interface</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502387&CFID=84922752&CFTOKEN=83314714">Haptic techniques for media control</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100023637&CFID=84922752&CFTOKEN=83314714">Scott S. Snibbe</a>, 
+                        <a href="author_page.cfm?id=81100608981&CFID=84922752&CFTOKEN=83314714">Karon E. MacLean</a>, 
+                        <a href="author_page.cfm?id=81406598825&CFID=84922752&CFTOKEN=83314714">Rob Shaw</a>, 
+                        <a href="author_page.cfm?id=81100070106&CFID=84922752&CFTOKEN=83314714">Jayne Roderick</a>, 
+                        <a href="author_page.cfm?id=81100424345&CFID=84922752&CFTOKEN=83314714">William L. Verplank</a>, 
+                        <a href="author_page.cfm?id=81100560962&CFID=84922752&CFTOKEN=83314714">Mark Scheeff</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 199-208</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502387" title="DOI">10.1145/502348.502387</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502387&ftid=63908&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow39" style="display:inline;"><br /><div style="display:inline">We introduce a set of techniques for haptically manipulating digital media such as video, audio, voicemail and computer graphics, utilizing virtual mediating dynamic models based on intuitive physical metaphors. For example, a video sequence can be modeled ...</div></span>
+          <span id="toHide39" style="display:none;"><br /><div style="display:inline">We introduce a set of techniques for haptically manipulating digital media such as video, audio, voicemail and computer graphics, utilizing virtual mediating dynamic models based on intuitive physical metaphors. For example, a video sequence can be modeled by linking its motion to a heavy spinning virtual wheel: the user browses by grasping a physical force-feedback knob and engaging the virtual wheel through a simulated clutch to spin or brake it, while feeling the passage of individual frames. These systems were implemented on a collection of single axis actuated displays (knobs and sliders), equipped with orthogonal force sensing to enhance their expressive potential. We demonstrate how continuous interaction through a haptically actuated device rather than discrete button and key presses can produce simple yet powerful tools that leverage physical intuition.</div></span> <a id="expcoll39" href="JavaScript: expandcollapse('expcoll39',39)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502388&CFID=84922752&CFTOKEN=83314714">Phidgets: easy development of physical interfaces through physical widgets</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100197069&CFID=84922752&CFTOKEN=83314714">Saul Greenberg</a>, 
+                        <a href="author_page.cfm?id=81100261101&CFID=84922752&CFTOKEN=83314714">Chester Fitchett</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 209-218</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502388" title="DOI">10.1145/502348.502388</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502388&ftid=63909&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow40" style="display:inline;"><br /><div style="display:inline">Physical widgets or phidgets are to physical user interfaces what widgets are to graphical user interfaces. Similar to widgets, phidgets abstract and package input and output devices: they hide implementation and construction details, they expose ...</div></span>
+          <span id="toHide40" style="display:none;"><br /><div style="display:inline">Physical widgets or <i>phidgets</i> are to physical user interfaces what widgets are to graphical user interfaces. Similar to widgets, phidgets abstract and package input and output devices: they hide implementation and construction details, they expose functionality through a well-defined API, and they have an (optional) on-screen interactive interface for displaying and controlling device state. Unlike widgets, phidgets also require: a connection manager to track how devices appear on-line; a way to link a software phidget with its physical counterpart; and a simulation mode to allow the programmer to develop, debug and test a physical interface even when no physical device is present. Our evaluation shows that everyday programmers using phidgets can rapidly develop physical interfaces.</div></span> <a id="expcoll40" href="JavaScript: expandcollapse('expcoll40',40)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=502389&CFID=84922752&CFTOKEN=83314714">DiamondTouch: a multi-user touch technology</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100246613&CFID=84922752&CFTOKEN=83314714">Paul Dietz</a>, 
+                        <a href="author_page.cfm?id=81100491228&CFID=84922752&CFTOKEN=83314714">Darren Leigh</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Pages: 219-226</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/502348.502389" title="DOI">10.1145/502348.502389</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=502389&ftid=63910&dwn=1&CFID=84922752&CFTOKEN=83314714" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow41" style="display:inline;"><br /><div style="display:inline">A technique for creating a touch-sensitive input device is proposed which allows multiple, simultaneous users to interact in an intuitive fashion. Touch location information is determined independently for each user, allowing each touch on a common surface ...</div></span>
+          <span id="toHide41" style="display:none;"><br /><div style="display:inline">A technique for creating a touch-sensitive input device is proposed which allows multiple, simultaneous users to interact in an intuitive fashion. Touch location information is determined independently for each user, allowing each touch on a common surface to be associated with a particular user. The surface generates location dependent, modulated electric fields which are capacitively coupled through the users to receivers installed in the work environment. We describe the design of these systems and their applications. Finally, we present results we have obtained with a small prototype device.</div></span> <a id="expcoll41" href="JavaScript: expandcollapse('expcoll41',41)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+</table>
+
+
+</div> 
+</div>
+
+
+ <p class="small-text" align="center">Powered by <a id="theguide" name="theguide" href="javascript:ColdFusion.Window.show('theguide')"><img src="img/poweredbyacm.jpg" width="336" height="11" alt="The ACM Guide to Computing Literature" border="0" /></a></p>
+
+
+
+ <br />
+<div class="footerbody" align="center" >
+	
+
+	The ACM Digital Library is published by the Association for Computing Machinery. Copyright &copy; 2012 ACM, Inc.<br />
+	<a href="http://www.acm.org/publications/policies/usage">Terms of Usage</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/privacy-policy">Privacy Policy</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/code-of-ethics">Code of Ethics</a>&nbsp;&nbsp;	  
+	<a href="http://www.acm.org/about/contact-us">Contact Us</a>
+
+<br /><br />
+Useful downloads: 
+<a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="http://dl.acm.org/images/pdf_logo.gif" width="16" height="16" alt="" border="0" /> Adobe Acrobat</a>
+&nbsp;&nbsp;
+<a href="http://www.apple.com/quicktime/download/" target="_blank"><img src="http://dl.acm.org/images/qtlogo.gif" width="16" height="16" alt="" border="0" /> QuickTime</a>
+&nbsp;&nbsp;
+<a href="http://www.microsoft.com/windows/windowsmedia/download/default.asp" target="_blank"><img src="http://dl.acm.org/images/wmv.gif" width="16" height="15" alt="" border="0" /> Windows Media Player</a>
+&nbsp;&nbsp;
+<a href="http://www.real.com/" target="_blank"><img src="http://dl.acm.org/images/realplayer.gif" width="20" height="18" alt="" border="0" /> Real Player</a>
+
+</div> 
+
+
+
+<div  id="cf_window1338153738502" class="yuiextdlg">
+	
+	<div  id="theguide_title" class="x-dlg-hd">
+		The ACM Guide to Computing Literature
+	 </div>
+	<div  id="theguide_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338153738505" class="yuiextdlg">
+	
+	<div  id="thetags_title" class="x-dlg-hd">
+		All Tags
+	 </div>
+	<div  id="thetags_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338153738508" class="yuiextdlg">
+	
+	<div  id="theformats_title" class="x-dlg-hd">
+		Export Formats
+	 </div>
+	<div  id="theformats_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338153738510" class="yuiextdlg">
+	
+	<div  id="theexplaination_title" class="x-dlg-hd">
+		&nbsp;
+	 </div>
+	<div  id="theexplaination_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338153738512" class="yuiextdlg">
+	
+	<div  id="theservices_title" class="x-dlg-hd">
+		&nbsp;
+	 </div>
+	<div  id="theservices_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338153738514" class="yuiextdlg">
+	
+	<div  id="savetobinder_title" class="x-dlg-hd">
+		Save to Binder
+	 </div>
+	<div  id="savetobinder_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> 
+
+</body>
+</html>

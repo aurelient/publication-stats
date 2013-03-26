@@ -1,0 +1,2855 @@
+
+
+
+<!doctype html>
+
+
+<head><script type="text/javascript">_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_clientid='B503024BA57FCB4571C123C2090BF3F5';</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/yui/ext-yui-adapter.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-core.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/resizable.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/dragdrop/dragdrop.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/util.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/build/state/State-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/widget-core.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/dialog/dialogs.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/cf/cf.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/dl.css" />
+
+
+
+<title>Proceedings of the 1988 ACM conference on Computer-supported cooperative work</title>
+<style type="text/css"><!--
+    body {margin-left: 0em; margin-top: 0}
+    a:link {text-decoration: underline; 	Color: #1d4d0f;}
+    a:visited  { color: #990033; text-decoration: underline;}
+    a:hover {color: red; text-decoration: none}
+    a.dLink1:link {color:#336699}
+    a.dLink1:visited {color:#666666}
+	a.isblack:link {text-decoration: underline; 	Color: #000000;}
+    a.isblack:visited  { color: #000000; text-decoration: underline;}
+    a.isblack:hover {color: #000000; text-decoration: none}
+    h1 {font-size: 140%; margin-bottom: 0}
+	ul {margin-top: .25em; list-style-type: disc}
+	ol {margin-top: .25em;}
+	li {padding-bottom: .25em}
+    h2 {color: white; background-color: #069; 
+        font-size: 100%; padding-left: 1em;
+		margin: 0}
+	h3 {color: black; background-color: yellow; 
+    	font-size: 100%;
+		margin: 0}
+	 h4 {color: black; background-color: #99c5e8; 
+        font-size: 100%;
+		margin: 0}
+    hr {color: #39176d;}
+    form {margin-top: 10}
+    form.xrs {margin-top: 0}
+	
+	a {text-decoration: none; }
+	
+	input {font-size: 1em;}
+	.chevron {color: #ff0000;}
+	.light-blue {color:#336699;}
+	.black {color:#000000;}
+	
+	/* ### standard text styles, smallest to largest ### */
+	
+	.footer-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .75em; line-height: 1.33em;
+		text-indent: -.75 em; margin-left: 2em; margin-right: .75em;}
+		
+	.footer-copy-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em; line-height: 1.3em;
+		margin-left: .75em; margin-right: .75em;}
+		
+	.small-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; padding-bottom : 2px;
+	  	padding-top : 2px;}
+
+	.smallerer-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .65em;}
+	.smaller-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em;}		
+	.small-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em;}
+	.small-textb {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; font-weight: bold;}
+	.medium-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em;}
+	.mediumb-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em; font-weight: bold;}
+	.large-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1.3em;}		
+	.instr-text {font-family: Arial, Helvetica, sans-serif;
+		color:#666666; font-size: .83em;}
+		
+	.list-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .83em; line-height: 1.3em;}
+	.list-link-btext {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; line-height: 1.3em;}
+	
+	.searchbox-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;}
+	.footer-header-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;
+		margin-left: .75em; margin-right: .75em;}
+	.medium-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold; line-height: 1em;
+		text-indent: -1.25em; margin-left: 2em; margin-right: .75em;}
+	
+	.text16 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 16px;}
+		
+	.text14 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 14px;}
+	
+	.text12 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 12px;}
+		
+	.text10 {font-family: Arial, Helvetica, sans-serif;
+	    color:#000000; font-size: 12px;}
+		
+	.text9 {font-family: Arial, Helvetica, sans-serif;
+	   color:#000000; font-size: 12px;}
+	
+	.error-text {color:red;}
+	
+	.small-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: .75em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+
+	.medium-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1.3em; line-height: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.medium-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+
+		#side {
+			width: 10px;
+			float: left;
+			margin-left: -1px;
+			padding: 2px;
+			}
+							
+		#content {
+			padding: 2px;
+			margin-left: 25px;
+			
+		        
+		        }
+	 .fulltext_lnk {border:0px;
+	 				 margin-right: 2px;
+					 vertical-align:baseline;
+	 				}
+	 
+	  .leftcoltab { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:530px;  /* for IE5/WIN */
+		  width:520px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	  .rightcoltab {
+    float: right;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    right: 50px;
+    top: 25px;
+    width: 350px;
+    z-index: 99;
+}
+	  .centercoltab {
+		  position:absolute;
+		  padding:0 0px;
+		  }
+	  .alt {
+		background: #ece9d8;
+		margin: 0;
+		padding: 1px;
+		}
+		.leftcolc { 
+	position:relative;
+	top:5px;
+	left:5px;
+	float:left;
+	width:420px;  /* for IE5/WIN */
+	width:400px; /* actual value */
+	margin:0 0 0px 0;
+	padding:5px;
+	z-index:100;
+	}
+.rightcolc {
+	position:relative;
+	top:0px;
+	right:0px;
+	float:right;
+	margin:0 0px;
+	padding:0px;
+	width:500px;
+	z-index:99;
+	}
+.centercolc {
+	position:absolute;
+	padding:0 0px;
+	}
+	
+	.leftcoltabv { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:460px;  /* for IE5/WIN */
+		  width:350px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	.rightcoltabv {
+		position:relative;
+		top:5px;
+		right:0px;
+		float:right;
+		margin:0 0px 0 0;
+		padding:15px;
+		width:480px;
+		z-index:99;
+		}
+	
+  --></style>
+ 
+
+
+<script type="text/javascript" src="cfformprotect/js/cffp.js"></script>
+
+
+<script type="text/javascript">
+ function expandcollapse(anchor,whichone) {
+	 var inner = document.getElementById(anchor);
+	 var theshow = "toShow" + whichone;
+ 	 var thehide = "toHide" + whichone;
+	 var span = document.getElementById(theshow);
+     span.style.display = (span.style.display=='inline')?'none':'inline';
+     var span = document.getElementById(thehide);
+     span.style.display = (span.style.display=='none')?'inline':'none';
+     inner.innerHTML = (inner.innerHTML=='collapse')?'expand':'collapse';
+    }
+
+  function setDiv() {
+	var m = document.getElementById('divmain');
+	var mh = m.offsetHeight;
+	var t = document.getElementById('divtools');
+	var th = t.offsetHeight;
+	var tg = document.getElementById('divtags');
+	var tgh = tg.offsetHeight;
+	var calcheight = mh - th;
+	if (tgh > calcheight  ){
+	  var x = (th + tgh) - mh;
+	  if ( (th + tgh) - mh < 65) {
+	  }
+	  else {
+		 document.getElementById('divtags').innerHTML = "<p align='left' style='margin-top:0px'><span class='medium-text' style='padding-right:10px;'><strong>Tags:</strong></span><a href=results.cfm?query=%22communications%20applications%22&querydisp=%22communications%20applications%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#356b20'> communications applications </span></a><a href=results.cfm?query=%22design%22&querydisp=%22design%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#000000'> design </span></a><a href=results.cfm?query=%22human%20factors%22&querydisp=%22human%20factors%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#356b20'> human factors </span></a><a href=\"javascript:ColdFusion.Window.show('thetags')\" class='small-link-text'>more tags</a></p>"; 
+		 var tg = document.getElementById('divtags');
+		 var tgh = tg.offsetHeight;
+		 tg.style.height = tgh  + 'px';
+	  }
+	}
+	else {
+		tg.style.height = calcheight + 'px';
+		document.getElementById('divtags').innerHTML = "<p align='left' style='margin-top:0px'><span class='medium-text' style='padding-right:10px;'><strong>Tags:</strong></span><a href=results.cfm?query=%22communications%20applications%22&querydisp=%22communications%20applications%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#356b20'> communications applications </span></a><a href=results.cfm?query=%22design%22&querydisp=%22design%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#000000'> design </span></a><a href=results.cfm?query=%22human%20factors%22&querydisp=%22human%20factors%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#356b20'> human factors </span></a><a href=results.cfm?query=%22management%22&querydisp=%22management%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#000000'> management </span></a><a href=results.cfm?query=%22performance%22&querydisp=%22performance%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#356b20'> performance </span></a><a href=results.cfm?query=%22project%20and%20people%20management%22&querydisp=%22project%20and%20people%20management%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#000000'> project and people management </span></a></p>";
+	}
+
+//  do I need to check after I resize to be sure I didn't go too big?
+//	var tg2 = document.getElementById('divtags');
+//	var tgh2 = tg.offsetHeight;	
+//	if (tgh2 > mh + 65) {
+//	  var y = mh + 65;
+//	  alert('expanded too much ' + tgh2 + ' should be at most ' + y);
+//	  tg.style.height = y + 'px';
+//	  document.getElementById('divtags').innerHTML = "<p align='left' style='margin-top:0px'><span class='medium-text' style='padding-right:10px;'><strong>Tags:</strong></span><a href=results.cfm?query=%22communications%20applications%22&querydisp=%22communications%20applications%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#356b20'> communications applications </span></a><a href=results.cfm?query=%22design%22&querydisp=%22design%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#000000'> design </span></a><a href=results.cfm?query=%22human%20factors%22&querydisp=%22human%20factors%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#356b20'> human factors </span></a><a href=results.cfm?query=%22management%22&querydisp=%22management%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#000000'> management </span></a><a href=results.cfm?query=%22performance%22&querydisp=%22performance%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#356b20'> performance </span></a><a href=results.cfm?query=%22project%20and%20people%20management%22&querydisp=%22project%20and%20people%20management%22&termshow=matchall&CFID=85009850&CFTOKEN=97492815 target=_self><span class='small-text' style='line-height: 140%; padding-right: 5px; color:#000000'> project and people management </span></a></p>";
+//	}
+
+  }
+</script>
+
+<script type="text/javascript">
+ /* <!-- Begin
+	if(document.layers || document.all) {
+	a = 1;
+	setInterval("Jump()", 10);
+	}
+	function Jump() {
+	a = a + 1;
+	//self.moveBy((Math.random() * a * 2 - a), (Math.random() * a * 2) - a);
+	}
+//  End --> */
+</script>
+
+
+
+<meta name="citation_publisher" content="ACM"> <meta name="citation_authors" content="Chairman-Greif, Irene"> <meta name="citation_title" content="Proceedings of the 1988 ACM conference on Computer-supported cooperative work"> <meta name="citation_date" content="01/01/1988"> <meta name="citation_isbn" content="0-89791-282-9"> <meta name="citation_abstract_html_url" content="http://dl.acm.org/citation.cfm?id=62266"> 
+
+
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFFORM');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFDIV');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFWINDOW');
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338207497830=function()
+	{
+		_cf_bind_init_1338207497831=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'theguide_body','bindExpr':['whatisguide.cfm']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338207497831);var _cf_window=ColdFusion.Window.create('theguide','The ACM Guide to Computing Literature','whatisguide.cfm',{ modal:false, closable:true, divid:'cf_window1338207497829', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338207497830);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338207497833=function()
+	{
+		_cf_bind_init_1338207497834=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'thetags_body','bindExpr':['showthetags.cfm?id=62266']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338207497834);var _cf_window=ColdFusion.Window.create('thetags','All Tags','showthetags.cfm?id=62266',{ modal:false, closable:true, divid:'cf_window1338207497832', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338207497833);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338207497836=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theformats','Export Formats','',{ modal:false, closable:true, divid:'cf_window1338207497835', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:250, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338207497836);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338207497838=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theexplaination','','',{ modal:false, closable:true, divid:'cf_window1338207497837', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338207497838);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338207497840=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theservices','','',{ modal:false, closable:true, divid:'cf_window1338207497839', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338207497840);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338207497842=function()
+	{
+		_cf_bind_init_1338207497843=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'savetobinder_body','bindExpr':['savetobinder.cfm?id=62266']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338207497843);var _cf_window=ColdFusion.Window.create('savetobinder','Save to Binder','savetobinder.cfm?id=62266',{ modal:false, closable:true, divid:'cf_window1338207497841', draggable:true, resizable:true, fixedcenter:true, width:600, height:600, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false, _cf_refreshOnShow:true});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338207497842);
+</script>
+</head>
+
+<body style="text-align:center" onLoad="window.focus();">
+
+<script type="text/javascript">
+						addthis_pub             = 'acm'; 
+						//addthis_logo            = 'http://www.addthis.com/images/yourlogo.png';
+						addthis_logo            = 'http://dl.acm.org/images/ACM_transparent.png';
+						addthis_logo_background = 'c2d5fc';
+						addthis_logo_color      = '000000';
+						addthis_brand           = 'Citation Page';
+						addthis_options         = 'favorites, email, slashdot, citeulike, digg, delicious, twitter, myspace, facebook, google, more';
+						</script>
+                        
+<script src='AC_RunActiveContent.js' type="text/javascript"></script>
+
+
+
+
+<div style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+<a id="CIT"></a>
+
+
+
+<table style="table-layout:fixed; margin-top: 5px; margin-bottom: 10px; border:0px; width:100%; border-collapse:collapse;">
+	
+    <tr style="vertical-align:top">
+		
+		<td style="padding-left: 5px; padding-right:10px; padding-bottom:0px; width:300px" class="small-link-text"  ><img src="http://dl.acm.org/images/ACMDL_Logo.jpg" alt="ACM DL" style="border:0px" usemap="#port" />
+		</td>
+        
+        <td style="padding-left: 5px; padding-right:10px; padding-bottom:0px;" class="small-link-text">
+        	<table style="width:100%; border-collapse:collapse; padding:0px">
+			<tr><td style="text-align:center">
+				
+                            <div style="margin:0px auto;color:#356b20;font-size:10pt;line-height:10%;"> </div>
+                    
+					</td>		
+			</tr>
+			</table> 
+        </td>
+		<td style="padding-top: 0px; padding-left: 0px; padding-bottom:0px; text-align:right;" class="small-link-text">
+			 <p style="margin-top:0px; margin-bottom:10px;">
+					
+                            <a href="https://dl.acm.org/signin.cfm?cfid=85009850&amp;cftoken=97492815" class="small-link-text" title="Sign in to personalize your Digital Library experience">SIGN IN</a>
+                            &nbsp;&nbsp;<a href="https://dl.acm.org/signin.cfm?cfid=85009850&amp;cftoken=97492815"  class="small-link-text" title="Sign up to personalize your Digital Library experience">SIGN UP</a>
+						
+			 </p>
+            
+			<table style="padding: 5px; border-collapse:collapse; float:right">
+				
+				
+                            
+                            <tr>
+                            <td class="small-link-text" style="text-align:right">
+                            <form name="qiksearch" action="results.cfm?h=1&amp;cfid=85009850&amp;cftoken=97492815" method="post">
+                           
+                           
+                            
+                                     
+                                    <span style="margin-left:0px"><label><input type="text" name="query" size="34" value=" " /></label>&nbsp;
+                                    <input style="vertical-align:top;" type="image" alt="Search" name="Go" src="http://dl.acm.org/images/search_small.jpg" />
+                                    
+                                    </span>
+							  </form>
+                                </td>
+                            </tr>
+                          
+				  
+			</table>
+
+			
+			
+		</td>
+
+	</tr>
+    
+    
+    <tr><td colspan="3" class="small-link-text" style="padding-bottom:5px; padding-top:0px; text-align:center">
+		<div style="margin:0px auto;color:#356b20;line-height:10%;"> </div>
+         
+         </td>
+    </tr>
+    </table>
+	
+<map name="port" id="port" > 
+  <area shape="rect" coords="1,1,60,50" href="http://www.acm.org/" alt="ACM Home Page" />
+  <area shape="rect" coords="65,1,275,68" href="http://dl.acm.org/dl.cfm?CFID=85009850&CFTOKEN=97492815" alt="ACM Digital Library Home Page" />
+</map>
+
+<table style="table-layout:fixed; padding-bottom:10px; width:100%; padding:0px;">
+	<tr style="vertical-align:top">
+		<td style="padding-right:10px; text-align:left" class="small-link-text">
+        	<div id="divmain" style="border:1px solid #356b20;">
+				 
+				<div class="large-text" style="text-align:left; margin-left:2px;margin-bottom:5px;">
+					
+                    	<h1 class="mediumb-text" style="margin-top:0px; margin-bottom:0px;"><strong>Proceedings of the 1988 ACM conference on Computer-supported cooperative work</strong></h1>
+                        
+                </div>
+                
+                  
+
+<table class="medium-text" style="border-collapse:collapse; padding:0px;">
+
+<col style="width:540px" />
+
+<tr style="vertical-align:top">
+  <td>
+    <table style="border-collapse:collapse; padding:2px;" class="medium-text">
+      <col style="width:80px;" />
+      <col style="width:auto" />
+      <tr style="vertical-align:top">
+        
+      </tr>
+    </table>
+
+	
+        <table style="margin-top: 10px; border-collapse:collapse; padding:2px;" class="medium-text">
+            <col style="width:80px" />
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             Chairman:
+                    
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100427186&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=85009850&amp;cftoken=97492815" title="Author Profile Page" target="_self">Irene Greif</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <a href="inst_page.cfm?id=1013769&CFID=85009850&CFTOKEN=97492815" title="Institutional Profile Page"><small>Lotus Development Corp., Cambridge, MA</small></a>
+                      	
+            </td>
+            </tr>
+            
+        </table>
+    
+        <table style="margin-top: 10px" border="0" class="medium-text" cellpadding="2" cellspacing="0">
+            <tr><td><table border="0" class="medium-text" cellpadding="1" cellspacing="0">
+
+<tr valign="top">
+    <td nowrap="nowrap" style="padding-top:10px;">Publication of:</td>
+</tr>
+
+	<tr valign="top">
+    	<td nowrap="nowrap" style="padding-bottom:0px">&middot;&nbsp;Conference</td>
+	</tr>
+    <tr valign="top">
+	    <td style="padding-left:10px;">
+		   CSCW88 Computer Supported Cooperative Work 
+        </td>
+	</tr>
+    
+    <tr valign="top">
+	    <td style="padding-left:10px; padding-bottom:10px"> Portland, OR, USA &mdash; September 26 - 28, 1988
+                    
+                  <br />
+                    
+                  <a href="http://www.acm.org/publications" class="small-link-text" title="ACM">ACM</a> <span class="small-link-text">New York, NY</span><span class="small-link-text">, USA</span> <span class="small-link-text">  &copy;1988</span> 
+                  <br />           
+                  
+      </td>
+	</tr>
+	 
+
+</table></td></tr>
+        </table>
+    
+
+  </td>
+
+  <td rowspan="20" nowrap="nowrap">
+	<table border="0" class="medium-text" cellpadding="0" cellspacing="0">
+		<tr>
+        	<td align="center" style="padding-bottom: 5px;">
+			  
+               
+              </td>
+              <td valign="top" align="left" nowrap="nowrap">
+	             <img src="images/acm_mini.jpg" title="Published by ACM" alt="Published by ACM" /> 1988 Proceeding<br />
+                 
+        	 </td>
+        </tr>
+        
+        <tr>
+        	<td colspan="2" valign="baseline" style="padding-bottom:5px;">
+            <img src="img/stats.jpg" alt="Bibliometrics Data" />&nbsp;
+            <a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a>
+            </td>
+         </tr>
+         <tr>
+            <td  class="small-text" colspan="2" valign="top" style="padding-left:30px;">
+				
+	                    	&middot;&nbsp;Downloads (6 Weeks): 227<br />
+    	                    &middot;&nbsp;Downloads (12 Months): 1,749<br />
+                          
+                        &middot;&nbsp;Citation Count: 1,008 
+			</td>
+         </tr>
+
+	</table>
+  </td>
+</tr>
+</table>
+
+<br clear="all" />
+
+                  
+                 <br clear="all" />
+			</div>
+			
+		</td>
+		<td style="padding-left: 5px; vertical-align:top; text-align:left; width:170px" class="small-link-text">
+	
+            <div id="divtools" style="background-color:#ece9d8; text-align:left; padding-top:5px; padding-bottom:5px; ">
+              <div class="medium-text" style="margin-left:3px; margin-top:10px;"><h1 class="mediumb-text" style="margin-top:-15px;"><strong>Tools and Resources</strong></h1></div>
+
+
+<ul title="Tools and Resources" style="list-style: none; list-style-position:inside;
+margin-left: 0px;
+padding-left: 0em;
+text-indent: 5px;
+margin-bottom: 0px;">
+
+
+<li style="list-style-image:url(img/toc_small.gif);margin-top:10px;"><span style="margin-left:6px;">
+   <span class="small-link-text">TOC Service:</span>
+   	  
+	  <img src="http://dl.acm.org/images/blanks.gif" border="0" alt="Spacer Image reserves space for checkmark when TOC Service is updated" name="saved" />
+      <ul style="margin-left: 0; padding-left: 0; display:inline;">
+      	
+        <li style="list-style:none; display:inline"><br /><img src="img/email_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Email</a></li>
+        <li style="list-style:none; display:inline"><img src="img/rss_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');"  class="small-link-text">RSS</a></li>
+		        
+      </ul>
+    </span>
+</li>
+
+        <li style="list-style-image:url(img/binder.gif);margin-top:10px;"><span style="margin-left:6px;">
+        <a href="citation.cfm?id=62266&preflayout=flat#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Save to Binder</a>
+         </span></li>
+    
+
+
+
+
+<li style="list-style-image:url(img/binder_green.gif);margin-top:10px;"><span style="margin-left:6px; margin-bottom:0px">
+   <span class="small-link-text">Export Formats:</span>
+      <ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=62266&expformat=bibtex','theformats');" class="small-link-text">BibTeX</a></li>
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=62266&expformat=endnotes','theformats');" class="small-link-text">EndNote</a></li>
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=62266&expformat=acmref','theformats');" class="small-link-text">ACM&nbsp;Ref</a></li>
+      </ul>
+    </span>
+</li>
+
+
+
+ 
+   <li style="list-style-image:url(img/calbullet.jpg);margin-top:15px;"><span style="margin-left:6px; margin-bottom:0px">
+   <span class="small-link-text">Upcoming Conference:</span>
+      <ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+        <li style="list-style:disc; display:inline; margin-bottom:0px; margin-left:25px;"><a href="http://cscw2012.org/" title="Computer Supported Cooperative Work" class="small-link-text">CSCW '13</a></li>
+      </ul>
+    </span>
+	</li>
+    
+
+
+</ul>           
+
+  <!-- ADDTHIS BUTTON BEGIN -->
+  
+  <!-- ADDTHIS BUTTON END -->
+
+<p class="small-link-text" style="padding-top: 0px; margin-left:6px; margin-bottom:0px">Share:</p>
+  <!-- AddThis Button BEGIN -->
+
+
+
+<!-- AddThis Button BEGIN -->
+<div style="margin-left:5px;" class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_email"></a>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_slashdot"></a>
+<a class="addthis_button_reddit"></a>
+
+
+<span class="addthis_separator">|</span>
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=acm" class="addthis_button_expanded" title="more"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=acm"></script>
+<!-- AddThis Button END -->
+
+  
+ 
+
+  
+  
+            </div>
+            
+<div id="divtags" style="text-align:left; padding-top:10px">
+<span class="medium-text" style="padding-right:10px;">
+<a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=2','theexplaination');" title="Tags: explained">
+<strong>Tags:</strong>
+</a>
+</span>
+
+<a href="results.cfm?query=%22communications%20applications%22&amp;querydisp=%22communications%20applications%22&amp;termshow=matchall&amp;cfid=85009850&amp;cftoken=97492815" target="_self"><span class="small-text" style="padding-right: 0px; color:#356b20">communications applications</span></a>
+
+<a href="results.cfm?query=%22design%22&amp;querydisp=%22design%22&amp;termshow=matchall&amp;cfid=85009850&amp;cftoken=97492815" target="_self"><span class="small-text" style="padding-right: 0px; color:#000000">design</span></a>
+
+<a href="results.cfm?query=%22human%20factors%22&amp;querydisp=%22human%20factors%22&amp;termshow=matchall&amp;cfid=85009850&amp;cftoken=97492815" target="_self"><span class="small-text" style="padding-right: 0px; color:#356b20">human factors</span></a>
+
+<a href="results.cfm?query=%22management%22&amp;querydisp=%22management%22&amp;termshow=matchall&amp;cfid=85009850&amp;cftoken=97492815" target="_self"><span class="small-text" style="padding-right: 0px; color:#000000">management</span></a>
+
+<a href="results.cfm?query=%22performance%22&amp;querydisp=%22performance%22&amp;termshow=matchall&amp;cfid=85009850&amp;cftoken=97492815" target="_self"><span class="small-text" style="padding-right: 0px; color:#356b20">performance</span></a>
+
+<a href="results.cfm?query=%22project%20and%20people%20management%22&amp;querydisp=%22project%20and%20people%20management%22&amp;termshow=matchall&amp;cfid=85009850&amp;cftoken=97492815" target="_self"><span class="small-text" style="padding-right: 0px; color:#000000">project and people management</span></a>
+
+
+
+
+</div>
+
+		</td>
+	</tr>
+    
+</table>
+
+
+
+</div>
+
+
+<div class="layout" style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+
+
+
+
+<div id="fback" style="text-align:left; padding-top:10px; padding-bottom:20px">
+<span class="small-text" style="padding-right:10px; margin-bottom:0px;">
+<a title="feedback" href="mailto:portal-feedback@hq.acm.org?subject=Comments_on_new_design" style=" vertical-align:middle"><img src="img/feedbackg.gif" width="20" height="19" alt="feedback" border="0" /></a>
+<a title="feedback" href="mailto:portal-feedback@hq.acm.org?subject=Comments_on_new_design"><strong>Feedback</strong></a>
+
+<span style="padding:10px;">|</span>
+
+
+
+
+<span>Switch to <a href="citation.cfm?id=62266&amp;preflayout=tabs">tabbed view</a> <noscript> (javascript required)</noscript></span>
+
+
+</span>
+
+ 
+<div class="small-text" style="margin-top:10px; margin-bottom:5px;"> 
+<br />
+
+    <a href="#abstract"  title="Abstract" style="padding:5px"><span style='color:#999999'>Abstract</span></a> |
+    
+    <a href="#authors"  title="Authors" style="padding:5px"><span>Authors</span></a> |
+    <a href="#references"  title="References" style="padding:5px"><span style='color:#999999'>References</span></a> |
+    <a href="#citedby"  title="Cited By" style="padding:5px"><span style='color:#999999'>Cited By</span></a> |
+    <a href="#indexterms"  title="Index Terms" style="padding:5px"><span>Index Terms</span></a> |
+    <a href="#source"  title="Publication" style="padding:5px"><span>Publication</span></a> |
+    <a href="#revs"  title="Reviews" style="padding:5px"><span style='color:#999999'>Reviews</span></a> |               
+	<a href="#comments"  title="Comments" style="padding:5px"><span>Comments</span></a>
+	
+     |               
+	<a href="#prox"  title="Table of Contents" style="padding:5px"><span>Table of Contents</span></a>
+    
+</div>
+    
+<div style="right: 0pt; border-top:1px solid #356b20; font-size:1px; margin-bottom:20px;"/>
+
+
+
+</div>
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="abstract" class="small-text">ABSTRACT</A></h1>
+       	
+		  	<div class="flatbody">
+              <div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;">
+                  An abstract is not available.
+              </div>            
+                      
+			
+			</div>
+            
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="authors" class="small-text"><SPAN class="heading">AUTHORS</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<dl title="Authors" style="margin-top:0px">
+
+
+
+
+<dt style="float: left; clear: left; width: 100%; margin-top: 0px; margin-bottom: 0px;">
+ <strong>
+ Chairman 
+  </strong>
+ </dt> 
+          
+          <dd style="margin: 0 0 0 60px; padding: 0 0 0.5em 0;">
+			
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Irene Greif" href="author_page.cfm?id=81100427186&CFID=85009850&CFTOKEN=97492815">Irene Greif</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1973-2010</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">31</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">270</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">16</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">68</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">338</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Irene Greif" href="author_page.cfm?id=81100427186&amp;dsp=coll&amp;trk=1&amp;CFID=85009850&CFTOKEN=97492815" target="_self">View colleagues</a> of Irene Greif
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+			</dd>
+                              
+
+</dl>
+</div>
+
+		  
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="references" class="small-text"><SPAN class="heading">REFERENCES</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	References are not available
+
+</div>
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="citedby" class="small-text"><SPAN class="heading">CITED BY</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	Citings are not available
+		
+ </div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="indexterms" class="small-text"><SPAN class="heading">INDEX TERMS</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<p class="Categories">
+<A NAME="indexterms"></A>
+
+        <span class=heading>Primary Classification:</span>
+        <br /> 
+            <strong>K.</strong> <a href="results.cfm?query=PrimaryCCS%3AK&querydisp=PrimaryCCS%3AK&termshow=matchboolean&CFID=85009850&CFTOKEN=97492815" target="_self">Computing Milieux</a><br />
+        
+            	<span style="padding-left:0px;"><img src="http://dl.acm.org/images/tree.gif" alt="" border="0" height="20" width="20"></span>
+            
+            <strong>K.6</strong> <a href="results.cfm?query=PrimaryCCS%3AK6&querydisp=PrimaryCCS%3AK6&termshow=matchboolean&CFID=85009850&CFTOKEN=97492815" target="_self">MANAGEMENT OF COMPUTING AND INFORMATION SYSTEMS</a><br />
+        
+            	<span style="padding-left:20px;"><img src="http://dl.acm.org/images/tree.gif" alt="" border="0" height="20" width="20"></span>
+            
+            <strong>K.6.1</strong> <a href="results.cfm?query=PrimaryCCS%3AK61&querydisp=PrimaryCCS%3AK61&termshow=matchboolean&CFID=85009850&CFTOKEN=97492815" target="_self">Project and People Management</a><br />
+        <br /><br />
+        <span class=heading>Additional Classification:</span>
+        
+            <strong>H.</strong> <a href="results.cfm?query=CCS%3AH&querydisp=CCS%3AH&termshow=matchboolean&CFID=85009850&CFTOKEN=97492815" target="_self">Information Systems</a><br />
+        
+            	<span style="padding-left:0px;"><img src="http://dl.acm.org/images/tree.gif" alt="" border="0" height="20" width="20"></span>
+            
+            <strong>H.4</strong> <a href="results.cfm?query=CCS%3AH4&querydisp=CCS%3AH4&termshow=matchboolean&CFID=85009850&CFTOKEN=97492815" target="_self">INFORMATION SYSTEMS APPLICATIONS</a><br />
+        
+            	<span style="padding-left:20px;"><img src="http://dl.acm.org/images/tree.gif" alt="" border="0" height="20" width="20"></span>
+            
+            <strong>H.4.3</strong> <a href="results.cfm?query=CCS%3AH43&querydisp=CCS%3AH43&termshow=matchboolean&CFID=85009850&CFTOKEN=97492815" target="_self">Communications Applications</a><br />
+        
+</p>
+
+
+
+</div>
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="source" class="small-text"><SPAN class="heading">PUBLICATION</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+
+<table border="0" class="medium-text" cellpadding="0" cellspacing="5">
+
+
+
+    <tr valign="top">
+    	<td>Title</td> 
+	    <td>
+		   CSCW88 Computer Supported Cooperative Work 
+        </td>
+	</tr>
+    <tr><td></td><td>Portland, OR, USA &mdash; September 26 - 28, 1988</td></tr> <tr><td>Pages</td><td>395</td></tr> 
+                 <tr>
+                 
+                     <td>Sponsors</td>
+                    
+                  <td>
+                  <a href="sig.cfm?id=SP923&CFID=85009850&CFTOKEN=97492815"> SIGCHI</a> ACM Special Interest Group on Computer-Human Interaction
+                  </td>
+                  </tr>
+              
+                 <tr>
+                 
+                      <td></td>
+                  
+                  <td>
+                  <a href="sig.cfm?id=SP933&CFID=85009850&CFTOKEN=97492815"> SIGGROUP</a> ACM Special Interest Group on Supporting Group Work
+                  </td>
+                  </tr>
+              
+                 <tr>
+                 
+                      <td></td>
+                  
+                  <td>
+                  <a name="sponsor"> Lotus Development</a> Lotus Development
+                  </td>
+                  </tr>
+              
+                 <tr>
+                 
+                      <td></td>
+                  
+                  <td>
+                  <a name="sponsor"> Xerox Corp.</a> Xerox Corporation
+                  </td>
+                  </tr>
+              
+                  <tr><td>Publisher</td><td><a href="http://www.acm.org/publications">ACM</a> New York, NY, USA</td>
+				  </tr>
+             <tr><td>ISBN</td><td>0-89791-282-9 </td></tr> 
+			<tr valign="top">
+        	<td>Conference</td>
+            <td valign="top" align="left"  style="padding-bottom: 25px;">
+	            <strong style="padding-right:10px">CSCW</strong><a href="event.cfm?id=RE169&CFID=85009850&CFTOKEN=97492815" title="Computer Supported Cooperative Work">Computer Supported Cooperative Work</a>
+                
+                       
+                        <a href="event.cfm?id=RE169&CFID=85009850&CFTOKEN=97492815" title="Computer Supported Cooperative Work"><img border="0" src="http://portalparts.acm.org/event_logos/RE169.jpg" title="CSCW logo" height="30"  width="91" ALT="CSCW logo" style="vertical-align:top"></a>
+						 
+
+        	 </td>
+            </tr>
+		    <tr valign="top"><td style="pading-top:20px;" colspan="2">Overall Acceptance Rate 639 of 2,629 submissions, 24%</td></tr>
+                       <tr valign="top">
+                        <td colspan="2" style="padding-left:25px;">
+                        	<table>
+                            	<tr><td>
+                                        <!-- WebCharts3D v5.1(2077) -->
+<IMG SRC="/CFIDE/GraphData.cfm?graphCache=wc50&graphID=Images/6474231430579189.JPG" id="Images_6474231430579189_JPG" name="Images_6474231430579189_JPG" usemap="#Images_6474231430579189_JPG_map" border="0"/>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAB' id='GP1338207498332AAAB'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '94</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>200</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAC' id='GP1338207498332AAAC'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '94</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>42</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAD' id='GP1338207498332AAAD'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '98</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>220</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAE' id='GP1338207498332AAAE'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '98</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>41</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAF' id='GP1338207498332AAAF'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '00</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>199</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAG' id='GP1338207498332AAAG'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '00</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>36</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAH' id='GP1338207498332AAAH'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '02</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>193</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAI' id='GP1338207498332AAAI'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '02</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>39</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAJ' id='GP1338207498332AAAJ'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '04</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>176</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAK' id='GP1338207498332AAAK'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '04</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>53</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAL' id='GP1338207498332AAAL'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '06</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>304</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAM' id='GP1338207498332AAAM'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '06</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>62</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAN' id='GP1338207498332AAAN'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '08</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>370</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAO' id='GP1338207498332AAAO'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '08</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>86</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAP' id='GP1338207498332AAAP'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '10</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>288</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAQ' id='GP1338207498332AAAQ'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '10</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>58</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAR' id='GP1338207498332AAAR'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '11</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>264</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAS' id='GP1338207498332AAAS'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '11</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>58</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAT' id='GP1338207498332AAAT'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>CSCW '12</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>415</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338207498332AAAU' id='GP1338207498332AAAU'><tr><td width='8'>&nbsp;</td><td width='59'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>CSCW '12</td></tr><tr><td width='8'>&nbsp;</td><td width='59'>164</td></tr></table>
+<MAP name='Images_6474231430579189_JPG_map'>
+<AREA shape='rect' coords='0,0,1,1'/>
+<AREA shape="rect" coords="300,151,311,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAU",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAU",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAU",event)'/>
+<AREA shape="rect" coords="289,76,300,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAT",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAT",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAT",event)'/>
+<AREA shape="rect" coords="272,182,283,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAS",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAS",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAS",event)'/>
+<AREA shape="rect" coords="261,121,272,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAR",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAR",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAR",event)'/>
+<AREA shape="rect" coords="244,182,255,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAQ",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAQ",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAQ",event)'/>
+<AREA shape="rect" coords="233,114,244,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAP",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAP",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAP",event)'/>
+<AREA shape="rect" coords="216,174,227,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAO",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAO",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAO",event)'/>
+<AREA shape="rect" coords="205,89,216,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAN",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAN",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAN",event)'/>
+<AREA shape="rect" coords="188,181,199,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAM",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAM",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAM",event)'/>
+<AREA shape="rect" coords="177,109,188,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAL",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAL",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAL",event)'/>
+<AREA shape="rect" coords="160,184,171,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAK",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAK",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAK",event)'/>
+<AREA shape="rect" coords="149,147,160,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAJ",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAJ",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAJ",event)'/>
+<AREA shape="rect" coords="132,188,143,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAI",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAI",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAI",event)'/>
+<AREA shape="rect" coords="121,142,132,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAH",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAH",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAH",event)'/>
+<AREA shape="rect" coords="104,189,115,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAG",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAG",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAG",event)'/>
+<AREA shape="rect" coords="93,140,104,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAF",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAF",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAF",event)'/>
+<AREA shape="rect" coords="76,187,87,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAE",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAE",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAE",event)'/>
+<AREA shape="rect" coords="65,134,76,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAD",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAD",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAD",event)'/>
+<AREA shape="rect" coords="48,187,59,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAC",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAC",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAC",event)'/>
+<AREA shape="rect" coords="37,140,48,199" onMouseover='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAB",event,true)' onMouseout='xx_set_visible("Images_6474231430579189_JPG","GP1338207498332AAAB",event,false)' onMousemove='xx_move_tag("Images_6474231430579189_JPG","GP1338207498332AAAB",event)'/>
+<AREA shape="rect" coords="160,13,227,27"/>
+<AREA shape="rect" coords="89,13,160,27"/>
+</MAP>
+
+<script language="javascript" src="/CFIDE/GraphData.cfm?graphCache=wc50&graphID=script.js"></script>
+
+                                      </td>
+                                      <td style="padding-left:20px;">
+                                             <table style="border-width: 1px; border-style: solid; width:100%;  border-spacing: 6px;" class="text12">
+                                                <tr bgcolor="#ffffff">
+                                                  <th style="width:50%">Year</th>
+                                                  <th  align="right" style="width:15%">Submitted</th>
+                                                  <th  align="right" style="width:15%">Accepted</th>
+                                                  <th  align="center">Rate</th>
+                                                </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>CSCW '94</td>
+                                                            <td align="right">200</td>
+                                                            <td align="right">42</td>
+                                                            <td align="center">21%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>CSCW '98</td>
+                                                            <td align="right">220</td>
+                                                            <td align="right">41</td>
+                                                            <td align="center">19%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>CSCW '00</td>
+                                                            <td align="right">199</td>
+                                                            <td align="right">36</td>
+                                                            <td align="center">18%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>CSCW '02</td>
+                                                            <td align="right">193</td>
+                                                            <td align="right">39</td>
+                                                            <td align="center">20%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>CSCW '04</td>
+                                                            <td align="right">176</td>
+                                                            <td align="right">53</td>
+                                                            <td align="center">30%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>CSCW '06</td>
+                                                            <td align="right">304</td>
+                                                            <td align="right">62</td>
+                                                            <td align="center">20%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>CSCW '08</td>
+                                                            <td align="right">370</td>
+                                                            <td align="right">86</td>
+                                                            <td align="center">23%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>CSCW '10</td>
+                                                            <td align="right">288</td>
+                                                            <td align="right">58</td>
+                                                            <td align="center">20%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>CSCW '11</td>
+                                                            <td align="right">264</td>
+                                                            <td align="right">58</td>
+                                                            <td align="center">22%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>CSCW '12</td>
+                                                            <td align="right">415</td>
+                                                            <td align="right">164</td>
+                                                            <td align="center">40%</td>
+                                                         </tr>
+                                                
+                                                 <tr bgcolor="#f0f0f0">
+                                                    <td><strong>Overall</strong></td>
+                                                    <td align="right">2,629</td>
+                                                    <td align="right">639</td>
+                                                    <td align="center">24%</td>
+                                                  </tr>
+                                                </table>
+                                       </td>
+                                     </tr>
+                               </table>
+                        </td>
+                    </tr>
+                     
+                     
+            
+</table>
+
+
+</table>
+
+
+
+
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="revs" class="small-text"><SPAN class="heading">REVIEWS</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	<br />Reviews are not available for this item
+        
+        <div align="left" style="margin-top:30px">
+					<a title="Computing Reviews" href="ocr_review_main.cfm?CFID=85009850&CFTOKEN=97492815">
+                 <img src="http://dl.acm.org/images/ocrs-s.jpg" alt="Computing Reviews logo" border="0" style="vertical-align:middle"></a>
+        
+        
+       		<ul style="list-style:disc; display:inline-block">
+	            <li>Access <a href="ocr_review_main.cfm?CFID=85009850&CFTOKEN=97492815" target="_blank">critical reviews</a> of computing literature.</li>
+            	<li><a href="http://www.computingreviews.com/Reviewer/"  target="_blank">Become a reviewer</a> for Computing Reviews</li>
+            </ul>
+        </div>
+        
+</div>
+
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="comments" class="small-text"><SPAN class="heading">COMMENTS</SPAN></A></h1>
+         
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<div>
+<div>
+	
+	<p style="margin-left:5px;">
+    <strong>Be the first to comment</strong>
+    	
+          	To Post a comment please <a href="signin.cfm?CFID=85009850&CFTOKEN=97492815">sign in or create</a> a free Web account</a>
+        
+    
+    
+	 </p>
+	   	
+ 
+</div>
+
+
+</div>
+
+	
+		<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="prox" class="small-text">Table of Contents</A></h1>
+        
+<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;" >
+
+<h5 style="margin-bottom:0px; margin-top:0px" class="medium-text">Proceedings of the 1988 ACM conference on Computer-supported cooperative work</h5>
+
+
+<h5 class="medium-text" style="margin-bottom:10px; margin-top:10px;">Table of Contents</h5>
+
+<div style="clear:both">
+    
+        <div style="margin-top:5px; margin-bottom: 10px;" class="small-text"><a href="citation.cfm?id=637069&picked=prox&CFID=85009850&CFTOKEN=97492815" title="previous: CSCW '86"><img hspace="5" align="absmiddle" border="0" src="img/prev.gif" width="19" height="11" alt="previous" />previous proceeding</a> <span style="padding-left:5px;padding-right:5px;">|</span><a href="citation.cfm?id=99332&picked=prox&CFID=85009850&CFTOKEN=97492815" title="Next: CSCW '90">next proceeding <img align="absmiddle" hspace="5" border="0" src="img/next.gif" width="19" height="11" alt="next" /></a></div>
+        
+</div>
+
+
+ 
+<table class="text12" border="0">
+
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62267&CFID=85009850&CFTOKEN=97492815">Patterns of contact and communication in scientific research collaboration</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81328489038&CFID=85009850&CFTOKEN=97492815">Robert Kraut</a>, 
+                        <a href="author_page.cfm?id=81100130164&CFID=85009850&CFTOKEN=97492815">Carmen Egido</a>, 
+                        <a href="author_page.cfm?id=81100592253&CFID=85009850&CFTOKEN=97492815">Jolene Galegher</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 1 - 12</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62267" title="DOI">10.1145/62266.62267</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62267&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow1" style="display:inline;"><br /><div style="display:inline">In this paper, we describe the influence of physical proximity on the development of collaborative relationships between scientific researchers and on the execution of their work. Our evidence is drawn from our own studies of scientific collaborators, ...</div></span>
+          <span id="toHide1" style="display:none;"><br /><div style="display:inline"><par><italic>In this paper, we describe the influence of physical proximity on the development of collaborative relationships between scientific researchers and on the execution of their work. Our evidence is drawn from our own studies of scientific collaborators, as well as from observations of research and development activities collected by other investigators. These descriptions provide the foundation for a discussion of the actual and potential role of communications technology in professional work, especially for collaborations carried out at a distance.</italic></par>
+</div></span> <a id="expcoll1" href="JavaScript: expandcollapse('expcoll1',1)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62268&CFID=85009850&CFTOKEN=97492815">Video conferencing as a technology to support group work: a review of its failures</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100130164&CFID=85009850&CFTOKEN=97492815">Carmen Egido</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 13 - 24</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62268" title="DOI">10.1145/62266.62268</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62268&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow2" style="display:inline;"><br /><div style="display:inline">Teleconferencing systems and services, are the main set of technologies developed thus far to support group work. Within this set of technologies, videoconferencing is often thought of as a new, futuristic communication mode that lies between ...</div></span>
+          <span id="toHide2" style="display:none;"><br /><div style="display:inline"><par><italic>Teleconferencing systems and services, are the main set of technologies developed thus far to support group work. Within this set of technologies, videoconferencing is often thought of as a new, futuristic communication mode that lies between the telephone call and the face-to-face meeting. In fact, videoconferencing has been commercially available for over two decades, and, despite consistently brilliant market forecasts, to date it has failed to succeed except in limited niche markets. This paper reviews existing teleconferencing literature and provides an analysis of the reasons behind the failure of videoconferencing.</italic></par>
+</div></span> <a id="expcoll2" href="JavaScript: expandcollapse('expcoll2',2)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62269&CFID=85009850&CFTOKEN=97492815">Design of a multi-media vehicle for social browsing</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100201167&CFID=85009850&CFTOKEN=97492815">Robert W. Root</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 25 - 38</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62269" title="DOI">10.1145/62266.62269</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62269&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow3" style="display:inline;"><br /><div style="display:inline">In this paper we present a new approach to the use of computer-mediated communications technology to support distributed cooperative work. In contrast to most of the existing approaches to CSCW, we focus explicitly on tools to enable unplanned, ...</div></span>
+          <span id="toHide3" style="display:none;"><br /><div style="display:inline"><par><italic>In this paper we present a new approach to the use of computer-mediated communications technology to support distributed cooperative work. In contrast to most of the existing approaches to CSCW, we focus explicitly on tools to enable unplanned, informal social interaction. We describe a &ldquo;social interface&rdquo; which provides direct, low-cost access to other people through the use of multi-media communications channels. The design of the system centers around three basic concepts derived from the research literature and our own observations of the workplace: social browsing, a virtual workplace, and interaction protocols. We use these design properties to describe a new system concept, and examine the implications for CSCW of having automated social interaction available through the desktop workstation.</italic></par>
+</div></span> <a id="expcoll3" href="JavaScript: expandcollapse('expcoll3',3)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62270&CFID=85009850&CFTOKEN=97492815">Computer support for biomedical work groups</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100099349&CFID=85009850&CFTOKEN=97492815">G. Anthony Gorry</a>, 
+                        <a href="author_page.cfm?id=81100577130&CFID=85009850&CFTOKEN=97492815">Andrew M. Burger</a>, 
+                        <a href="author_page.cfm?id=81100240275&CFID=85009850&CFTOKEN=97492815">R. Jesse Chaney</a>, 
+                        <a href="author_page.cfm?id=81332513218&CFID=85009850&CFTOKEN=97492815">Kevin B. Long</a>, 
+                        <a href="author_page.cfm?id=81100318603&CFID=85009850&CFTOKEN=97492815">Christina M. Tausk</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 39 - 51</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62270" title="DOI">10.1145/62266.62270</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62270&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62271&CFID=85009850&CFTOKEN=97492815">Who's in charge here?: Cooperative work and authority negotiation in police helicopter missions</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100097861&CFID=85009850&CFTOKEN=97492815">Charlotte Linde</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 52 - 64</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62271" title="DOI">10.1145/62266.62271</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62271&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62272&CFID=85009850&CFTOKEN=97492815">Computerized medical records, production pressure and compartmentalization in the work activity of health center physicians</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100082121&CFID=85009850&CFTOKEN=97492815">Yrjo Engestrom</a>, 
+                        <a href="author_page.cfm?id=81100082119&CFID=85009850&CFTOKEN=97492815">Ritva Engestrom</a>, 
+                        <a href="author_page.cfm?id=81100049298&CFID=85009850&CFTOKEN=97492815">Osmo Saarelma</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 65 - 84</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62272" title="DOI">10.1145/62266.62272</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62272&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62273&CFID=85009850&CFTOKEN=97492815">Why CSCW applications fail: problems in the design and evaluationof organizational interfaces</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100031531&CFID=85009850&CFTOKEN=97492815">Jonathan Grudin</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 85 - 93</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62273" title="DOI">10.1145/62266.62273</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62273&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62274&CFID=85009850&CFTOKEN=97492815">Encountering electronic work groups: a transaction costs perspective</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100517944&CFID=85009850&CFTOKEN=97492815">Claudio Ciborra</a>, 
+                        <a href="author_page.cfm?id=81100178475&CFID=85009850&CFTOKEN=97492815">Margrethe H. Olson</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 94 - 101</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62274" title="DOI">10.1145/62266.62274</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62274&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62275&CFID=85009850&CFTOKEN=97492815">In search of cooperation: an historical analysis of work organization and management strategies</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100260349&CFID=85009850&CFTOKEN=97492815">Joan Greenbaum</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 102 - 114</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62275" title="DOI">10.1145/62266.62275</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62275&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow9" style="display:inline;"><br /><div style="display:inline">During the last decade, literature about work has increasingly focused on the importance of collective communication, tacit knowledge, and group activities. The idea of designing computer support for group-based work activities, which we loosely call ...</div></span>
+          <span id="toHide9" style="display:none;"><br /><div style="display:inline"><par>During the last decade, literature about work has increasingly focused on the importance of collective communication, tacit knowledge, and group activities. The idea of designing computer support for group-based work activities, which we loosely call 'cooperative work', is a useful and challenging one, for it represents a break from design approaches that focused on centralized and bureaucratic systems of communication and control.</par>
+<par>To get a clearer idea of the meaning of cooperative work, this article will look at historical patterns of work organization and management strategies. It will contrast user-centered concepts of cooperative work, with the idea of seeing cooperative work in the context of democracy in the workplace. The focus on workplace democracy has been a main theme in the Scandinavian systems tradition. The article uses the Scandinavian tradition, with its roots in a Labor Process Approach as a way to analyze the meaning of cooperation for workplace democracy and its implication for the design of computer support.</par>
+</div></span> <a id="expcoll9" href="JavaScript: expandcollapse('expcoll9',9)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62276&CFID=85009850&CFTOKEN=97492815">Object lens: a &ldquo;spreadsheet&rdquo; for cooperative work</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81452599096&CFID=85009850&CFTOKEN=97492815">Kum-Yew Lai</a>, 
+                        <a href="author_page.cfm?id=81100548740&CFID=85009850&CFTOKEN=97492815">Thomas W. Malone</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 115 - 124</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62276" title="DOI">10.1145/62266.62276</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62276&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow10" style="display:inline;"><br /><div style="display:inline">Object Lens allows unsophisticated computer users to create their own cooperative work applications using a set of simple, but powerful, building blocks. By defining and modifying templates for various semistructured objects, users represent ...</div></span>
+          <span id="toHide10" style="display:none;"><br /><div style="display:inline"><par>Object Lens allows unsophisticated computer users to create their own cooperative work applications using a set of simple, but powerful, building blocks. By defining and modifying templates for various <italic>semistructured objects</italic>, users represent many different kinds of information. By creating <italic>semiautonomous agents</italic>, users specify rules for automatically processing this information in different situations.</par>
+<par>The combination of these primitives provides a single consistent interface that integrates facilities for object-oriented databases, hypertext, electronic messaging, and rule-based intelligent agents. To illustrate the power of this combined approach, we describe several simple examples of applications (such as task tracking, intelligent message routing, and database retrieval) that we have developed in this framework.</par>
+</div></span> <a id="expcoll10" href="JavaScript: expandcollapse('expcoll10',10)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62277&CFID=85009850&CFTOKEN=97492815">Local and global structuring of computer mediated communication: developing linguistic perspectives on CSCW in cosmos</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100260889&CFID=85009850&CFTOKEN=97492815">John Bowers</a>, 
+                        <a href="author_page.cfm?id=81100039689&CFID=85009850&CFTOKEN=97492815">John Churcher</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 125 - 139</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62277" title="DOI">10.1145/62266.62277</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62277&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow11" style="display:inline;"><br /><div style="display:inline">This paper is concerned with the development of a language/action perspective in the Cosmos project. We emphasize the importance of seeing cooperative work in terms of participants' communicative actions. In contrast to some explorations of speech act ...</div></span>
+          <span id="toHide11" style="display:none;"><br /><div style="display:inline"><par>This paper is concerned with the development of a language/action perspective in the Cosmos project. We emphasize the importance of seeing cooperative work in terms of participants' communicative actions. In contrast to some explorations of speech act theory, we argue that communicative actions should be seen as essentially embedded in dialogical contexts. In particular, we attempt to show the relevance of concepts derived from the analysis of actually occurring conversations, for computer mediated communication in general and cooperative work in particular. We distinguish between local and global structuring of communication and argue that many group working situations combine both sorts. These observations have influenced our work in the Cosmos project on the design of a structure definition language (SDL) by means of which users can configure their computer mediated communication environment. We describe SDL and show how its interpretation is influenced by our conversation analytic approach. We illustrate our arguments with an example of cooperative document preparation.</par>
+</div></span> <a id="expcoll11" href="JavaScript: expandcollapse('expcoll11',11)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62278&CFID=85009850&CFTOKEN=97492815">gIBIS: a hypertext tool for exploratory policy discussion</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100053243&CFID=85009850&CFTOKEN=97492815">Jeff Conklin</a>, 
+                        <a href="author_page.cfm?id=81100267346&CFID=85009850&CFTOKEN=97492815">Michael L. Begeman</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 140 - 152</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62278" title="DOI">10.1145/62266.62278</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62278&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow12" style="display:inline;"><br /><div style="display:inline">This paper describes an application specific hypertext system designed to facilitate the capture of early design deliberations. It implements a specific method, called Issue Based Information Systems (IBIS), which has been developed for use on large, ...</div></span>
+          <span id="toHide12" style="display:none;"><br /><div style="display:inline"><par>This paper describes an application specific hypertext system designed to facilitate the capture of early design deliberations. It implements a specific method, called Issue Based Information Systems (IBIS), which has been developed for use on large, complex design problems. The hypertext system described here, gIBIS (for graphical IBIS), makes use of color and a high speed relational database server to facilitate building and browsing typed IBIS networks. Further. gIBIS is designed to support the collaborative construction of these networks by any number of cooperating team members spread across a local area network. Early experiments suggest that the IBIS method is still incomplete, but there is a good match between the tool and method even in this experimental version.</par>
+</div></span> <a id="expcoll12" href="JavaScript: expandcollapse('expcoll12',12)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62279&CFID=85009850&CFTOKEN=97492815">Can networks make an organization?</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100036080&CFID=85009850&CFTOKEN=97492815">Tamar Bermann</a>, 
+                        <a href="author_page.cfm?id=81100326869&CFID=85009850&CFTOKEN=97492815">Kari Thoresen</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 153 - 166</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62279" title="DOI">10.1145/62266.62279</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62279&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow13" style="display:inline;"><br /><div style="display:inline">Based on earlier work in Scandinavia, systems development is seen as both reflecting and shaping organizations. An ongoing action-research project at a large municipal hospital in Norway is taken as an example.
+This is a cooperative project in which ...</div></span>
+          <span id="toHide13" style="display:none;"><br /><div style="display:inline"><par>Based on earlier work in Scandinavia, systems development is seen as both reflecting and shaping organizations. An ongoing action-research project at a large municipal hospital in Norway is taken as an example.</par>
+<par>This is a cooperative project in which nursing supervisors and researchers participate in shaping a learning process and designing a computer system.</par>
+<par>Some inherent contradictions, conflicts and challenges are indicated. Strengthening cooperation among themselves was the main reason for the nurses to embark on the project. It may be assumed that neither good intentions, nor the most advanced technology for cooperative work will necessarily result in a product which enhances cooperation and mutual support.</par>
+</div></span> <a id="expcoll13" href="JavaScript: expandcollapse('expcoll13',13)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62280&CFID=85009850&CFTOKEN=97492815">The memoirs of two survivors: or the evaluation of a computer system for cooperative work</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100589856&CFID=85009850&CFTOKEN=97492815">Gro Bjerknes</a>, 
+                        <a href="author_page.cfm?id=81100008893&CFID=85009850&CFTOKEN=97492815">Tone Bratteteig</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 167 - 177</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62280" title="DOI">10.1145/62266.62280</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62280&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow14" style="display:inline;"><br /><div style="display:inline">The paper you hold in your hands tells the story of the last evaluation meeting in the Florence project. The Florence project dealt with use of computers in nurses' daily work, and in the project a small and rather simple computer system was developed. ...</div></span>
+          <span id="toHide14" style="display:none;"><br /><div style="display:inline"><par>The paper you hold in your hands tells the story of the last evaluation meeting in the Florence project. The Florence project dealt with use of computers in nurses' daily work, and in the project a small and rather simple computer system was developed. The computer system was intended to support cooperative aspects of the nurses' work. During the evaluation meeting it turned out that the nurses find the system useful, even though they cannot fully explain why. Thus we may say that we survived The Ultimate Test of the computer system.</par>
+</div></span> <a id="expcoll14" href="JavaScript: expandcollapse('expcoll14',14)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62281&CFID=85009850&CFTOKEN=97492815">Designing for a dollar a day</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100435567&CFID=85009850&CFTOKEN=97492815">Morten Kyng</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 178 - 188</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62281" title="DOI">10.1145/62266.62281</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62281&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow15" style="display:inline;"><br /><div style="display:inline">This paper is about the kind of tools and techniques that are accessible to resource weak groups for use in design and evaluation of computer support. &ldquo;Resource weak&rdquo; means in this connection, that the economic power and the ability to control ...</div></span>
+          <span id="toHide15" style="display:none;"><br /><div style="display:inline"><par>This paper is about the kind of tools and techniques that are accessible to resource weak groups for use in design and evaluation of computer support. &ldquo;Resource weak&rdquo; means in this connection, that the economic power and the ability to control the &ldquo;local environment&rdquo; of the group is limited. The human resources of such groups are often (potentially) strong, but restrained by the organization of work and society; and although the tools are cheap the activities are demanding in terms of human resources. This kind of work should be seen as a supplement to participation in design processes controlled by others. When end users participate in projects set up by management, these &ldquo;lay&rdquo; designers often lack familiarity with the tools and techniques, they lack the power and resources to influence the choice of questions to be considered, and they are not the ones deciding how to utilize the results of a design project when actually changing the workplace.</par>
+<par>To give the context of the work on which the paper is based, I first describe the Scandinavian tradition of trade union based end user participation in systems development. Then I discuss some of the issues involved in improving the conditions for independent end user design activities. I go on by presenting a set of &ldquo;cheap tools&rdquo; and techniques, including the use mockup's. This set covers the issues of establishing the possibility of alternatives, of creating visions of new and different uses of technology, and of designing computer support. A central question in relation to the tools and techniques, is their accessibility to end users, and I discuss this based on the notions of family resemblance and &ldquo;hands-on&rdquo; experience.</par>
+</div></span> <a id="expcoll15" href="JavaScript: expandcollapse('expcoll15',15)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=570362&CFID=85009850&CFTOKEN=97492815">Communication, coordination, and group performance (Panel Session)</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100229614&CFID=85009850&CFTOKEN=97492815">Tora K. Bikson</a>, 
+                        <a href="author_page.cfm?id=81100151460&CFID=85009850&CFTOKEN=97492815">James H. Bair</a>, 
+                        <a href="author_page.cfm?id=81100470058&CFID=85009850&CFTOKEN=97492815">Richard E. Barry</a>, 
+                        <a href="author_page.cfm?id=81100174948&CFID=85009850&CFTOKEN=97492815">Charles E. Grantham</a>, 
+                        <a href="author_page.cfm?id=81100454567&CFID=85009850&CFTOKEN=97492815">Terry Winograd</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 189 - 190</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.570362" title="DOI">10.1145/62266.570362</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=570363&CFID=85009850&CFTOKEN=97492815">CSCW&mdash;what does it mean? (Panel Session)</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100465973&CFID=85009850&CFTOKEN=97492815">Liam Bannon</a>, 
+                        <a href="author_page.cfm?id=81100029313&CFID=85009850&CFTOKEN=97492815">Pelle Ehn</a>, 
+                        <a href="author_page.cfm?id=81100427186&CFID=85009850&CFTOKEN=97492815">Irene Greif</a>, 
+                        <a href="author_page.cfm?id=81344492045&CFID=85009850&CFTOKEN=97492815">Robert Howard</a>, 
+                        <a href="author_page.cfm?id=81332509256&CFID=85009850&CFTOKEN=97492815">Rob Kling</a>, 
+                        <a href="author_page.cfm?id=81339529960&CFID=85009850&CFTOKEN=97492815">Mark Stefik</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 191 - 192</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.570363" title="DOI">10.1145/62266.570363</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62282&CFID=85009850&CFTOKEN=97492815">Collaborative document production using quilt</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81341492883&CFID=85009850&CFTOKEN=97492815">Mary D. P. Leland</a>, 
+                        <a href="author_page.cfm?id=81332498460&CFID=85009850&CFTOKEN=97492815">Robert S. Fish</a>, 
+                        <a href="author_page.cfm?id=81328489038&CFID=85009850&CFTOKEN=97492815">Robert E. Kraut</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 206 - 215</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62282" title="DOI">10.1145/62266.62282</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62282&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow18" style="display:inline;"><br /><div style="display:inline">Quilt is a computer-based tool for collaborative document production. It provides annotation, messaging, computer conferencing, and notification facilities to support communication and information sharing among the collaborators on a document. ...</div></span>
+          <span id="toHide18" style="display:none;"><br /><div style="display:inline"><par><italic>Quilt is a computer-based tool for collaborative document production. It provides annotation, messaging, computer conferencing, and notification facilities to support communication and information sharing among the collaborators on a document. Views of a document tailored to individual collaborators or to other of the document's users are provided by Quilt based on the user's position in a permission hierarchy that reflects an extensible set of social roles and communication types. This paper illustrates how Quilt could be used by collaborators to produce a document.</italic></par>
+</div></span> <a id="expcoll18" href="JavaScript: expandcollapse('expcoll18',18)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62283&CFID=85009850&CFTOKEN=97492815">Guided tours and tabletops: tools for communicating in a hypertext environment</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100607598&CFID=85009850&CFTOKEN=97492815">Randall H. Trigg</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 216 - 226</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62283" title="DOI">10.1145/62266.62283</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62283&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow19" style="display:inline;"><br /><div style="display:inline">The author of a complex hypertext document is often faced with the problem of conveying the document's meaning to future readers through a shared computer environment. Two tools implemented in the NoteCards hypertext environment, guided tours ...</div></span>
+          <span id="toHide19" style="display:none;"><br /><div style="display:inline"><par>The author of a complex hypertext document is often faced with the problem of conveying the document's meaning to future readers through a shared computer environment. Two tools implemented in the NoteCards hypertext environment, <italic>guided tours</italic> and <italic>tabletops</italic>, allow authors to employ annotation, graphic layout and ordered presentation when communicating to readers. This paper describes these tools and gives examples of their use. Issues of remote deictic reference arising from an application in legal argumentation are discussed as well as early work on the use of these tools to support sharing of hypertext strategies among NoteCards users.</par>
+</div></span> <a id="expcoll19" href="JavaScript: expandcollapse('expcoll19',19)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62284&CFID=85009850&CFTOKEN=97492815">Conflict management and group decision support systems</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100361512&CFID=85009850&CFTOKEN=97492815">Marshall Scott Poole</a>, 
+                        <a href="author_page.cfm?id=81332504879&CFID=85009850&CFTOKEN=97492815">Michael Homes</a>, 
+                        <a href="author_page.cfm?id=81100188522&CFID=85009850&CFTOKEN=97492815">Gerardine DeSanctis</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 227 - 243</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62284" title="DOI">10.1145/62266.62284</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62284&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow20" style="display:inline;"><br /><div style="display:inline">Computers promise to change collaborative work in profound ways. They are likely to have special impact on processes which require fine judgments, foresight, and handling of large amounts of information, such as decision-making and strategic planning. ...</div></span>
+          <span id="toHide20" style="display:none;"><br /><div style="display:inline"><par>Computers promise to change collaborative work in profound ways. They are likely to have special impact on processes which require fine judgments, foresight, and handling of large amounts of information, such as decision-making and strategic planning. Several authors (Huber, 1984; Kraemer and King, 1986) have discussed the potential benefits of decision support systems for organizational decision-making.</par>
+<par>Group decision support systems (GDSSs) combine communication, computer, and decision support technologies to support problem formulation and solution in group meetings. Communication technologies include electronic messaging, local and wide-area networks, teleconferencing, and store-and-forward facilities. Computer technologies include multi-user operating systems, fourth generation languages, databases, data analysis facilities, and data storage and modification capabilities. Decision support technologies include agenda-setting decision modelling methods (such as decision trees, risk analysis forecasting methods, and multiattribute utility functions), structured group methods (e.g., Nominal Group and Delphi Techniques), and rules for directing group discussion. DeSanctis and Gallupe (1987) have distinguished two levels of GDSS. A level 1 GDSS provides features to eliminate communication barriers, such as large screens for display of ideas, voting solicitation, and anonymous input of ideas and preferences. A level 2 GDSS provides problem-structuring techniques, such as automated planning tools, modelling packages, and information libraries. Level 2 thus represents an enhanced GDSS, as opposed to Level 1, which is a communication medium only.</par>
+<par>GDSSs can be tailored to tackle critical situations decision-makers face. One of the most ubiquitous and potentially troublesome situations is interpersonal conflict. Several features of GDSSs can play a key role in conflict management, including methods for the identification of conflict, structured agendas that guide the group through discussion of the conflict, utilities for clarifying the nature of the problem and for generating alternative solutions, and structures that promote members' participation. A few GDSSs have been specifically designed to manage conflicts (e.g., Sainfort, Gustafson, and Bosworth, 1987). However, these tend to be concerned with specific problem types, such as family conflict, and are not well-adapted for dealing with general conflicts.</par>
+<par>In this article we will focus on how a nonspecialized multipurpose GDSS influences conflict management in groups. It is this type of GDSS that groups will most often use to deal with conflicts. Groups will not always have the time or inclination to switch into specialized conflict management routines, and what routines there are will rarely fit the specific problems groups face. Moreover, to assume a special routine is needed to deal with conflicts is to assume conflict is somehow distinct from group decision-making. On the contrary, we believe conflict is part and parcel of all collaborative work. So we will study how varying levels of conflict emerge and are handled within a GDSS.</par>
+<par>The GDSS used for this search is a &ldquo;generic&rdquo;, level I system, version 1.0 of the University of Minnesota SAMM GDSS system (DeSanctis and Gallupe, 1987; Desanctis, Watson, and Sambamurthy, in press). The level 1 version of SAMM is designed to facilitate group communication and organize group interaction. It was purposely designed to embody a widely-used decision procedure, Dewey's Reflective Thinking Model, along with a few popular methods of deciding&mdash;rating, ranking, and voting. It purposely omits some of the more advanced features that could and would be incorporated in Level 2 systems (and are available in later versions of SAMM). This was done so we could compare work by groups using the GDSS with that of groups using manual versions of the same procedures.</par>
+<par>In the next section we will first consider the effects GDSSs are likely to have on conflict management and advance several research questions and predictions. Following this we will describe a study designed to ascertain these effects.</par>
+</div></span> <a id="expcoll20" href="JavaScript: expandcollapse('expcoll20',20)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62285&CFID=85009850&CFTOKEN=97492815">A framework for understanding the workspace activity of design teams</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81405592014&CFID=85009850&CFTOKEN=97492815">John C. Tang</a>, 
+                        <a href="author_page.cfm?id=81100593658&CFID=85009850&CFTOKEN=97492815">Larry J. Leifer</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 244 - 249</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62285" title="DOI">10.1145/62266.62285</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62285&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow21" style="display:inline;"><br /><div style="display:inline">Small group design sessions were empirically studied to understand better collaborative workspace activity. A conventional view of workspace activity may be characterized as concerned only with storing information and conveying ideas through text and ...</div></span>
+          <span id="toHide21" style="display:none;"><br /><div style="display:inline"><par>Small group design sessions were empirically studied to understand better collaborative workspace activity. A conventional view of workspace activity may be characterized as concerned only with storing information and conveying ideas through text and graphics. Empirical evidence shows that this view is deficient in not accounting for how the workspace is used: a) in a group setting, rather than by an individual, and b) as part of a process of constructing artifacts, rather than just a medium for the resulting artifacts themselves. An understanding of workspace activity needs to include the role of gestural activity, and the use of the workspace to develop ideas and mediate interaction. A framework that helps illustrate an expanded view of workspace activity is proposed and supported with empirical data.</par>
+</div></span> <a id="expcoll21" href="JavaScript: expandcollapse('expcoll21',21)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62286&CFID=85009850&CFTOKEN=97492815">A use of drawing surfaces in different collaborative settings</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100274421&CFID=85009850&CFTOKEN=97492815">Sara A. Bly</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 250 - 256</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62286" title="DOI">10.1145/62266.62286</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62286&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow22" style="display:inline;"><br /><div style="display:inline">Two-person design sessions were studied in three different settings: face-to-face, geographically separated with an audio/video link, and a telephone-only connection. In all settings, the designers' uses of a drawing surface were noted. Many ...</div></span>
+          <span id="toHide22" style="display:none;"><br /><div style="display:inline"><par><italic>Two-person design sessions were studied in three different settings: face-to-face, geographically separated with an audio/video link, and a telephone-only connection. In all settings, the designers' uses of a drawing surface were noted. Many similar drawing surface activities occurred in all design settings even though the settings did not each allow for the same sharing and interaction with the drawing surfaces. Observations suggest that the process of creating drawings may be as important to the design process as the drawings themselves. These preliminary results raise issues for further study, particularly with respect to computer support for collaborative drawing surface use.</italic></par>
+</div></span> <a id="expcoll22" href="JavaScript: expandcollapse('expcoll22',22)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62287&CFID=85009850&CFTOKEN=97492815">Capturing the capture concepts: a case study in the design of computer-supported meeting environments</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100372271&CFID=85009850&CFTOKEN=97492815">Marilyn Mantei</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 257 - 270</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62287" title="DOI">10.1145/62266.62287</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62287&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow23" style="display:inline;"><br /><div style="display:inline">Designing interactive interfaces for individual usage is a significantly hard task that is being surmounted by evolving theory and hours of trial and error. The task of designing interactive interfaces for cooperative work is even more difficult. Not ...</div></span>
+          <span id="toHide23" style="display:none;"><br /><div style="display:inline"><par>Designing interactive interfaces for individual usage is a significantly hard task that is being surmounted by evolving theory and hours of trial and error. The task of designing interactive interfaces for cooperative work is even more difficult. Not only is it necessary to deal with the individual's cognitive processes and model of the computer aided task, but also to build software to support human - human communication with all the underlying socialization and group dynamics that this communication implies.</par>
+<par>In the development of the Capture Lab environment, guesswork was coupled with a study of human behavior in meetings both electronic and conventional, an extrapolation of existing research and a series of mini-experiments to test out various ideas about the design. These approaches are described in the body of the paper along with the design considerations at issue and the meeting behaviors we have since observed as a result of our design choices.</par>
+</div></span> <a id="expcoll23" href="JavaScript: expandcollapse('expcoll23',23)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62288&CFID=85009850&CFTOKEN=97492815">Children's collaborative use of a computer microworld</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100308007&CFID=85009850&CFTOKEN=97492815">Janice Singer</a>, 
+                        <a href="author_page.cfm?id=81100021016&CFID=85009850&CFTOKEN=97492815">Stephanie D. Behrend</a>, 
+                        <a href="author_page.cfm?id=81100424334&CFID=85009850&CFTOKEN=97492815">Jeremy Roschelle</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 271 - 281</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62288" title="DOI">10.1145/62266.62288</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62288&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow24" style="display:inline;"><br /><div style="display:inline">This paper will discuss a framework and methodology for understanding the use of computers in collaborative learning. In particular, we are interested in how learning occurs when students work together using a computer microworld. Collaborative settings ...</div></span>
+          <span id="toHide24" style="display:none;"><br /><div style="display:inline"><par>This paper will discuss a framework and methodology for understanding the use of computers in collaborative learning. In particular, we are interested in how learning occurs when students work together using a computer microworld. Collaborative settings provide a particularly rich environment for studying learning. Many theorists (see Brown and Palinscar, in press) have proposed that learning occurs when students have to explain, develop, or justify their ideas to others. In a collaborative setting, students communicate their ideas in order to coordinate their activity towards shared goals. When dilemmas arise in the course of productive work, the combination of communication and activity can lead to learning (Vygotsky 1978, Dewey 1923, Mead 1934).</par>
+<par>The microworld used in this studies, the &ldquo;Envisioning Machine&rdquo; (Roschelle, 1987) was designed to help students learn Newtonian physics. The Envisioning Machine presents students with an interactive graphical simulation of the Newtonian concepts of velocity and acceleration. This graphical model was intended to be an externalization of the mental models that physicists use when solving problems.</par>
+<par>Originally we thought that by manipulating and observing graphical objects on the computer screen, students would internalize correct Newtonian models of velocity and acceleration. However, our observations of pairs of students interacting with the Envisioning Machine has lead us to adopt an alternate view. Students do not simply internalize an external model. Instead, they continually invent interpretations of the model as they interact with it. Though students work by developing their own interpretations, these interpretations converge towards the target concepts.</par>
+<par>The methodology we present helps us to understand how students collaboratively invent, develop, and refine their ideas. We are interested in how interactions both between the students and the computer and between the students themselves enables them to move from one state of knowledge to the next. These interactions form the basis for cognitive and social activities that support the evolution and eventual rejection or acceptance of ideas.</par>
+<par>In the body of this paper, we examine characteristics of the microworld and the students learn process. First, we present a characterization of the Envisioning Machine as a computer-supported collaborative learning environment. We propose that this environment can be viewed as a Notational System. Second, we present our methodology with a case study that illustrates how one pair of students learn in this environment.</par>
+</div></span> <a id="expcoll24" href="JavaScript: expandcollapse('expcoll24',24)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62289&CFID=85009850&CFTOKEN=97492815">Collaborative learning in a virtual classroom: highlights of findings</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81452617202&CFID=85009850&CFTOKEN=97492815">Starr Roxanne Hiltz</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 282 - 290</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62289" title="DOI">10.1145/62266.62289</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62289&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow25" style="display:inline;"><br /><div style="display:inline">Software to support teaching and learning activities was added to a computer-mediated communication system to create a &ldquo;Virtual Classroom.&rdquo; Goals included improving access to and the effectiveness of college-level courses, particularly by ...</div></span>
+          <span id="toHide25" style="display:none;"><br /><div style="display:inline"><par>Software to support teaching and learning activities was added to a computer-mediated communication system to create a &ldquo;Virtual Classroom.&rdquo; Goals included improving access to and the effectiveness of college-level courses, particularly by facilitating collaborative learning. Process and outcomes were compared for sections of several courses taught in the traditional classroom, totally online, or in mixed mode. On the average, students report that the Virtual Classroom provides a better learning experience.</par>
+</div></span> <a id="expcoll25" href="JavaScript: expandcollapse('expcoll25',25)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62290&CFID=85009850&CFTOKEN=97492815">Sixth graders and shared data: designing a LAN environment to support collaborative work</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100017447&CFID=85009850&CFTOKEN=97492815">Denis Newman</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 291 - 305</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62290" title="DOI">10.1145/62266.62290</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62290&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow26" style="display:inline;"><br /><div style="display:inline">A local area network system was developed to support collaborative science activities in sixth grade classrooms. Analyses of the students' understandings of the system showed they used the social organization of the classroom activities as a frame of ...</div></span>
+          <span id="toHide26" style="display:none;"><br /><div style="display:inline"><par>A local area network system was developed to support collaborative science activities in sixth grade classrooms. Analyses of the students' understandings of the system showed they used the social organization of the classroom activities as a frame of reference. Their misconceptions are accounted for by the ways that the system did not properly reflect the activities in which the students were engaged.</par>
+</div></span> <a id="expcoll26" href="JavaScript: expandcollapse('expcoll26',26)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62291&CFID=85009850&CFTOKEN=97492815">Cooperative work in the Andrew message system</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100065714&CFID=85009850&CFTOKEN=97492815">Nathaniel S. Borenstein</a>, 
+                        <a href="author_page.cfm?id=81100420869&CFID=85009850&CFTOKEN=97492815">Chris A. Thyberg</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 306 - 323</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62291" title="DOI">10.1145/62266.62291</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62291&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow27" style="display:inline;"><br /><div style="display:inline">The Andrew Message System, a distributed system for multi-media electronic communication, has a number of special features that support cooperative work. After a brief discussion of the system itself, these features are described and discussed in more ...</div></span>
+          <span id="toHide27" style="display:none;"><br /><div style="display:inline"><par>The Andrew Message System, a distributed system for multi-media electronic communication, has a number of special features that support cooperative work. After a brief discussion of the system itself, these features are described and discussed in more detail. Examples of how organizations actually use these features are then presented and discussed, with particular attention paid to the &ldquo;Advisor&rdquo; system for electronic consulting.</par>
+</div></span> <a id="expcoll27" href="JavaScript: expandcollapse('expcoll27',27)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62292&CFID=85009850&CFTOKEN=97492815">Work group structures and computer support: a field experiment</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100445104&CFID=85009850&CFTOKEN=97492815">J. D. Eveland</a>, 
+                        <a href="author_page.cfm?id=81100229614&CFID=85009850&CFTOKEN=97492815">Tora K. Bikson</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 324 - 343</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62292" title="DOI">10.1145/62266.62292</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62292&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow28" style="display:inline;"><br /><div style="display:inline">What happens when task groups attempt to couple the advantages of online text preparation or data analysis and decision support with computer-based communication capabilities? How, if at all, does networked information technology affect group structures ...</div></span>
+          <span id="toHide28" style="display:none;"><br /><div style="display:inline"><par>What happens when task groups attempt to couple the advantages of online text preparation or data analysis and decision support with computer-based communication capabilities? How, if at all, does networked information technology affect group structures and interaction processes? And do positive answers to these questions depend on having a technology rich environment with computer-sophisticated individuals to start with, or could almost anyone reap significant advantages if provided with basic computer and communications technology?</par>
+<par>For the last several years, RAND's Institute for Research on Interactive Systems has been pursuing research about the ways electronic information media may influence work groups&mdash;their structures, patterns of individual interaction, experiences of task and social involvement.<supscrpt>1</supscrpt> Among the questions that have recurred are the following.</par>
+<par>When work groups get access to computer-based media for handling information and communication tasks, do their structures change? Do they move closer to or further from formally established organizational structures? Do group positions (e.g., leader roles, assistant roles) stay the same or change?</par>
+<par>Do computer-supported groups overcome physical barriers to interaction (e.g., space or time constraints)? Do they overcome pre-existing social barriers (e.g., status differences)? Do they form tight clusters (&ldquo;electronic islands&rdquo;) or are they overlapping and not sharply defined (&ldquo;loose bundles&rdquo;)?</par>
+<par>How if at all do networked information technologies affect the amount or density of interaction in a group? How do they affect extent of members' integration within a group? Or centralization? Or communication across groups?</par>
+<par>How do these new technologies affect social communication among group members? How do they affect experienced task involvement? Do these media tend to &ldquo;diffuse,&rdquo; to spread and include other users and other uses? Do these media supplant or supplement other means for exchanging information and coordinating group tasks?</par>
+<par>Our research to date has focused largely on the work group as the critical unit of analysis, and on the overall context in which such units are embedded. Our findings support Kling and Scacchi's (1982) view that any interactive technology introduced into a work group will be more like a &ldquo;web&rdquo; than like a discrete entity. When a web of interactive technology is introduced into a work group, the sociotechnical system is altered; work groups increasingly become &ldquo;directly dependent on their material means and resources for their output&rdquo; (Trist, 1981; cf. Taylor, 1987; Bikson and Eveland, 1986; Johnson and Rice, 1987; Pava, 1983). That is to say, individuals become interdependent not only on one another but also on the technology for accomplishing their tasks; access to and control over the &ldquo;means of production&rdquo; assume greater importance. While the avenues for group work and the means for managing it may have multiplied, new challenges are introduced along with the technology that pre-existing social structures may be ill-prepared to handle. New patterns are likely to emerge.</par>
+<par>Our previous studies of effects of electronic communication (Eveland and Bikson, 1987) allowed us to control type of communications hardware and software as well as its relationship to other computer-based tools; but it did not permit us to evaluate the extent to which network structures and interaction patterns that emerged over time were influenced by the new technology in comparison to ongoing social relationships, task differences, and other factors. It could not reveal how, if at all, computer-supported work group structures and processes differed from those that would be observed in groups employing standard interaction media.</par>
+<par>We decided, then, that getting at our basic research questions required a field experiment&mdash; a procedure that would allow us randomly to assign group members to computer-based vs. traditional support in the completion of identical work goals as well as to design and control the introduction of new information and communications technology. An effective design, it seemed to us, should also have the following characteristics:
+<par>If individuals are expected to become familiar with new information technology, accomplish a meaningful goal, and in the process have an opportunity to form or reform work structures and social relations, it would require an intervention of about a year's time.</par>
+<par>Further, if individuals in both the &ldquo;electronic&rdquo; and &ldquo;standard&rdquo; conditions were to participate in a year-long effort, a strong mission focus was essential&mdash;the goal for group activity and the role of communication would have to be highly motivating.</par>
+<par>Also, for non-collocated individuals to agree to take part (and to continue their participation) in randomly assigned groups, they should be selected from a common &ldquo;community&rdquo;; that is; they should come from a common culture, share some concerns, and have some reason to think they might want to work with one another (cf. Markus, 1987).<supscrpt>2</supscrpt></par></par>
+</div></span> <a id="expcoll28" href="JavaScript: expandcollapse('expcoll28',28)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62293&CFID=85009850&CFTOKEN=97492815">More than just a communication system: diversity in the use of electronic mail</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100236706&CFID=85009850&CFTOKEN=97492815">Wendy E. Mackay</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 344 - 353</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62293" title="DOI">10.1145/62266.62293</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62293&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow29" style="display:inline;"><br /><div style="display:inline">This paper describes a series of interviews that focus on the ways that professional office workers use electronic mail to manage their daily work. A number of implications for the design of flexible mail systems are discussed.
+Two principal claims are ...</div></span>
+          <span id="toHide29" style="display:none;"><br /><div style="display:inline"><par>This paper describes a series of interviews that focus on the ways that professional office workers use electronic mail to manage their daily work. A number of implications for the design of flexible mail systems are discussed.</par>
+<par>Two principal claims are made. First, electronic mail is more than just a communication system. In addition to supporting information management, it provides a mechanism for supporting a variety of time management and task management activities. Some people are <italic>prioritizers</italic>, concentrating on the problem of managing incoming messages. Others are <italic>archivers</italic>, concentrating on how to archive information for subsequent use. Similarly, some people use mail to <italic>delegate</italic> tasks, while others <italic>perform</italic> tasks delegated to them by others electronically.</par>
+<par>The second claim is that use of electronic mail is strikingly diverse, although not infinitely so. Individuals vary in their preferences, both in their general willingness to manage their work electronically and in their specific preferences along the dimensions described above. This diversity implies that one's own experiences with electronic mail are unlikely to provide sufficient understanding of other's uses of mail. Mail designers should thus seek flexible primitives that capture the important dimensions and provide flexibility for a wide range of users.</par>
+</div></span> <a id="expcoll29" href="JavaScript: expandcollapse('expcoll29',29)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62294&CFID=85009850&CFTOKEN=97492815">The communicative economy of the workgroup: multi-channel genres of communication</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81332522825&CFID=85009850&CFTOKEN=97492815">Stephen Reder</a>, 
+                        <a href="author_page.cfm?id=81100233780&CFID=85009850&CFTOKEN=97492815">Robert G. Schwab</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 354 - 368</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62294" title="DOI">10.1145/62266.62294</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62294&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62295&CFID=85009850&CFTOKEN=97492815">Contextualism as a world view for the reformation of meetings</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100512851&CFID=85009850&CFTOKEN=97492815">John Whiteside</a>, 
+                        <a href="author_page.cfm?id=81100285993&CFID=85009850&CFTOKEN=97492815">Dennis Wixon</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 369 - 376</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62295" title="DOI">10.1145/62266.62295</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62295&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow31" style="display:inline;"><br /><div style="display:inline">The foundations for research and action in the area of group work are examined. Four alternative &ldquo;world views&rdquo; are presented. One of these, contextualism, is discussed in depth. Its methodological consequences for research and implications ...</div></span>
+          <span id="toHide31" style="display:none;"><br /><div style="display:inline"><par>The foundations for research and action in the area of group work are examined. Four alternative &ldquo;world views&rdquo; are presented. One of these, contextualism, is discussed in depth. Its methodological consequences for research and implications for reform of group meetings are explored.</par>
+</div></span> <a id="expcoll31" href="JavaScript: expandcollapse('expcoll31',31)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=62296&CFID=85009850&CFTOKEN=97492815">Computer support for cooperative design (invited paper)</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100076676&CFID=85009850&CFTOKEN=97492815">Susanne B&#248;dker</a>, 
+                        <a href="author_page.cfm?id=81100029313&CFID=85009850&CFTOKEN=97492815">Pelle Ehn</a>, 
+                        <a href="author_page.cfm?id=81100413303&CFID=85009850&CFTOKEN=97492815">Joergen Knudsen</a>, 
+                        <a href="author_page.cfm?id=81100435567&CFID=85009850&CFTOKEN=97492815">Morten Kyng</a>, 
+                        <a href="author_page.cfm?id=81100505962&CFID=85009850&CFTOKEN=97492815">Kim Madsen</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 377 - 394</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/62266.62296" title="DOI">10.1145/62266.62296</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=62296&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:0">
+          <span id="toShow32" style="display:inline;"><br /><div style="display:inline">Computer support for design as cooperative work is the subject of our discussion in the context of our research program on Computer Support in Cooperative Design and Communication. We outline our theoretical perspective on design as cooperative work, ...</div></span>
+          <span id="toHide32" style="display:none;"><br /><div style="display:inline"><par>Computer support for design as cooperative work is the subject of our discussion in the context of our research program on Computer Support in Cooperative Design and Communication. We outline our theoretical perspective on design as cooperative work, and we exemplify our approach with reflections from a project on computer support for envisionment in design &mdash; the APLEX and its use. We see envisionment facilities as support for both experiments with and communication about the future use situation. As a background we sketch the historical roots of our program &mdash; the Scandinavian collective resource approach to design and use of computer artifacts, and make some critical reflections on the rationality of computer support for cooperative work.</par>
+</div></span> <a id="expcoll32" href="JavaScript: expandcollapse('expcoll32',32)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SECTION: <strong>Online Only</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1024798&CFID=85009850&CFTOKEN=97492815">Replicated document management in a group communication system</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100333563&CFID=85009850&CFTOKEN=97492815">Leonard Kawell, Jr.</a>, 
+                        <a href="author_page.cfm?id=81100257980&CFID=85009850&CFTOKEN=97492815">Steven Beckhardt</a>, 
+                        <a href="author_page.cfm?id=81100243078&CFID=85009850&CFTOKEN=97492815">Timothy Halvorsen</a>, 
+                        <a href="author_page.cfm?id=81100653908&CFID=85009850&CFTOKEN=97492815">Raymond Ozzie</a>, 
+                        <a href="author_page.cfm?id=81100427186&CFID=85009850&CFTOKEN=97492815">Irene Greif</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Page: 395</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/62266.1024798" title="DOI">10.1145/62266.1024798</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1024798&type=pdf&CFID=85009850&CFTOKEN=97492815" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+</table>
+
+
+</div> 
+</div>
+
+
+ <p class="small-text" align="center">Powered by <a id="theguide" name="theguide" href="javascript:ColdFusion.Window.show('theguide')"><img src="img/poweredbyacm.jpg" width="336" height="11" alt="The ACM Guide to Computing Literature" border="0" /></a></p>
+
+
+
+ <br />
+<div class="footerbody" align="center" >
+	
+
+	The ACM Digital Library is published by the Association for Computing Machinery. Copyright &copy; 2012 ACM, Inc.<br />
+	<a href="http://www.acm.org/publications/policies/usage">Terms of Usage</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/privacy-policy">Privacy Policy</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/code-of-ethics">Code of Ethics</a>&nbsp;&nbsp;	  
+	<a href="http://www.acm.org/about/contact-us">Contact Us</a>
+
+<br /><br />
+Useful downloads: 
+<a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="http://dl.acm.org/images/pdf_logo.gif" width="16" height="16" alt="" border="0" /> Adobe Acrobat</a>
+&nbsp;&nbsp;
+<a href="http://www.apple.com/quicktime/download/" target="_blank"><img src="http://dl.acm.org/images/qtlogo.gif" width="16" height="16" alt="" border="0" /> QuickTime</a>
+&nbsp;&nbsp;
+<a href="http://www.microsoft.com/windows/windowsmedia/download/default.asp" target="_blank"><img src="http://dl.acm.org/images/wmv.gif" width="16" height="15" alt="" border="0" /> Windows Media Player</a>
+&nbsp;&nbsp;
+<a href="http://www.real.com/" target="_blank"><img src="http://dl.acm.org/images/realplayer.gif" width="20" height="18" alt="" border="0" /> Real Player</a>
+
+</div> 
+
+
+
+<div  id="cf_window1338207497829" class="yuiextdlg">
+	
+	<div  id="theguide_title" class="x-dlg-hd">
+		The ACM Guide to Computing Literature
+	 </div>
+	<div  id="theguide_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338207497832" class="yuiextdlg">
+	
+	<div  id="thetags_title" class="x-dlg-hd">
+		All Tags
+	 </div>
+	<div  id="thetags_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338207497835" class="yuiextdlg">
+	
+	<div  id="theformats_title" class="x-dlg-hd">
+		Export Formats
+	 </div>
+	<div  id="theformats_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338207497837" class="yuiextdlg">
+	
+	<div  id="theexplaination_title" class="x-dlg-hd">
+		&nbsp;
+	 </div>
+	<div  id="theexplaination_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338207497839" class="yuiextdlg">
+	
+	<div  id="theservices_title" class="x-dlg-hd">
+		&nbsp;
+	 </div>
+	<div  id="theservices_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338207497841" class="yuiextdlg">
+	
+	<div  id="savetobinder_title" class="x-dlg-hd">
+		Save to Binder
+	 </div>
+	<div  id="savetobinder_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> 
+  <script language="JavaScript">
+      window.onload = setDiv;
+  </script>
+
+
+</body>
+</html>

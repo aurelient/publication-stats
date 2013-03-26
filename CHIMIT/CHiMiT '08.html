@@ -1,0 +1,2289 @@
+
+
+
+<!doctype html>
+
+
+<head><script type="text/javascript">_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_clientid='4516E96FC5D21EB535819AFCDE4413DB';</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/yui/ext-yui-adapter.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-core.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/resizable.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/dragdrop/dragdrop.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/util.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/build/state/State-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/widget-core.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/dialog/dialogs.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/cf/cf.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/dl.css" />
+
+
+
+<title>Proceedings of the 2nd ACM Symposium on Computer Human Interaction for Management of Information Technology</title>
+<style type="text/css"><!--
+    body {margin-left: 0em; margin-top: 0}
+    a:link {text-decoration: underline; 	Color: #1d4d0f;}
+    a:visited  { color: #990033; text-decoration: underline;}
+    a:hover {color: red; text-decoration: none}
+    a.dLink1:link {color:#336699}
+    a.dLink1:visited {color:#666666}
+	a.isblack:link {text-decoration: underline; 	Color: #000000;}
+    a.isblack:visited  { color: #000000; text-decoration: underline;}
+    a.isblack:hover {color: #000000; text-decoration: none}
+    h1 {font-size: 140%; margin-bottom: 0}
+	ul {margin-top: .25em; list-style-type: disc}
+	ol {margin-top: .25em;}
+	li {padding-bottom: .25em}
+    h2 {color: white; background-color: #069; 
+        font-size: 100%; padding-left: 1em;
+		margin: 0}
+	h3 {color: black; background-color: yellow; 
+    	font-size: 100%;
+		margin: 0}
+	 h4 {color: black; background-color: #99c5e8; 
+        font-size: 100%;
+		margin: 0}
+    hr {color: #39176d;}
+    form {margin-top: 10}
+    form.xrs {margin-top: 0}
+	
+	a {text-decoration: none; }
+	
+	input {font-size: 1em;}
+	.chevron {color: #ff0000;}
+	.light-blue {color:#336699;}
+	.black {color:#000000;}
+	
+	/* ### standard text styles, smallest to largest ### */
+	
+	.footer-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .75em; line-height: 1.33em;
+		text-indent: -.75 em; margin-left: 2em; margin-right: .75em;}
+		
+	.footer-copy-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em; line-height: 1.3em;
+		margin-left: .75em; margin-right: .75em;}
+		
+	.small-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; padding-bottom : 2px;
+	  	padding-top : 2px;}
+
+	.smallerer-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .65em;}
+	.smaller-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em;}		
+	.small-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em;}
+	.small-textb {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; font-weight: bold;}
+	.medium-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em;}
+	.mediumb-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em; font-weight: bold;}
+	.large-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1.3em;}		
+	.instr-text {font-family: Arial, Helvetica, sans-serif;
+		color:#666666; font-size: .83em;}
+		
+	.list-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .83em; line-height: 1.3em;}
+	.list-link-btext {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; line-height: 1.3em;}
+	
+	.searchbox-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;}
+	.footer-header-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;
+		margin-left: .75em; margin-right: .75em;}
+	.medium-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold; line-height: 1em;
+		text-indent: -1.25em; margin-left: 2em; margin-right: .75em;}
+	
+	.text16 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 16px;}
+		
+	.text14 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 14px;}
+	
+	.text12 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 12px;}
+		
+	.text10 {font-family: Arial, Helvetica, sans-serif;
+	    color:#000000; font-size: 12px;}
+		
+	.text9 {font-family: Arial, Helvetica, sans-serif;
+	   color:#000000; font-size: 12px;}
+	
+	.error-text {color:red;}
+	
+	.small-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: .75em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+
+	.medium-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1.3em; line-height: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.medium-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+
+		#side {
+			width: 10px;
+			float: left;
+			margin-left: -1px;
+			padding: 2px;
+			}
+							
+		#content {
+			padding: 2px;
+			margin-left: 25px;
+			
+		        
+		        }
+	 .fulltext_lnk {border:0px;
+	 				 margin-right: 2px;
+					 vertical-align:baseline;
+	 				}
+	 
+	  .leftcoltab { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:530px;  /* for IE5/WIN */
+		  width:520px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	  .rightcoltab {
+    float: right;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    right: 50px;
+    top: 25px;
+    width: 350px;
+    z-index: 99;
+}
+	  .centercoltab {
+		  position:absolute;
+		  padding:0 0px;
+		  }
+	  .alt {
+		background: #ece9d8;
+		margin: 0;
+		padding: 1px;
+		}
+		.leftcolc { 
+	position:relative;
+	top:5px;
+	left:5px;
+	float:left;
+	width:420px;  /* for IE5/WIN */
+	width:400px; /* actual value */
+	margin:0 0 0px 0;
+	padding:5px;
+	z-index:100;
+	}
+.rightcolc {
+	position:relative;
+	top:0px;
+	right:0px;
+	float:right;
+	margin:0 0px;
+	padding:0px;
+	width:500px;
+	z-index:99;
+	}
+.centercolc {
+	position:absolute;
+	padding:0 0px;
+	}
+	
+	.leftcoltabv { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:460px;  /* for IE5/WIN */
+		  width:350px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	.rightcoltabv {
+		position:relative;
+		top:5px;
+		right:0px;
+		float:right;
+		margin:0 0px 0 0;
+		padding:15px;
+		width:480px;
+		z-index:99;
+		}
+	
+  --></style>
+ 
+
+
+<script type="text/javascript" src="cfformprotect/js/cffp.js"></script>
+
+
+<script type="text/javascript">
+ function expandcollapse(anchor,whichone) {
+	 var inner = document.getElementById(anchor);
+	 var theshow = "toShow" + whichone;
+ 	 var thehide = "toHide" + whichone;
+	 var span = document.getElementById(theshow);
+     span.style.display = (span.style.display=='inline')?'none':'inline';
+     var span = document.getElementById(thehide);
+     span.style.display = (span.style.display=='none')?'inline':'none';
+     inner.innerHTML = (inner.innerHTML=='collapse')?'expand':'collapse';
+    }
+
+  function setDiv() {
+	var m = document.getElementById('divmain');
+	var mh = m.offsetHeight;
+	var t = document.getElementById('divtools');
+	var th = t.offsetHeight;
+	var tg = document.getElementById('divtags');
+	var tgh = tg.offsetHeight;
+	var calcheight = mh - th;
+	if (tgh > calcheight  ){
+	  var x = (th + tgh) - mh;
+	  if ( (th + tgh) - mh < 65) {
+	  }
+	  else {
+		 document.getElementById('divtags').innerHTML = ""; 
+		 var tg = document.getElementById('divtags');
+		 var tgh = tg.offsetHeight;
+		 tg.style.height = tgh  + 'px';
+	  }
+	}
+	else {
+		tg.style.height = calcheight + 'px';
+		document.getElementById('divtags').innerHTML = "";
+	}
+
+//  do I need to check after I resize to be sure I didn't go too big?
+//	var tg2 = document.getElementById('divtags');
+//	var tgh2 = tg.offsetHeight;	
+//	if (tgh2 > mh + 65) {
+//	  var y = mh + 65;
+//	  alert('expanded too much ' + tgh2 + ' should be at most ' + y);
+//	  tg.style.height = y + 'px';
+//	  document.getElementById('divtags').innerHTML = "";
+//	}
+
+  }
+</script>
+
+<script type="text/javascript">
+ /* <!-- Begin
+	if(document.layers || document.all) {
+	a = 1;
+	setInterval("Jump()", 10);
+	}
+	function Jump() {
+	a = a + 1;
+	//self.moveBy((Math.random() * a * 2 - a), (Math.random() * a * 2) - a);
+	}
+//  End --> */
+</script>
+
+
+
+<meta name="citation_publisher" content="ACM"> <meta name="citation_authors" content="General Chair-Frisch, AEleen; General Chair-Kandogan, Eser; Program Chair-Lutters, Wayne; Program Chair-Thornton, Jim; Program Chair-Mouloua, Mustapha"> <meta name="citation_title" content="Proceedings of the 2nd ACM Symposium on Computer Human Interaction for Management of Information Technology"> <meta name="citation_date" content="11/14/2008"> <meta name="citation_isbn" content="978-1-60558-355-6"> <meta name="citation_abstract_html_url" content="http://dl.acm.org/citation.cfm?id=1477973"> 
+
+
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFFORM');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFDIV');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFWINDOW');
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338245408414=function()
+	{
+		_cf_bind_init_1338245408415=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'theguide_body','bindExpr':['whatisguide.cfm']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338245408415);var _cf_window=ColdFusion.Window.create('theguide','The ACM Guide to Computing Literature','whatisguide.cfm',{ modal:false, closable:true, divid:'cf_window1338245408413', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338245408414);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338245408417=function()
+	{
+		_cf_bind_init_1338245408418=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'thetags_body','bindExpr':['showthetags.cfm?id=1477973']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338245408418);var _cf_window=ColdFusion.Window.create('thetags','All Tags','showthetags.cfm?id=1477973',{ modal:false, closable:true, divid:'cf_window1338245408416', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338245408417);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338245408420=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theformats','Export Formats','',{ modal:false, closable:true, divid:'cf_window1338245408419', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:250, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338245408420);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338245408422=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theexplaination','','',{ modal:false, closable:true, divid:'cf_window1338245408421', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338245408422);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338245408424=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theservices','','',{ modal:false, closable:true, divid:'cf_window1338245408423', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338245408424);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338245408426=function()
+	{
+		_cf_bind_init_1338245408427=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'savetobinder_body','bindExpr':['savetobinder.cfm?id=1477973']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338245408427);var _cf_window=ColdFusion.Window.create('savetobinder','Save to Binder','savetobinder.cfm?id=1477973',{ modal:false, closable:true, divid:'cf_window1338245408425', draggable:true, resizable:true, fixedcenter:true, width:600, height:600, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false, _cf_refreshOnShow:true});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338245408426);
+</script>
+</head>
+
+<body style="text-align:center" onLoad="window.focus();">
+
+<script type="text/javascript">
+						addthis_pub             = 'acm'; 
+						//addthis_logo            = 'http://www.addthis.com/images/yourlogo.png';
+						addthis_logo            = 'http://dl.acm.org/images/ACM_transparent.png';
+						addthis_logo_background = 'c2d5fc';
+						addthis_logo_color      = '000000';
+						addthis_brand           = 'Citation Page';
+						addthis_options         = 'favorites, email, slashdot, citeulike, digg, delicious, twitter, myspace, facebook, google, more';
+						</script>
+                        
+<script src='AC_RunActiveContent.js' type="text/javascript"></script>
+
+
+
+
+<div style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+<a id="CIT"></a>
+
+
+
+<table style="table-layout:fixed; margin-top: 5px; margin-bottom: 10px; border:0px; width:100%; border-collapse:collapse;">
+	
+    <tr style="vertical-align:top">
+		
+		<td style="padding-left: 5px; padding-right:10px; padding-bottom:0px; width:300px" class="small-link-text"  ><img src="http://dl.acm.org/images/ACMDL_Logo.jpg" alt="ACM DL" style="border:0px" usemap="#port" />
+		</td>
+        
+        <td style="padding-left: 5px; padding-right:10px; padding-bottom:0px;" class="small-link-text">
+        	<table style="width:100%; border-collapse:collapse; padding:0px">
+			<tr><td style="text-align:center">
+				
+                            <div style="margin:0px auto;color:#356b20;font-size:10pt;line-height:10%;"> </div>
+                    
+					</td>		
+			</tr>
+			</table> 
+        </td>
+		<td style="padding-top: 0px; padding-left: 0px; padding-bottom:0px; text-align:right;" class="small-link-text">
+			 <p style="margin-top:0px; margin-bottom:10px;">
+					
+                            <a href="https://dl.acm.org/signin.cfm?cfid=85081666&amp;cftoken=18700997" class="small-link-text" title="Sign in to personalize your Digital Library experience">SIGN IN</a>
+                            &nbsp;&nbsp;<a href="https://dl.acm.org/signin.cfm?cfid=85081666&amp;cftoken=18700997"  class="small-link-text" title="Sign up to personalize your Digital Library experience">SIGN UP</a>
+						
+			 </p>
+            
+			<table style="padding: 5px; border-collapse:collapse; float:right">
+				
+				
+                            
+                            <tr>
+                            <td class="small-link-text" style="text-align:right">
+                            <form name="qiksearch" action="results.cfm?h=1&amp;cfid=85081666&amp;cftoken=18700997" method="post">
+                           
+                           
+                            
+                                     
+                                    <span style="margin-left:0px"><label><input type="text" name="query" size="34" value=" " /></label>&nbsp;
+                                    <input style="vertical-align:top;" type="image" alt="Search" name="Go" src="http://dl.acm.org/images/search_small.jpg" />
+                                    
+                                    </span>
+							  </form>
+                                </td>
+                            </tr>
+                          
+				  
+			</table>
+
+			
+			
+		</td>
+
+	</tr>
+    
+    
+    <tr><td colspan="3" class="small-link-text" style="padding-bottom:5px; padding-top:0px; text-align:center">
+		<div style="margin:0px auto;color:#356b20;line-height:10%;"> </div>
+         
+         </td>
+    </tr>
+    </table>
+	
+<map name="port" id="port" > 
+  <area shape="rect" coords="1,1,60,50" href="http://www.acm.org/" alt="ACM Home Page" />
+  <area shape="rect" coords="65,1,275,68" href="http://dl.acm.org/dl.cfm?CFID=85081666&CFTOKEN=18700997" alt="ACM Digital Library Home Page" />
+</map>
+
+<table style="table-layout:fixed; padding-bottom:10px; width:100%; padding:0px;">
+	<tr style="vertical-align:top">
+		<td style="padding-right:10px; text-align:left" class="small-link-text">
+        	<div id="divmain" style="border:1px solid #356b20;">
+				 
+				<div class="large-text" style="text-align:left; margin-left:2px;margin-bottom:5px;">
+					
+                    	<h1 class="mediumb-text" style="margin-top:0px; margin-bottom:0px;"><strong>Proceedings of the 2nd ACM Symposium on Computer Human Interaction for Management of Information Technology</strong></h1>
+                        
+                </div>
+                
+                  
+
+<table class="medium-text" style="border-collapse:collapse; padding:0px;">
+
+<col style="width:540px" />
+
+<tr style="vertical-align:top">
+  <td>
+    <table style="border-collapse:collapse; padding:2px;" class="medium-text">
+      <col style="width:80px;" />
+      <col style="width:auto" />
+      <tr style="vertical-align:top">
+        
+      </tr>
+    </table>
+
+	
+        <table style="margin-top: 10px; border-collapse:collapse; padding:2px;" class="medium-text">
+            <col style="width:80px" />
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             General Chairs:
+                
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100574834&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=85081666&amp;cftoken=18700997" title="Author Profile Page" target="_self">AEleen Frisch</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <small>Exponential</small>
+                    	
+            </td>
+            </tr>
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100204008&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=85081666&amp;cftoken=18700997" title="Author Profile Page" target="_self">Eser Kandogan</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <a href="inst_page.cfm?id=1011639&CFID=85081666&CFTOKEN=18700997" title="Institutional Profile Page"><small>IBM Research</small></a>
+                      	
+            </td>
+            </tr>
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             Program Chairs:
+                
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100142970&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=85081666&amp;cftoken=18700997" title="Author Profile Page" target="_self">Wayne Lutters</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <small>UMBC</small>
+                    	
+            </td>
+            </tr>
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81387602397&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=85081666&amp;cftoken=18700997" title="Author Profile Page" target="_self">Jim Thornton</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <small>PARC</small>
+                    	
+            </td>
+            </tr>
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81387610380&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=85081666&amp;cftoken=18700997" title="Author Profile Page" target="_self">Mustapha Mouloua</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <small>UCF & UTF</small>
+                    	
+            </td>
+            </tr>
+            
+        </table>
+    
+
+  </td>
+
+  <td rowspan="20" nowrap="nowrap">
+	<table border="0" class="medium-text" cellpadding="0" cellspacing="0">
+		<tr>
+        	<td align="center" style="padding-bottom: 5px;">
+			  
+               
+              </td>
+              <td valign="top" align="left" nowrap="nowrap">
+	             <img src="images/acm_mini.jpg" title="Published by ACM" alt="Published by ACM" /> 2008 Proceeding<br />
+                 
+        	 </td>
+        </tr>
+        
+        <tr>
+        	<td colspan="2" valign="baseline" style="padding-bottom:5px;">
+            <img src="img/stats.jpg" alt="Bibliometrics Data" />&nbsp;
+            <a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a>
+            </td>
+         </tr>
+         <tr>
+            <td  class="small-text" colspan="2" valign="top" style="padding-left:30px;">
+				
+	                    	&middot;&nbsp;Downloads (6 Weeks): 66<br />
+    	                    &middot;&nbsp;Downloads (12 Months): 588<br />
+                          
+                        &middot;&nbsp;Citation Count: 28 
+			</td>
+         </tr>
+
+	</table>
+  </td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table border="0" class="medium-text" cellpadding="2" cellspacing="0">
+
+<tr valign="top">
+    <td colspan="3"><table border="0" class="medium-text" cellpadding="1" cellspacing="0">
+
+<tr valign="top">
+    <td nowrap="nowrap" style="padding-top:10px;">Publication of:</td>
+</tr>
+
+	<tr valign="top">
+    	<td nowrap="nowrap" style="padding-bottom:0px">&middot;&nbsp;Conference</td>
+	</tr>
+    <tr valign="top">
+	    <td style="padding-left:10px;">
+		   <a href="http://www.chimit08.org" title="Conference Website"  target="_self" class="link-text">CHiMiT '08</a> Computer Human Interaction for the Management of Information Technology 
+        </td>
+	</tr>
+    
+    <tr valign="top">
+	    <td style="padding-left:10px; padding-bottom:10px"> San Diego, CA, USA &mdash; November 14 - 15, 2008
+                    
+                  <br />
+                    
+                  <a href="http://www.acm.org/publications" class="small-link-text" title="ACM">ACM</a> <span class="small-link-text">New York, NY</span><span class="small-link-text">, USA</span> <span class="small-link-text">  &copy;2008</span> 
+                  <br />           
+                  
+      </td>
+	</tr>
+	 
+
+</table></td>
+</tr>
+
+</table>
+
+                  
+                 <br clear="all" />
+			</div>
+			
+		</td>
+		<td style="padding-left: 5px; vertical-align:top; text-align:left; width:170px" class="small-link-text">
+	
+            <div id="divtools" style="background-color:#ece9d8; text-align:left; padding-top:5px; padding-bottom:5px; ">
+              <div class="medium-text" style="margin-left:3px; margin-top:10px;"><h1 class="mediumb-text" style="margin-top:-15px;"><strong>Tools and Resources</strong></h1></div>
+
+
+<ul title="Tools and Resources" style="list-style: none; list-style-position:inside;
+margin-left: 0px;
+padding-left: 0em;
+text-indent: 5px;
+margin-bottom: 0px;">
+
+
+<li style="list-style-image:url(img/toc_small.gif);margin-top:10px;"><span style="margin-left:6px;">
+   <span class="small-link-text">TOC Service:</span>
+   	  
+	  <img src="http://dl.acm.org/images/blanks.gif" border="0" alt="Spacer Image reserves space for checkmark when TOC Service is updated" name="saved" />
+      <ul style="margin-left: 0; padding-left: 0; display:inline;">
+      	
+        <li style="list-style:none; display:inline"><br /><img src="img/email_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Email</a></li>
+        <li style="list-style:none; display:inline"><img src="img/rss_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');"  class="small-link-text">RSS</a></li>
+		        
+      </ul>
+    </span>
+</li>
+
+        <li style="list-style-image:url(img/binder.gif);margin-top:10px;"><span style="margin-left:6px;">
+        <a href="citation.cfm?id=1477973&preflayout=flat#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Save to Binder</a>
+         </span></li>
+    
+
+
+
+
+<li style="list-style-image:url(img/binder_green.gif);margin-top:10px;"><span style="margin-left:6px; margin-bottom:0px">
+   <span class="small-link-text">Export Formats:</span>
+      <ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=1477973&expformat=bibtex','theformats');" class="small-link-text">BibTeX</a></li>
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=1477973&expformat=endnotes','theformats');" class="small-link-text">EndNote</a></li>
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=1477973&expformat=acmref','theformats');" class="small-link-text">ACM&nbsp;Ref</a></li>
+      </ul>
+    </span>
+</li>
+
+
+
+
+
+
+</ul>           
+
+  <!-- ADDTHIS BUTTON BEGIN -->
+  
+  <!-- ADDTHIS BUTTON END -->
+
+<p class="small-link-text" style="padding-top: 0px; margin-left:6px; margin-bottom:0px">Share:</p>
+  <!-- AddThis Button BEGIN -->
+
+
+
+<!-- AddThis Button BEGIN -->
+<div style="margin-left:5px;" class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_email"></a>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_slashdot"></a>
+<a class="addthis_button_reddit"></a>
+
+
+<span class="addthis_separator">|</span>
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=acm" class="addthis_button_expanded" title="more"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=acm"></script>
+<!-- AddThis Button END -->
+
+  
+ 
+
+  
+  
+            </div>
+            
+		</td>
+	</tr>
+    
+</table>
+
+
+
+</div>
+
+
+<div class="layout" style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+
+
+
+
+<div id="fback" style="text-align:left; padding-top:10px; padding-bottom:20px">
+<span class="small-text" style="padding-right:10px; margin-bottom:0px;">
+<a title="feedback" href="mailto:portal-feedback@hq.acm.org?subject=Comments_on_new_design" style=" vertical-align:middle"><img src="img/feedbackg.gif" width="20" height="19" alt="feedback" border="0" /></a>
+<a title="feedback" href="mailto:portal-feedback@hq.acm.org?subject=Comments_on_new_design"><strong>Feedback</strong></a>
+
+<span style="padding:10px;">|</span>
+
+
+
+
+<span>Switch to <a href="citation.cfm?id=1477973&amp;preflayout=tabs">tabbed view</a> <noscript> (javascript required)</noscript></span>
+
+
+</span>
+
+ 
+<div class="small-text" style="margin-top:10px; margin-bottom:5px;"> 
+<br />
+
+    <a href="#abstract"  title="Abstract" style="padding:5px"><span>Abstract</span></a> |
+    
+    <a href="#formats"  title="Source Materials" style="padding:5px"><span>Source Materials</span></a> |
+    
+    <a href="#authors"  title="Authors" style="padding:5px"><span>Authors</span></a> |
+    <a href="#references"  title="References" style="padding:5px"><span style='color:#999999'>References</span></a> |
+    <a href="#citedby"  title="Cited By" style="padding:5px"><span>Cited By</span></a> |
+    <a href="#indexterms"  title="Index Terms" style="padding:5px"><span style='color:#999999'>Index Terms</span></a> |
+    <a href="#source"  title="Publication" style="padding:5px"><span>Publication</span></a> |
+    <a href="#revs"  title="Reviews" style="padding:5px"><span style='color:#999999'>Reviews</span></a> |               
+	<a href="#comments"  title="Comments" style="padding:5px"><span>Comments</span></a>
+	
+     |               
+	<a href="#prox"  title="Table of Contents" style="padding:5px"><span>Table of Contents</span></a>
+    
+</div>
+    
+<div style="right: 0pt; border-top:1px solid #356b20; font-size:1px; margin-bottom:20px;"/>
+
+
+
+</div>
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="abstract" class="small-text">ABSTRACT</A></h1>
+       	
+			<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+			
+
+		
+			
+           
+			
+				
+				<p>
+					<div style="display:inline"><p>On behalf of the ACM CHIMIT 08 Committee, it is a pleasure for us to welcome you to San Diego, California, for the 2nd ACM Symposium on Computer Human Interaction for Management of Information Technology.</p> <p>Started in 2007, ACM CHIMIT Symposium is becoming the leading forum for discussing topics on IT management with a focus on people, business, and technology. This year's program is expanded to two full days to accommodate a richer program and create opportunities for informal gatherings to build a well-connected community.</p> <p>The technical program includes several opportunities for participants to share their problems, findings, and solutions. The call for papers attracted 24 full paper and 9 poster submissions. Through a rigorous review, where each paper received a minimum of 4 reviews, 7 full papers (acceptance ratio %29) and 7 posters (acceptance ratio %78) were selected to be presented on a variety of topics including workplace studies, system management tools, and usable security.</p> <p>This year we also started a new contribution category, experience reports, to allow contributors share insights from actual practice. While experience reports category is particularly targeted at practitioners, our goal is to connect researchers with practitioners' real-life problems. We hope that the panel on System Administration UIs, with panelists from leading IT companies, will also encourage researchers to think about designing for complexity.</p> <p>There are two plenary talks by two leaders in the field. David Blank-Edelman of Northeastern University will deliver a "from the trenches" talk to discuss tools in system administration, and Bill Rouse will discuss Human-Centered Design, as a process to bring together all stakeholders for the design of complex systems. The technical program also includes an invited talk by Paul Anderson to dive deep into a very important area in IT management-system configuration.</p></div>
+				</p>
+   				
+           	</div>
+			
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="formats" class="small-text"><SPAN class="heading">SOURCE MATERIALS</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+  <div class="abstract">
+        <SPAN><strong>FRONT MATTER</strong></span>
+  </div>
+  <div style="margin-left:10px; line-height:180%;">
+      
+          <A NAME="FullText" HREF="http://portalparts.acm.org/1480000/1477973/fm/frontmatter.pdf?ip=188.194.239.219&CFID=85081666&CFTOKEN=18700997" title="PDF" target="_blank">
+          <img src="http://dl.acm.org/imagetypes/pdf_logo.gif" alt="PDF" border="0" align="middle" style="margin-right: 2px">PDF</A>
+          &nbsp;Front matter (Foreword, Committees, Copyright, Program overview, Plenary, Invited Talk, Panel, Papers, Posters, Reports, Index) 
+  </div>          
+  
+<div style="margin-top: 10px; height: auto; padding: 5px; ">
+		
+		
+        
+
+
+	</div>
+
+<br clear="all" />
+</div>
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="authors" class="small-text"><SPAN class="heading">AUTHORS</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<dl title="Authors" style="margin-top:0px">
+
+
+
+
+<dt style="float: left; clear: left; width: 100%; margin-top: 0px; margin-bottom: 0px;">
+ <strong>
+ General Chairs 
+  </strong>
+ </dt> 
+          
+          <dd style="margin: 0 0 0 60px; padding: 0 0 0.5em 0;">
+			
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of AEleen Frisch" href="author_page.cfm?id=81100574834&CFID=85081666&CFTOKEN=18700997">AEleen Frisch</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1991-2007</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">12</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">14</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">2</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">0</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">6</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of AEleen Frisch" href="author_page.cfm?id=81100574834&amp;dsp=coll&amp;trk=1&amp;CFID=85081666&CFTOKEN=18700997" target="_self">View colleagues</a> of AEleen Frisch
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Eser Kandogan" href="author_page.cfm?id=81100204008&CFID=85081666&CFTOKEN=18700997">Eser Kandogan</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1996-2011</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">26</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">281</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">17</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">718</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">8,079</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Eser Kandogan" href="author_page.cfm?id=81100204008&amp;dsp=coll&amp;trk=1&amp;CFID=85081666&CFTOKEN=18700997" target="_self">View colleagues</a> of Eser Kandogan
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+			</dd>
+                              
+
+
+
+<dt style="float: left; clear: left; width: 100%; margin-top: 0px; margin-bottom: 0px;">
+ <strong>
+ Program Chairs 
+  </strong>
+ </dt> 
+          
+          <dd style="margin: 0 0 0 60px; padding: 0 0 0.5em 0;">
+			
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="http://portalparts.acm.org/profiles/81100142970/WGL597.jpg" border="0" align="middle" alt="Wayne Lutters" hspace="5" />
+		 
+		  
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" >
+	<span class="small-text"><strong><a title="author page of Wayne Lutters" href="author_page.cfm?id=81100142970&CFID=85081666&CFTOKEN=18700997">Wayne Lutters</a></strong><br /></span>
+	
+	<span class="small-text"><br /><a href="http://www.research.umbc.edu/~lutters">homepage</a></span>
+	
+	<div style="margin-top: 6px" class="small-text">lutters<img src="gifs/at.gif" width="12" height="12" alt="at" />umbc.edu</div>
+	
+	
+	
+	<span class="small-text">
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1997-2012</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">36</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">169</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">25</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">192</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">1,154</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Wayne Lutters" href="author_page.cfm?id=81100142970&amp;dsp=coll&amp;trk=1&amp;CFID=85081666&CFTOKEN=18700997" target="_self">View colleagues</a> of Wayne Lutters
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Jim Thornton" href="author_page.cfm?id=81387602397&CFID=85081666&CFTOKEN=18700997">Jim Thornton</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td>&nbsp;</td>
+
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Jim Thornton" href="author_page.cfm?id=81387602397&amp;dsp=coll&amp;trk=1&amp;CFID=85081666&CFTOKEN=18700997" target="_self">View colleagues</a> of Jim Thornton
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Mustapha Mouloua" href="author_page.cfm?id=81387610380&CFID=85081666&CFTOKEN=18700997">Mustapha Mouloua</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td>&nbsp;</td>
+
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Mustapha Mouloua" href="author_page.cfm?id=81387610380&amp;dsp=coll&amp;trk=1&amp;CFID=85081666&CFTOKEN=18700997" target="_self">View colleagues</a> of Mustapha Mouloua
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+			</dd>
+                              
+
+</dl>
+</div>
+
+		  
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="references" class="small-text"><SPAN class="heading">REFERENCES</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	References are not available
+
+</div>
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="citedby" class="small-text"><SPAN class="heading">CITED BY</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+			
+			
+			
+			<table cellpadding="5">
+			
+				<tr valign="top">
+				<td valign="top">
+					
+					<img src="http://dl.acm.org/images/ACM_mini.jpg" width="25" height="24" alt="" vspace="0" border="0" align="top">
+				</td>
+				<td>
+					<div>
+						
+						<a href="citation.cfm?id=1641588&CFID=85081666&CFTOKEN=18700997">
+						Nicole F. Velasquez , Suzanne P. Weisband, System administrators as broker technicians, Proceedings of the Symposium on Computer Human Interaction for the Management of Information Technology, p.1-8, November 07-08, 2009, Baltimore, Maryland
+						</a>
+					</div>  
+					
+				</td>
+				</tr>
+			
+			</table>
+			
+ </div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="indexterms" class="small-text"><SPAN class="heading">INDEX TERMS</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+Index Terms are not available
+
+
+</div>
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="source" class="small-text"><SPAN class="heading">PUBLICATION</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+
+<table border="0" class="medium-text" cellpadding="0" cellspacing="5">
+
+
+
+    <tr valign="top">
+    	<td>Title</td> 
+	    <td>
+		   <a href="http://www.chimit08.org" title="Conference Website"  target="_self" class="link-text">CHiMiT '08</a> Computer Human Interaction for the Management of Information Technology 
+        </td>
+	</tr>
+    <tr><td></td><td>San Diego, CA, USA &mdash; November 14 - 15, 2008</td></tr> <tr><td>Pages</td><td>82</td></tr> 
+                 <tr>
+                 
+                     <td>Sponsor</td>
+                    
+                  <td>
+                  <a href="sig.cfm?id=SP923&CFID=85081666&CFTOKEN=18700997"> SIGCHI</a> ACM Special Interest Group on Computer-Human Interaction
+                  </td>
+                  </tr>
+              
+                  <tr><td>Publisher</td><td><a href="http://www.acm.org/publications">ACM</a> New York, NY, USA</td>
+				  </tr>
+             <tr><td>ISBN</td><td> 978-1-60558-355-6</td></tr> 
+			<tr valign="top">
+        	<td>Conference</td>
+            <td valign="top" align="left"  style="padding-bottom: 25px;">
+	            <strong style="padding-right:10px">CHiMiT</strong><a href="event.cfm?id=RE150&CFID=85081666&CFTOKEN=18700997" title="Computer Human Interaction for the Management of Information Technology">Computer Human Interaction for the Management of Information Technology</a>
+                
+                       
+                        <a href="event.cfm?id=RE150&CFID=85081666&CFTOKEN=18700997" title="Computer Human Interaction for the Management of Information Technology"><img border="0" src="http://portalparts.acm.org/event_logos/RE150.jpg" title="CHiMiT logo" height="57"  width="100" ALT="CHiMiT logo" style="vertical-align:top"></a>
+						 
+
+        	 </td>
+            </tr>
+		    <tr><td colspan="2">Paper Acceptance Rate 7 of 24 submissions, 29%</td></tr> <tr valign="top"><td style="pading-top:20px;" colspan="2">Overall Acceptance Rate 29 of 86 submissions, 34%</td></tr>
+                       <tr valign="top">
+                        <td colspan="2" style="padding-left:25px;">
+                        	<table>
+                            	<tr><td>
+                                        <!-- WebCharts3D v5.1(2077) -->
+<IMG SRC="/CFIDE/GraphData.cfm?graphCache=wc50&graphID=Images/5895304910584507.JPG" id="Images_5895304910584507_JPG" name="Images_5895304910584507_JPG" usemap="#Images_5895304910584507_JPG_map" border="0"/>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338245395600AAAB' id='GP1338245395600AAAB'><tr><td width='8'>&nbsp;</td><td width='66'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>CHIMIT '07</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>34</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338245395600AAAC' id='GP1338245395600AAAC'><tr><td width='8'>&nbsp;</td><td width='66'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>CHIMIT '07</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>11</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338245395600AAAD' id='GP1338245395600AAAD'><tr><td width='8'>&nbsp;</td><td width='66'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>CHiMiT '08</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>24</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338245395600AAAE' id='GP1338245395600AAAE'><tr><td width='8'>&nbsp;</td><td width='66'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>CHiMiT '08</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>7</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338245395600AAAF' id='GP1338245395600AAAF'><tr><td width='8'>&nbsp;</td><td width='66'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>CHiMiT '10</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>19</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338245395600AAAG' id='GP1338245395600AAAG'><tr><td width='8'>&nbsp;</td><td width='66'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>CHiMiT '10</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>7</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338245395600AAAH' id='GP1338245395600AAAH'><tr><td width='8'>&nbsp;</td><td width='66'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>CHIMIT '11</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>9</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338245395600AAAI' id='GP1338245395600AAAI'><tr><td width='8'>&nbsp;</td><td width='66'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>CHIMIT '11</td></tr><tr><td width='8'>&nbsp;</td><td width='66'>4</td></tr></table>
+<MAP name='Images_5895304910584507_JPG_map'>
+<AREA shape='rect' coords='0,0,1,1'/>
+<AREA shape="rect" coords="278,195,306,213" onMouseover='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAI",event,true)' onMouseout='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAI",event,false)' onMousemove='xx_move_tag("Images_5895304910584507_JPG","GP1338245395600AAAI",event)'/>
+<AREA shape="rect" coords="250,172,278,213" onMouseover='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAH",event,true)' onMouseout='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAH",event,false)' onMousemove='xx_move_tag("Images_5895304910584507_JPG","GP1338245395600AAAH",event)'/>
+<AREA shape="rect" coords="206,181,234,213" onMouseover='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAG",event,true)' onMouseout='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAG",event,false)' onMousemove='xx_move_tag("Images_5895304910584507_JPG","GP1338245395600AAAG",event)'/>
+<AREA shape="rect" coords="178,125,206,213" onMouseover='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAF",event,true)' onMouseout='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAF",event,false)' onMousemove='xx_move_tag("Images_5895304910584507_JPG","GP1338245395600AAAF",event)'/>
+<AREA shape="rect" coords="134,181,162,213" onMouseover='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAE",event,true)' onMouseout='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAE",event,false)' onMousemove='xx_move_tag("Images_5895304910584507_JPG","GP1338245395600AAAE",event)'/>
+<AREA shape="rect" coords="106,102,134,213" onMouseover='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAD",event,true)' onMouseout='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAD",event,false)' onMousemove='xx_move_tag("Images_5895304910584507_JPG","GP1338245395600AAAD",event)'/>
+<AREA shape="rect" coords="62,162,90,213" onMouseover='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAC",event,true)' onMouseout='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAC",event,false)' onMousemove='xx_move_tag("Images_5895304910584507_JPG","GP1338245395600AAAC",event)'/>
+<AREA shape="rect" coords="34,55,62,213" onMouseover='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAB",event,true)' onMouseout='xx_set_visible("Images_5895304910584507_JPG","GP1338245395600AAAB",event,false)' onMousemove='xx_move_tag("Images_5895304910584507_JPG","GP1338245395600AAAB",event)'/>
+<AREA shape="rect" coords="160,13,227,27"/>
+<AREA shape="rect" coords="89,13,160,27"/>
+</MAP>
+
+<script language="javascript" src="/CFIDE/GraphData.cfm?graphCache=wc50&graphID=script.js"></script>
+
+                                      </td>
+                                      <td style="padding-left:20px;">
+                                             <table style="border-width: 1px; border-style: solid; width:100%;  border-spacing: 6px;" class="text12">
+                                                <tr bgcolor="#ffffff">
+                                                  <th style="width:50%">Year</th>
+                                                  <th  align="right" style="width:15%">Submitted</th>
+                                                  <th  align="right" style="width:15%">Accepted</th>
+                                                  <th  align="center">Rate</th>
+                                                </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>CHIMIT '07</td>
+                                                            <td align="right">34</td>
+                                                            <td align="right">11</td>
+                                                            <td align="center">32%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>CHiMiT '08</td>
+                                                            <td align="right">24</td>
+                                                            <td align="right">7</td>
+                                                            <td align="center">29%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>CHiMiT '10</td>
+                                                            <td align="right">19</td>
+                                                            <td align="right">7</td>
+                                                            <td align="center">37%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>CHIMIT '11</td>
+                                                            <td align="right">9</td>
+                                                            <td align="right">4</td>
+                                                            <td align="center">44%</td>
+                                                         </tr>
+                                                
+                                                 <tr bgcolor="#f0f0f0">
+                                                    <td><strong>Overall</strong></td>
+                                                    <td align="right">86</td>
+                                                    <td align="right">29</td>
+                                                    <td align="center">34%</td>
+                                                  </tr>
+                                                </table>
+                                       </td>
+                                     </tr>
+                               </table>
+                        </td>
+                    </tr>
+                     
+                     
+            
+</table>
+
+
+</table>
+
+
+
+
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="revs" class="small-text"><SPAN class="heading">REVIEWS</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	<br />Reviews are not available for this item
+        
+        <div align="left" style="margin-top:30px">
+					<a title="Computing Reviews" href="ocr_review_main.cfm?CFID=85081666&CFTOKEN=18700997">
+                 <img src="http://dl.acm.org/images/ocrs-s.jpg" alt="Computing Reviews logo" border="0" style="vertical-align:middle"></a>
+        
+        
+       		<ul style="list-style:disc; display:inline-block">
+	            <li>Access <a href="ocr_review_main.cfm?CFID=85081666&CFTOKEN=18700997" target="_blank">critical reviews</a> of computing literature.</li>
+            	<li><a href="http://www.computingreviews.com/Reviewer/"  target="_blank">Become a reviewer</a> for Computing Reviews</li>
+            </ul>
+        </div>
+        
+</div>
+
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="comments" class="small-text"><SPAN class="heading">COMMENTS</SPAN></A></h1>
+         
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<div>
+<div>
+	
+	<p style="margin-left:5px;">
+    <strong>Be the first to comment</strong>
+    	
+          	To Post a comment please <a href="signin.cfm?CFID=85081666&CFTOKEN=18700997">sign in or create</a> a free Web account</a>
+        
+    
+    
+	 </p>
+	   	
+ 
+</div>
+
+
+</div>
+
+	
+		<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="prox" class="small-text">Table of Contents</A></h1>
+        
+<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;" >
+
+<h5 style="margin-bottom:0px; margin-top:0px" class="medium-text">Proceedings of the 2nd ACM Symposium on Computer Human Interaction for Management of Information Technology</h5>
+
+
+<h5 class="medium-text" style="margin-bottom:10px; margin-top:10px;">Table of Contents</h5>
+
+<div style="clear:both">
+    
+        <div style="margin-top:5px; margin-bottom: 10px;" class="small-text"><a href="citation.cfm?id=1234772&picked=prox&CFID=85081666&CFTOKEN=18700997" title="previous: CHIMIT '07"><img hspace="5" align="absmiddle" border="0" src="img/prev.gif" width="19" height="11" alt="previous" />previous proceeding</a> <span style="padding-left:5px;padding-right:5px;">|</span><a href="citation.cfm?id=1641587&picked=prox&CFID=85081666&CFTOKEN=18700997" title="Next: CHiMiT '09">next proceeding <img align="absmiddle" hspace="5" border="0" src="img/next.gif" width="19" height="11" alt="next" /></a></div>
+        
+</div>
+
+
+ 
+<table class="text12" border="0">
+
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Work practice</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477975&CFID=85081666&CFTOKEN=18700997">Work practices of system administrators: implications for tool design</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81387607890&CFID=85081666&CFTOKEN=18700997">Nicole F. Velasquez</a>, 
+                        <a href="author_page.cfm?id=81100045723&CFID=85081666&CFTOKEN=18700997">Suzanne P. Weisband</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 1</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477975" title="DOI">10.1145/1477973.1477975</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477975&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow2" style="display:inline;"><br /><div style="display:inline">System administrators are specialized workers and computer users. As skilled workers in complex and high-risk environments, intuition tells us this unique user group may have requirements of the systems and software they use that differ from the requirements ...</div></span>
+          <span id="toHide2" style="display:none;"><br /><div style="display:inline"><p>System administrators are specialized workers and computer users. As skilled workers in complex and high-risk environments, intuition tells us this unique user group may have requirements of the systems and software they use that differ from the requirements of regular computer users. An examination of system administrator work practices sheds light on the system attributes and characteristics they need to do their jobs. Through shadowing, interviews, and a review of previous system administrator studies, we present information and system quality attributes that appear to be important to system administrators. Following a discussion of these attributes, we present a model of user satisfaction that provides actionable guidance and an integration of the attributes. We close with a discussion of the research findings and a call for future research in this area.</p></div></span> <a id="expcoll2" href="JavaScript: expandcollapse('expcoll2',2)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477976&CFID=85081666&CFTOKEN=18700997">Understanding and supporting personal activity management by IT service workers</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100613506&CFID=85081666&CFTOKEN=18700997">Victor M. Gonzalez</a>, 
+                        <a href="author_page.cfm?id=81311482371&CFID=85081666&CFTOKEN=18700997">Leonardo Galicia</a>, 
+                        <a href="author_page.cfm?id=81100017594&CFID=85081666&CFTOKEN=18700997">Jesus Favela</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 2</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477976" title="DOI">10.1145/1477973.1477976</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477976&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow3" style="display:inline;"><br /><div style="display:inline">Many recent studies provide evidence of the challenges experienced by knowledge workers while multi-tasking among several projects and initiatives. Work is often interrupted, and this results in people leaving activities pending until they have the time, ...</div></span>
+          <span id="toHide3" style="display:none;"><br /><div style="display:inline"><p>Many recent studies provide evidence of the challenges experienced by knowledge workers while multi-tasking among several projects and initiatives. Work is often interrupted, and this results in people leaving activities pending until they have the time, information, resources or energy to reassume them. Among the different types of knowledge workers, those working directly with Information Technology (IT) or offering IT services -- software developers, support engineers, systems administrators or database managers --, experience particularly challenging scenarios of multi-tasking given the varied, crisis-driven and reactive nature of their work. Previous recommendations and technological solutions to ameliorate these challenges give limited attention to individual's preferences and to understanding how and what tools and strategies could benefit IT service workers as individuals. Based on the analysis of characteristics of IT service work and a consolidation of findings regarding personal activity management processes, we present the design of a software tool to support those processes and discuss findings of its usage by four IT service workers over a period of eight weeks. We found that the tool is used as a central repository to orchestrate personal activity, complementing the use of e-mail clients and shared calendars as well as supporting essential aspects of IT-service work such as multi-tasking and detailed work articulation.</p></div></span> <a id="expcoll3" href="JavaScript: expandcollapse('expcoll3',3)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477977&CFID=85081666&CFTOKEN=18700997">Towards virtualizing the helpdesk: assessing the relevance of knowledge across distance</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81340493648&CFID=85081666&CFTOKEN=18700997">Kevin F. White</a>, 
+                        <a href="author_page.cfm?id=81100142970&CFID=85081666&CFTOKEN=18700997">Wayne G. Lutters</a>, 
+                        <a href="author_page.cfm?id=81100048124&CFID=85081666&CFTOKEN=18700997">Anita H. Komlodi</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 3</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477977" title="DOI">10.1145/1477973.1477977</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477977&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow4" style="display:inline;"><br /><div style="display:inline">Managers of information systems face a knowledge crisis as they operate in increasingly heterogeneous, hostile, expertise-poor environments. This problem is compounded for small organizations. This paper presents results from field research on the feasibility ...</div></span>
+          <span id="toHide4" style="display:none;"><br /><div style="display:inline"><p>Managers of information systems face a knowledge crisis as they operate in increasingly heterogeneous, hostile, expertise-poor environments. This problem is compounded for small organizations. This paper presents results from field research on the feasibility of fostering cross-organizational knowledge sharing in order to expand access to expertise for pernicious problems while minimizing the loss of context, such as situational and environmental factors, that impacts the usefulness of solutions. This essentially creates a virtual, cross-organizational helpdesk.</p> <p>In order to understand the utility of such a system we explore how employees' satisfaction with helpdesk articles changes as the source of the articles moves further away from local creation to generic solutions. Our findings suggest that procedurally-based information available within major Internet repositories tends to be the most highly relevant and valued within organizations. However, when no documentation is available from manufacturers, information contributed by partner sites is more effective than those solely developed in-house. This paper suggests strategies for reusing information to impact work within small organizations.</p></div></span> <a id="expcoll4" href="JavaScript: expandcollapse('expcoll4',4)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Tools</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477979&CFID=85081666&CFTOKEN=18700997">Sysadmins and the need for verification information</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81387607890&CFID=85081666&CFTOKEN=18700997">Nicole F. Velasquez</a>, 
+                        <a href="author_page.cfm?id=81100183474&CFID=85081666&CFTOKEN=18700997">Alexandra Durcikova</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 4</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477979" title="DOI">10.1145/1477973.1477979</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477979&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow6" style="display:inline;"><br /><div style="display:inline">Traditional usability measures may not be sufficient for some specialized users, such as system administrators. Because of their broad range of responsibilities for highly complex and risky business environments, these users also need tools that are ...</div></span>
+          <span id="toHide6" style="display:none;"><br /><div style="display:inline"><p>Traditional usability measures may not be sufficient for some specialized users, such as system administrators. Because of their broad range of responsibilities for highly complex and risky business environments, these users also need tools that are powerful, informative, and credible. To do their work, system administrators need the ability to verify the work they have done. That verification comes from accurate and available information that we refer to as information credibility. This exploratory research aims to address the relationship between task complexity, task risk, and verification information seeking in GUI tools used by system administrators. Potential antecedents of information verification are identified and a model is proposed that addresses how aspects of the task and environment affect the need for verification. Findings suggest that task complexity is a significant indicator of the need for verification information. Armed with this knowledge, practitioners can anticipate the needs of system administrators and design GUI tools with information credibility in mind.</p></div></span> <a id="expcoll6" href="JavaScript: expandcollapse('expcoll6',6)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477980&CFID=85081666&CFTOKEN=18700997">Information displays for managing shared files</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100590720&CFID=85081666&CFTOKEN=18700997">Tara Whalen</a>, 
+                        <a href="author_page.cfm?id=81100332151&CFID=85081666&CFTOKEN=18700997">Elaine G. Toms</a>, 
+                        <a href="author_page.cfm?id=81100344701&CFID=85081666&CFTOKEN=18700997">James Blustein</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 5</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477980" title="DOI">10.1145/1477973.1477980</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477980&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow7" style="display:inline;"><br /><div style="display:inline">Within the workplace setting, people need to provide sufficient access to files to allow collaboration, without inadvertently exposing sensitive files. Evidence suggests that file sharing problems exist, and decrease security and interfere with collaboration. ...</div></span>
+          <span id="toHide7" style="display:none;"><br /><div style="display:inline"><p>Within the workplace setting, people need to provide sufficient access to files to allow collaboration, without inadvertently exposing sensitive files. Evidence suggests that file sharing problems exist, and decrease security and interfere with collaboration. A potential solution for managing these problems is to present the user with clear information about file sharing settings and activities. Current file managers either hide the information or simply do not provide it. Using an awareness framework, we identified the core information that users need to be aware of for file sharing situations, performed two studies to determine how to best represent those concepts as labels and icons, and developed a prototype for a file manager that reveals file sharing activity. The results of these design activities can be adopted for other file sharing applications, improving their security and collaborative usability.</p></div></span> <a id="expcoll7" href="JavaScript: expandcollapse('expcoll7',7)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">SESSION: <strong>Security</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477982&CFID=85081666&CFTOKEN=18700997">Network authentication using single sign-on: the challenge of aligning mental models</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81335491494&CFID=85081666&CFTOKEN=18700997">Rosa Heckle</a>, 
+                        <a href="author_page.cfm?id=81100142970&CFID=85081666&CFTOKEN=18700997">Wayne G. Lutters</a>, 
+                        <a href="author_page.cfm?id=81311481694&CFID=85081666&CFTOKEN=18700997">David Gurzick</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 6</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477982" title="DOI">10.1145/1477973.1477982</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477982&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow9" style="display:inline;"><br /><div style="display:inline">Healthcare organizations are struggling to meet industry best practices for information security as well as complying with regulatory requirements. Single sign-on technology is emerging as a leading technology for password authentication management and ...</div></span>
+          <span id="toHide9" style="display:none;"><br /><div style="display:inline"><p>Healthcare organizations are struggling to meet industry best practices for information security as well as complying with regulatory requirements. Single sign-on technology is emerging as a leading technology for password authentication management and promises to improve security while curbing system maintenance costs. While the technology seems to be a simple viable solution for authentication, when placed in context, many socio-technical complexities emerge. One of these complexities is that of the mismatch between the users' mental models and the system model.</p> <p>This study was a 15-month ethnographic field study that followed the implementation of a single sign-on system in a hospital environment. It resulted in the finding that the misaligned mental models caused difficulties not only for the user but for the system administrators. The findings also indicate that not only was the user's mental model of the technology inaccurate, but the presentation of the technology by the information technology group contributed to this misaligned understanding. The end result was dissatisfaction with the new technology for both end users and the system administrators.</p> <p>In order to address the critical issue of mental model misalignment in the implementation of SSO technology, practitioners must first gain an understanding of the preexisting mental models had by the target users regarding authentication and then use this information to guide implementation of the new technology.</p></div></span> <a id="expcoll9" href="JavaScript: expandcollapse('expcoll9',9)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477983&CFID=85081666&CFTOKEN=18700997">Guidelines for designing IT security management tools</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100076137&CFID=85081666&CFTOKEN=18700997">Pooya Jaferian</a>, 
+                        <a href="author_page.cfm?id=81335488435&CFID=85081666&CFTOKEN=18700997">David Botta</a>, 
+                        <a href="author_page.cfm?id=81416604120&CFID=85081666&CFTOKEN=18700997">Fahimeh Raja</a>, 
+                        <a href="author_page.cfm?id=81100432724&CFID=85081666&CFTOKEN=18700997">Kirstie Hawkey</a>, 
+                        <a href="author_page.cfm?id=81100388506&CFID=85081666&CFTOKEN=18700997">Konstantin Beznosov</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 7</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477983" title="DOI">10.1145/1477973.1477983</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477983&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow10" style="display:inline;"><br /><div style="display:inline">An important factor that impacts the effectiveness of security systems within an organization is the usability of security management tools. In this paper, we present a survey of design guidelines for such tools. We gathered guidelines and recommendations ...</div></span>
+          <span id="toHide10" style="display:none;"><br /><div style="display:inline"><p>An important factor that impacts the effectiveness of security systems within an organization is the usability of security management tools. In this paper, we present a survey of design guidelines for such tools. We gathered guidelines and recommendations related to IT security management tools from the literature as well as from our own prior studies of IT security management. We categorized and combined these into a set of high level guidelines and identified the relationships between the guidelines and challenges in IT security management. We also illustrated the need for the guidelines, where possible, with quotes from additional interviews with five security practitioners. Our framework of guidelines can be used by those developing IT security tools, as well as by practitioners and managers evaluating tools.</p></div></span> <a id="expcoll10" href="JavaScript: expandcollapse('expcoll10',10)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="2">POSTER SESSION: <strong>Posters</strong></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td style="padding-bottom:5px;">
+          
+          </td>
+          </tr>
+
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477985&CFID=85081666&CFTOKEN=18700997">IT-management software deployment: field findings and design guidelines</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81387602012&CFID=85081666&CFTOKEN=18700997">Lance Bloom</a>, 
+                        <a href="author_page.cfm?id=81387595423&CFID=85081666&CFTOKEN=18700997">Nancy Clark</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 8</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477985" title="DOI">10.1145/1477973.1477985</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477985&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow12" style="display:inline;"><br /><div style="display:inline">This paper reports field research of Enterprise IT-Management Software deployments in corporate data centers. The observed deployments were complex, time-consuming and often did not provide tools and documentation that optimally supported IT Professionals' ...</div></span>
+          <span id="toHide12" style="display:none;"><br /><div style="display:inline"><p>This paper reports field research of Enterprise IT-Management Software deployments in corporate data centers. The observed deployments were complex, time-consuming and often did not provide tools and documentation that optimally supported IT Professionals' work. The findings highlight deployment work practices and challenges, and inform guidelines for designing deployment tools and documentation that support IT Professionals' work.</p></div></span> <a id="expcoll12" href="JavaScript: expandcollapse('expcoll12',12)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477986&CFID=85081666&CFTOKEN=18700997">Policy-based IT automation: the role of human judgment</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100204008&CFID=85081666&CFTOKEN=18700997">Eser Kandogan</a>, 
+                        <a href="author_page.cfm?id=81100616138&CFID=85081666&CFTOKEN=18700997">John Bailey</a>, 
+                        <a href="author_page.cfm?id=81100034348&CFID=85081666&CFTOKEN=18700997">Paul P. Maglio</a>, 
+                        <a href="author_page.cfm?id=81100560153&CFID=85081666&CFTOKEN=18700997">Eben Haber</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 9</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477986" title="DOI">10.1145/1477973.1477986</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477986&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow13" style="display:inline;"><br /><div style="display:inline">Policy-based automation is emerging as a viable approach to IT systems management, codifying high-level business goals into executable specifications for governing IT operations. Little is known, however, about how policies are actually made, used, and ...</div></span>
+          <span id="toHide13" style="display:none;"><br /><div style="display:inline"><p>Policy-based automation is emerging as a viable approach to IT systems management, codifying high-level business goals into executable specifications for governing IT operations. Little is known, however, about how policies are actually made, used, and maintained in practice. Here, we report studies of policy use in IT service delivery. We found that although policies often make explicit statements, much is deliberately left implicit, with correct interpretation and execution depending critically on human judgment.</p></div></span> <a id="expcoll13" href="JavaScript: expandcollapse('expcoll13',13)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477987&CFID=85081666&CFTOKEN=18700997">Multiple people and components: considerations for designing multi-user middleware</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100228738&CFID=85081666&CFTOKEN=18700997">Jeffrey Calcaterra</a>, 
+                        <a href="author_page.cfm?id=81100616138&CFID=85081666&CFTOKEN=18700997">John Bailey</a>, 
+                        <a href="author_page.cfm?id=81326491738&CFID=85081666&CFTOKEN=18700997">Kenya Freeman Oduor</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 10</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477987" title="DOI">10.1145/1477973.1477987</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477987&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow14" style="display:inline;"><br /><div style="display:inline">Despite some signs of success, there is still a long way to go in addressing the growing complexity-management gap in middleware systems. One issue that can create complexity for users is a mismatch between tasks in multi-person environments and the ...</div></span>
+          <span id="toHide14" style="display:none;"><br /><div style="display:inline"><p>Despite some signs of success, there is still a long way to go in addressing the growing complexity-management gap in middleware systems. One issue that can create complexity for users is a mismatch between tasks in multi-person environments and the task flows in middleware management tools. We present an example scenario that illustrates the complexity of multi-user task flows. This is followed by a discussion of the implications for the design of IT middleware management tools.</p></div></span> <a id="expcoll14" href="JavaScript: expandcollapse('expcoll14',14)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477988&CFID=85081666&CFTOKEN=18700997">Understanding the challenges faced during the management of data mining models</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100110204&CFID=85081666&CFTOKEN=18700997">Jhilmil Jain</a>, 
+                        <a href="author_page.cfm?id=81100400693&CFID=85081666&CFTOKEN=18700997">Ismail Ari</a>, 
+                        <a href="author_page.cfm?id=81100486276&CFID=85081666&CFTOKEN=18700997">Jun Li</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 11</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477988" title="DOI">10.1145/1477973.1477988</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477988&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow15" style="display:inline;"><br /><div style="display:inline">While the IT industry is moving forward with service-based solutions, they have left behind critical processes and soft IT assets unmanaged, especially at the intersection of business processes with Business Intelligence (BI). In this paper, we describe ...</div></span>
+          <span id="toHide15" style="display:none;"><br /><div style="display:inline"><p>While the IT industry is moving forward with service-based solutions, they have left behind critical processes and soft IT assets unmanaged, especially at the intersection of business processes with Business Intelligence (BI). In this paper, we describe the challenges faced by model developers (or statisticians) and business analysts while managing data mining model assets of an organization that supports business processes in making real-time decisions and forecasts.</p></div></span> <a id="expcoll15" href="JavaScript: expandcollapse('expcoll15',15)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477989&CFID=85081666&CFTOKEN=18700997">Designing dashboards for managing model lifecycle</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100110204&CFID=85081666&CFTOKEN=18700997">Jhilmil Jain</a>, 
+                        <a href="author_page.cfm?id=81100400693&CFID=85081666&CFTOKEN=18700997">Ismail Ari</a>, 
+                        <a href="author_page.cfm?id=81100486276&CFID=85081666&CFTOKEN=18700997">Jun Li</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 12</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477989" title="DOI">10.1145/1477973.1477989</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477989&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow16" style="display:inline;"><br /><div style="display:inline">Data mining is being extensively used for analysis of large data collections. While there is previous work on dashboard support for visual mining of the data, there is little or no work on dashboard support for managing the lifecycle (e.g. health) ...</div></span>
+          <span id="toHide16" style="display:none;"><br /><div style="display:inline"><p>Data mining is being extensively used for analysis of large data collections. While there is previous work on dashboard support for visual mining of the data, there is little or no work on dashboard support for managing the lifecycle (<i>e.g.</i> health) of the data mining models themselves. Issues such as quick performance decay, large scale deployments, collaborative use, and real-time business integration of models necessitate this type of support. In this paper, based on a year long study, we first describe the six stages of the model lifecycle and the preliminary design of the backend system that helps users manage mining models. Next, we discuss the three dimensions to be considered for dashboard visualization of the model lifecycle: <i>introspection, customization</i>, and <i>presentation</i>.</p></div></span> <a id="expcoll16" href="JavaScript: expandcollapse('expcoll16',16)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477990&CFID=85081666&CFTOKEN=18700997">Analysing a workflow management system: three levels of failure</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81435593494&CFID=85081666&CFTOKEN=18700997">Tom Gross</a>, 
+                        <a href="author_page.cfm?id=81100502723&CFID=85081666&CFTOKEN=18700997">Samuli Pekkola</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 13</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477990" title="DOI">10.1145/1477973.1477990</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477990&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow17" style="display:inline;"><br /><div style="display:inline">In this paper we report on a case study of the introduction of a workflow management system for travel management in a higher education organisation. We identify and reflect on the change of the process induced by the system, the functionality of the ...</div></span>
+          <span id="toHide17" style="display:none;"><br /><div style="display:inline"><p>In this paper we report on a case study of the introduction of a workflow management system for travel management in a higher education organisation. We identify and reflect on the change of the process induced by the system, the functionality of the system, and the usability of the system. Combined with a socio-technical perspective, our findings provide a checklist for systems designers.</p></div></span> <a id="expcoll17" href="JavaScript: expandcollapse('expcoll17',17)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=1477991&CFID=85081666&CFTOKEN=18700997">System administrator teamwork: evidence from the SAGE salary survey</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:20">
+          
+                        <a href="author_page.cfm?id=81100560153&CFID=85081666&CFTOKEN=18700997">Eben M. Haber</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">Article No.: 14</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:20">doi&gt;<a href="http://dx.doi.org/10.1145/1477973.1477991" title="DOI">10.1145/1477973.1477991</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:20">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=1477991&type=pdf&CFID=85081666&CFTOKEN=18700997" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          <div style="padding-left:20">
+          <span id="toShow18" style="display:inline;"><br /><div style="display:inline">System administrators (sysadmins) are a critical population of computer users: they use a wide variety of administration tools to maintain the computer infrastructure on which modern society depends. The design of appropriate administration tools relies ...</div></span>
+          <span id="toHide18" style="display:none;"><br /><div style="display:inline"><p>System administrators (sysadmins) are a critical population of computer users: they use a wide variety of administration tools to maintain the computer infrastructure on which modern society depends. The design of appropriate administration tools relies on accurate information about sysadmins and their work, yet studies to date collecting this information have been qualitative. In this paper I examine a quantitative source of information about system administrators: the annual SAGE salary survey. The primary focus of the survey is collecting salary and benefits information, so that administrators can compare their compensation with others in similar circumstances. In this poster I do further analysis of the SAGE data from 2002 through 2006, investigating correlations that were not part of the SAGE reports. In particular, I examine evidence for teamwork among administrators, and find evidence for sysadmins working in teams in companies of all sizes.</p></div></span> <a id="expcoll18" href="JavaScript: expandcollapse('expcoll18',18)">expand</a>
+          </div>
+		  </td>
+          </tr>          
+          
+</table>
+
+
+</div> 
+</div>
+
+
+ <p class="small-text" align="center">Powered by <a id="theguide" name="theguide" href="javascript:ColdFusion.Window.show('theguide')"><img src="img/poweredbyacm.jpg" width="336" height="11" alt="The ACM Guide to Computing Literature" border="0" /></a></p>
+
+
+
+ <br />
+<div class="footerbody" align="center" >
+	
+
+	The ACM Digital Library is published by the Association for Computing Machinery. Copyright &copy; 2012 ACM, Inc.<br />
+	<a href="http://www.acm.org/publications/policies/usage">Terms of Usage</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/privacy-policy">Privacy Policy</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/code-of-ethics">Code of Ethics</a>&nbsp;&nbsp;	  
+	<a href="http://www.acm.org/about/contact-us">Contact Us</a>
+
+<br /><br />
+Useful downloads: 
+<a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="http://dl.acm.org/images/pdf_logo.gif" width="16" height="16" alt="" border="0" /> Adobe Acrobat</a>
+&nbsp;&nbsp;
+<a href="http://www.apple.com/quicktime/download/" target="_blank"><img src="http://dl.acm.org/images/qtlogo.gif" width="16" height="16" alt="" border="0" /> QuickTime</a>
+&nbsp;&nbsp;
+<a href="http://www.microsoft.com/windows/windowsmedia/download/default.asp" target="_blank"><img src="http://dl.acm.org/images/wmv.gif" width="16" height="15" alt="" border="0" /> Windows Media Player</a>
+&nbsp;&nbsp;
+<a href="http://www.real.com/" target="_blank"><img src="http://dl.acm.org/images/realplayer.gif" width="20" height="18" alt="" border="0" /> Real Player</a>
+
+</div> 
+
+
+
+<div  id="cf_window1338245408413" class="yuiextdlg">
+	
+	<div  id="theguide_title" class="x-dlg-hd">
+		The ACM Guide to Computing Literature
+	 </div>
+	<div  id="theguide_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338245408416" class="yuiextdlg">
+	
+	<div  id="thetags_title" class="x-dlg-hd">
+		All Tags
+	 </div>
+	<div  id="thetags_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338245408419" class="yuiextdlg">
+	
+	<div  id="theformats_title" class="x-dlg-hd">
+		Export Formats
+	 </div>
+	<div  id="theformats_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338245408421" class="yuiextdlg">
+	
+	<div  id="theexplaination_title" class="x-dlg-hd">
+		&nbsp;
+	 </div>
+	<div  id="theexplaination_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338245408423" class="yuiextdlg">
+	
+	<div  id="theservices_title" class="x-dlg-hd">
+		&nbsp;
+	 </div>
+	<div  id="theservices_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338245408425" class="yuiextdlg">
+	
+	<div  id="savetobinder_title" class="x-dlg-hd">
+		Save to Binder
+	 </div>
+	<div  id="savetobinder_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> 
+
+</body>
+</html>

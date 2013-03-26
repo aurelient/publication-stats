@@ -1,0 +1,3301 @@
+
+
+
+<!doctype html>
+
+
+<head><script type="text/javascript">_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_clientid='F3767763659BDA8684D30D582017866C';</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/adapter/yui/ext-yui-adapter.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/ext-core.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/resizable.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/dragdrop/dragdrop.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/util.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/build/state/State-min.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/widget-core.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/ext/package/dialog/dialogs.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/CFIDE/scripts/ajax/resources/cf/cf.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/dl.css" />
+
+
+
+<title>Proceedings of the 2nd international conference on Intelligent user interfaces</title>
+<style type="text/css"><!--
+    body {margin-left: 0em; margin-top: 0}
+    a:link {text-decoration: underline; 	Color: #1d4d0f;}
+    a:visited  { color: #990033; text-decoration: underline;}
+    a:hover {color: red; text-decoration: none}
+    a.dLink1:link {color:#336699}
+    a.dLink1:visited {color:#666666}
+	a.isblack:link {text-decoration: underline; 	Color: #000000;}
+    a.isblack:visited  { color: #000000; text-decoration: underline;}
+    a.isblack:hover {color: #000000; text-decoration: none}
+    h1 {font-size: 140%; margin-bottom: 0}
+	ul {margin-top: .25em; list-style-type: disc}
+	ol {margin-top: .25em;}
+	li {padding-bottom: .25em}
+    h2 {color: white; background-color: #069; 
+        font-size: 100%; padding-left: 1em;
+		margin: 0}
+	h3 {color: black; background-color: yellow; 
+    	font-size: 100%;
+		margin: 0}
+	 h4 {color: black; background-color: #99c5e8; 
+        font-size: 100%;
+		margin: 0}
+    hr {color: #39176d;}
+    form {margin-top: 10}
+    form.xrs {margin-top: 0}
+	
+	a {text-decoration: none; }
+	
+	input {font-size: 1em;}
+	.chevron {color: #ff0000;}
+	.light-blue {color:#336699;}
+	.black {color:#000000;}
+	
+	/* ### standard text styles, smallest to largest ### */
+	
+	.footer-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .75em; line-height: 1.33em;
+		text-indent: -.75 em; margin-left: 2em; margin-right: .75em;}
+		
+	.footer-copy-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em; line-height: 1.3em;
+		margin-left: .75em; margin-right: .75em;}
+		
+	.small-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; padding-bottom : 2px;
+	  	padding-top : 2px;}
+
+	.smallerer-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .65em;}
+	.smaller-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em;}		
+	.small-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em;}
+	.small-textb {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; font-weight: bold;}
+	.medium-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em;}
+	.mediumb-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em; font-weight: bold;}
+	.large-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1.3em;}		
+	.instr-text {font-family: Arial, Helvetica, sans-serif;
+		color:#666666; font-size: .83em;}
+		
+	.list-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .83em; line-height: 1.3em;}
+	.list-link-btext {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; line-height: 1.3em;}
+	
+	.searchbox-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;}
+	.footer-header-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;
+		margin-left: .75em; margin-right: .75em;}
+	.medium-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold; line-height: 1em;
+		text-indent: -1.25em; margin-left: 2em; margin-right: .75em;}
+	
+	.text16 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 16px;}
+		
+	.text14 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 14px;}
+	
+	.text12 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 12px;}
+		
+	.text10 {font-family: Arial, Helvetica, sans-serif;
+	    color:#000000; font-size: 12px;}
+		
+	.text9 {font-family: Arial, Helvetica, sans-serif;
+	   color:#000000; font-size: 12px;}
+	
+	.error-text {color:red;}
+	
+	.small-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: .75em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+
+	.medium-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1.3em; line-height: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.medium-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+
+		#side {
+			width: 10px;
+			float: left;
+			margin-left: -1px;
+			padding: 2px;
+			}
+							
+		#content {
+			padding: 2px;
+			margin-left: 25px;
+			
+		        
+		        }
+	 .fulltext_lnk {border:0px;
+	 				 margin-right: 2px;
+					 vertical-align:baseline;
+	 				}
+	 
+	  .leftcoltab { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:530px;  /* for IE5/WIN */
+		  width:520px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	  .rightcoltab {
+    float: right;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    right: 50px;
+    top: 25px;
+    width: 350px;
+    z-index: 99;
+}
+	  .centercoltab {
+		  position:absolute;
+		  padding:0 0px;
+		  }
+	  .alt {
+		background: #ece9d8;
+		margin: 0;
+		padding: 1px;
+		}
+		.leftcolc { 
+	position:relative;
+	top:5px;
+	left:5px;
+	float:left;
+	width:420px;  /* for IE5/WIN */
+	width:400px; /* actual value */
+	margin:0 0 0px 0;
+	padding:5px;
+	z-index:100;
+	}
+.rightcolc {
+	position:relative;
+	top:0px;
+	right:0px;
+	float:right;
+	margin:0 0px;
+	padding:0px;
+	width:500px;
+	z-index:99;
+	}
+.centercolc {
+	position:absolute;
+	padding:0 0px;
+	}
+	
+	.leftcoltabv { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:460px;  /* for IE5/WIN */
+		  width:350px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	.rightcoltabv {
+		position:relative;
+		top:5px;
+		right:0px;
+		float:right;
+		margin:0 0px 0 0;
+		padding:15px;
+		width:480px;
+		z-index:99;
+		}
+	
+  --></style>
+ 
+
+
+<script type="text/javascript" src="cfformprotect/js/cffp.js"></script>
+
+
+<script type="text/javascript">
+ function expandcollapse(anchor,whichone) {
+	 var inner = document.getElementById(anchor);
+	 var theshow = "toShow" + whichone;
+ 	 var thehide = "toHide" + whichone;
+	 var span = document.getElementById(theshow);
+     span.style.display = (span.style.display=='inline')?'none':'inline';
+     var span = document.getElementById(thehide);
+     span.style.display = (span.style.display=='none')?'inline':'none';
+     inner.innerHTML = (inner.innerHTML=='collapse')?'expand':'collapse';
+    }
+
+  function setDiv() {
+	var m = document.getElementById('divmain');
+	var mh = m.offsetHeight;
+	var t = document.getElementById('divtools');
+	var th = t.offsetHeight;
+	var tg = document.getElementById('divtags');
+	var tgh = tg.offsetHeight;
+	var calcheight = mh - th;
+	if (tgh > calcheight  ){
+	  var x = (th + tgh) - mh;
+	  if ( (th + tgh) - mh < 65) {
+	  }
+	  else {
+		 document.getElementById('divtags').innerHTML = ""; 
+		 var tg = document.getElementById('divtags');
+		 var tgh = tg.offsetHeight;
+		 tg.style.height = tgh  + 'px';
+	  }
+	}
+	else {
+		tg.style.height = calcheight + 'px';
+		document.getElementById('divtags').innerHTML = "";
+	}
+
+//  do I need to check after I resize to be sure I didn't go too big?
+//	var tg2 = document.getElementById('divtags');
+//	var tgh2 = tg.offsetHeight;	
+//	if (tgh2 > mh + 65) {
+//	  var y = mh + 65;
+//	  alert('expanded too much ' + tgh2 + ' should be at most ' + y);
+//	  tg.style.height = y + 'px';
+//	  document.getElementById('divtags').innerHTML = "";
+//	}
+
+  }
+</script>
+
+<script type="text/javascript">
+ /* <!-- Begin
+	if(document.layers || document.all) {
+	a = 1;
+	setInterval("Jump()", 10);
+	}
+	function Jump() {
+	a = a + 1;
+	//self.moveBy((Math.random() * a * 2 - a), (Math.random() * a * 2) - a);
+	}
+//  End --> */
+</script>
+
+
+
+<meta name="citation_publisher" content="ACM"> <meta name="citation_authors" content="Moore, Johanna; Edmonds, Ernest; Puerta, Angel"> <meta name="citation_title" content="Proceedings of the 2nd international conference on Intelligent user interfaces"> <meta name="citation_date" content="01/06/1997"> <meta name="citation_isbn" content="0-89791-839-8"> <meta name="citation_abstract_html_url" content="http://dl.acm.org/citation.cfm?id=238218"> 
+
+
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFFORM');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFDIV');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+</script>
+
+<script type="text/javascript">
+	ColdFusion.Ajax.importTag('CFWINDOW');
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338212177569=function()
+	{
+		_cf_bind_init_1338212177570=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'theguide_body','bindExpr':['whatisguide.cfm']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338212177570);var _cf_window=ColdFusion.Window.create('theguide','The ACM Guide to Computing Literature','whatisguide.cfm',{ modal:false, closable:true, divid:'cf_window1338212177568', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338212177569);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338212177572=function()
+	{
+		_cf_bind_init_1338212177573=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'thetags_body','bindExpr':['showthetags.cfm?id=238218']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338212177573);var _cf_window=ColdFusion.Window.create('thetags','All Tags','showthetags.cfm?id=238218',{ modal:false, closable:true, divid:'cf_window1338212177571', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338212177572);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338212177575=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theformats','Export Formats','',{ modal:false, closable:true, divid:'cf_window1338212177574', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:250, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338212177575);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338212177577=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theexplaination','','',{ modal:false, closable:true, divid:'cf_window1338212177576', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338212177577);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338212177579=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theservices','','',{ modal:false, closable:true, divid:'cf_window1338212177578', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338212177579);
+</script>
+
+<script type="text/javascript">
+	var _cf_window_init_1338212177581=function()
+	{
+		_cf_bind_init_1338212177582=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'savetobinder_body','bindExpr':['savetobinder.cfm?id=238218']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1338212177582);var _cf_window=ColdFusion.Window.create('savetobinder','Save to Binder','savetobinder.cfm?id=238218',{ modal:false, closable:true, divid:'cf_window1338212177580', draggable:true, resizable:true, fixedcenter:true, width:600, height:600, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false, _cf_refreshOnShow:true});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1338212177581);
+</script>
+</head>
+
+<body style="text-align:center" onLoad="window.focus();">
+
+<script type="text/javascript">
+						addthis_pub             = 'acm'; 
+						//addthis_logo            = 'http://www.addthis.com/images/yourlogo.png';
+						addthis_logo            = 'http://dl.acm.org/images/ACM_transparent.png';
+						addthis_logo_background = 'c2d5fc';
+						addthis_logo_color      = '000000';
+						addthis_brand           = 'Citation Page';
+						addthis_options         = 'favorites, email, slashdot, citeulike, digg, delicious, twitter, myspace, facebook, google, more';
+						</script>
+                        
+<script src='AC_RunActiveContent.js' type="text/javascript"></script>
+
+
+
+
+<div style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+<a id="CIT"></a>
+
+
+
+<table style="table-layout:fixed; margin-top: 5px; margin-bottom: 10px; border:0px; width:100%; border-collapse:collapse;">
+	
+    <tr style="vertical-align:top">
+		
+		<td style="padding-left: 5px; padding-right:10px; padding-bottom:0px; width:300px" class="small-link-text"  ><img src="http://dl.acm.org/images/ACMDL_Logo.jpg" alt="ACM DL" style="border:0px" usemap="#port" />
+		</td>
+        
+        <td style="padding-left: 5px; padding-right:10px; padding-bottom:0px;" class="small-link-text">
+        	<table style="width:100%; border-collapse:collapse; padding:0px">
+			<tr><td style="text-align:center">
+				
+                            <div style="margin:0px auto;color:#356b20;font-size:10pt;line-height:10%;"> </div>
+                    
+					</td>		
+			</tr>
+			</table> 
+        </td>
+		<td style="padding-top: 0px; padding-left: 0px; padding-bottom:0px; text-align:right;" class="small-link-text">
+			 <p style="margin-top:0px; margin-bottom:10px;">
+					
+                            <a href="https://dl.acm.org/signin.cfm?cfid=105690261&amp;cftoken=43084137" class="small-link-text" title="Sign in to personalize your Digital Library experience">SIGN IN</a>
+                            &nbsp;&nbsp;<a href="https://dl.acm.org/signin.cfm?cfid=105690261&amp;cftoken=43084137"  class="small-link-text" title="Sign up to personalize your Digital Library experience">SIGN UP</a>
+						
+			 </p>
+            
+			<table style="padding: 5px; border-collapse:collapse; float:right">
+				
+				
+                            
+                            <tr>
+                            <td class="small-link-text" style="text-align:right">
+                            <form name="qiksearch" action="results.cfm?h=1&amp;cfid=105690261&amp;cftoken=43084137" method="post">
+                           
+                           
+                            
+                                     
+                                    <span style="margin-left:0px"><label><input type="text" name="query" size="34" value=" " /></label>&nbsp;
+                                    <input style="vertical-align:top;" type="image" alt="Search" name="Go" src="http://dl.acm.org/images/search_small.jpg" />
+                                    
+                                    </span>
+							  </form>
+                                </td>
+                            </tr>
+                          
+				  
+			</table>
+
+			
+			
+		</td>
+
+	</tr>
+    
+    
+    <tr><td colspan="3" class="small-link-text" style="padding-bottom:5px; padding-top:0px; text-align:center">
+		<div style="margin:0px auto;color:#356b20;line-height:10%;"> </div>
+         
+         </td>
+    </tr>
+    </table>
+	
+<map name="port" id="port" > 
+  <area shape="rect" coords="1,1,60,50" href="http://www.acm.org/" alt="ACM Home Page" />
+  <area shape="rect" coords="65,1,275,68" href="http://dl.acm.org/dl.cfm?CFID=105690261&CFTOKEN=43084137" alt="ACM Digital Library Home Page" />
+</map>
+
+<table style="table-layout:fixed; padding-bottom:10px; width:100%; padding:0px;">
+	<tr style="vertical-align:top">
+		<td style="padding-right:10px; text-align:left" class="small-link-text">
+        	<div id="divmain" style="border:1px solid #356b20;">
+				 
+				<div class="large-text" style="text-align:left; margin-left:2px;margin-bottom:5px;">
+					
+                    	<h1 class="mediumb-text" style="margin-top:0px; margin-bottom:0px;"><strong>Proceedings of the 2nd international conference on Intelligent user interfaces</strong></h1>
+                        
+                </div>
+                
+                  
+
+<table class="medium-text" style="border-collapse:collapse; padding:0px;">
+
+<col style="width:540px" />
+
+<tr style="vertical-align:top">
+  <td>
+    <table style="border-collapse:collapse; padding:2px;" class="medium-text">
+      <col style="width:80px;" />
+      <col style="width:auto" />
+      <tr style="vertical-align:top">
+        
+      </tr>
+    </table>
+
+	
+        <table style="margin-top: 10px; border-collapse:collapse; padding:2px;" class="medium-text">
+            <col style="width:80px" />
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             Editors:
+                
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100045785&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=105690261&amp;cftoken=43084137" title="Author Profile Page" target="_self">Johanna Moore</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <a href="inst_page.cfm?id=1026343&CFID=105690261&CFTOKEN=43084137" title="Institutional Profile Page"><small>Univ. of Pittsburgh, Pittsburgh, PA</small></a>
+                      	
+            </td>
+            </tr>
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100163076&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=105690261&amp;cftoken=43084137" title="Author Profile Page" target="_self">Ernest Edmonds</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <a href="inst_page.cfm?id=1013772&CFID=105690261&CFTOKEN=43084137" title="Institutional Profile Page"><small>Loughborough Univ., UK</small></a>
+                      	
+            </td>
+            </tr>
+            
+            <tr>
+            <td  valign="top" nowrap="nowrap">
+             
+            </td>
+            <td valign="top" nowrap="nowrap">
+                
+                    <a  href="author_page.cfm?id=81100290318&amp;coll=DL&amp;dl=ACM&amp;trk=0&amp;cfid=105690261&amp;cftoken=43084137" title="Author Profile Page" target="_self">Angel Puerta</a>
+                
+            </td>
+            <td valign="bottom">
+                
+                        <a href="inst_page.cfm?id=1030795&CFID=105690261&CFTOKEN=43084137" title="Institutional Profile Page"><small>Stanford Univ., Stanford, CA</small></a>
+                      	
+            </td>
+            </tr>
+            
+        </table>
+    
+        <table style="margin-top: 10px" border="0" class="medium-text" cellpadding="2" cellspacing="0">
+            <tr><td><table border="0" class="medium-text" cellpadding="1" cellspacing="0">
+
+<tr valign="top">
+    <td nowrap="nowrap" style="padding-top:10px;">Publication of:</td>
+</tr>
+
+	<tr valign="top">
+    	<td nowrap="nowrap" style="padding-bottom:0px">&middot;&nbsp;Conference</td>
+	</tr>
+    <tr valign="top">
+	    <td style="padding-left:10px;">
+		   <a href="http://smi.stanford.edu/projects/mecano/iui97/iui97.html" title="Conference Website"  target="_self" class="link-text">IUI97</a> 1997 International Conference on Intelligent User  Interfaces 
+        </td>
+	</tr>
+    
+    <tr valign="top">
+	    <td style="padding-left:10px; padding-bottom:10px"> Orlando, FL, USA &mdash; January 06 - 09, 1997
+                    
+                  <br />
+                    
+                  <a href="http://www.acm.org/publications" class="small-link-text" title="ACM">ACM</a> <span class="small-link-text">New York, NY</span><span class="small-link-text">, USA</span> <span class="small-link-text">  &copy;1997</span> 
+                  <br />           
+                  
+      </td>
+	</tr>
+	 
+
+</table></td></tr>
+        </table>
+    
+
+  </td>
+
+  <td rowspan="20" nowrap="nowrap">
+	<table border="0" class="medium-text" cellpadding="0" cellspacing="0">
+		<tr>
+        	<td align="center" style="padding-bottom: 5px;">
+			  
+               <img src="http://portalparts.acm.org/240000/238218/thumb/238218_thumb.jpg" title="Proceedings of the 2nd international conference on Intelligent user interfaces" height="100"  width="77" ALT="Proceedings of the 2nd international conference on Intelligent user interfaces" /> 
+              </td>
+              <td valign="top" align="left" nowrap="nowrap">
+	             <img src="images/acm_mini.jpg" title="Published by ACM" alt="Published by ACM" /> 1997 Proceeding<br />
+                 
+        	 </td>
+        </tr>
+        
+        <tr>
+        	<td colspan="2" valign="baseline" style="padding-bottom:5px;">
+            <img src="img/stats.jpg" alt="Bibliometrics Data" />&nbsp;
+            <a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a>
+            </td>
+         </tr>
+         <tr>
+            <td  class="small-text" colspan="2" valign="top" style="padding-left:30px;">
+				
+	                    	&middot;&nbsp;Downloads (6 Weeks): 87<br />
+    	                    &middot;&nbsp;Downloads (12 Months): 675<br />
+                          
+                        &middot;&nbsp;Citation Count: 348 
+			</td>
+         </tr>
+
+	</table>
+  </td>
+</tr>
+</table>
+
+<br clear="all" />
+
+                  
+                 <br clear="all" />
+			</div>
+			
+		</td>
+		<td style="padding-left: 5px; vertical-align:top; text-align:left; width:170px" class="small-link-text">
+	
+            <div id="divtools" style="background-color:#ece9d8; text-align:left; padding-top:5px; padding-bottom:5px; ">
+              <div class="medium-text" style="margin-left:3px; margin-top:10px;"><h1 class="mediumb-text" style="margin-top:-15px;"><strong>Tools and Resources</strong></h1></div>
+
+
+<ul title="Tools and Resources" style="list-style: none; list-style-position:inside;
+margin-left: 0px;
+padding-left: 0em;
+text-indent: 5px;
+margin-bottom: 0px;">
+
+
+<li style="list-style-image:url(img/toc_small.gif);margin-top:10px;"><span style="margin-left:6px;">
+   <span class="small-link-text">TOC Service:</span>
+   	  
+	  <img src="http://dl.acm.org/images/blanks.gif" border="0" alt="Spacer Image reserves space for checkmark when TOC Service is updated" name="saved" />
+      <ul style="margin-left: 0; padding-left: 0; display:inline;">
+      	
+        <li style="list-style:none; display:inline"><br /><img src="img/email_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Email</a></li>
+        <li style="list-style:none; display:inline"><img src="img/rss_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');"  class="small-link-text">RSS</a></li>
+		        
+      </ul>
+    </span>
+</li>
+
+        <li style="list-style-image:url(img/binder.gif);margin-top:10px;"><span style="margin-left:6px;">
+        <a href="citation.cfm?id=238218&preflayout=flat#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Save to Binder</a>
+         </span></li>
+    
+
+
+
+
+<li style="list-style-image:url(img/binder_green.gif);margin-top:10px;"><span style="margin-left:6px; margin-bottom:0px">
+   <span class="small-link-text">Export Formats:</span>
+      <ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=238218&expformat=bibtex','theformats');" class="small-link-text">BibTeX</a></li>
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=238218&expformat=endnotes','theformats');" class="small-link-text">EndNote</a></li>
+        <li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=238218&expformat=acmref','theformats');" class="small-link-text">ACM&nbsp;Ref</a></li>
+      </ul>
+    </span>
+</li>
+
+
+
+ 
+   <li style="list-style-image:url(img/calbullet.jpg);margin-top:15px;"><span style="margin-left:6px; margin-bottom:0px">
+   <span class="small-link-text">Upcoming Conference:</span>
+      <ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+        <li style="list-style:disc; display:inline; margin-bottom:0px; margin-left:25px;"><a href="http://www.iuiconf.org" title="International Conference on Intelligent User Interfaces" class="small-link-text">IUI '13</a></li>
+      </ul>
+    </span>
+	</li>
+    
+
+
+</ul>           
+
+  <!-- ADDTHIS BUTTON BEGIN -->
+  
+  <!-- ADDTHIS BUTTON END -->
+
+<p class="small-link-text" style="padding-top: 0px; margin-left:6px; margin-bottom:0px">Share:</p>
+  <!-- AddThis Button BEGIN -->
+
+
+
+<!-- AddThis Button BEGIN -->
+<div style="margin-left:5px;" class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_email"></a>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_slashdot"></a>
+<a class="addthis_button_reddit"></a>
+
+
+<span class="addthis_separator">|</span>
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=acm" class="addthis_button_expanded" title="more"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=acm"></script>
+<!-- AddThis Button END -->
+
+  
+ 
+
+  
+  
+            </div>
+            
+<div id="divtags" style="text-align:left; padding-top:10px">
+<span class="medium-text" style="padding-right:10px;">
+<a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=2','theexplaination');" title="Tags: explained">
+<strong>Tags:</strong>
+</a>
+</span>
+
+<a href="results.cfm?query=%22applications%20and%20expert%20systems%22&amp;querydisp=%22applications%20and%20expert%20systems%22&amp;termshow=matchall&amp;cfid=105690261&amp;cftoken=43084137" target="_self"><span class="small-text" style="padding-right: 0px; color:#356b20">applications and expert systems</span></a>
+
+<a href="results.cfm?query=%22human%20factors%22&amp;querydisp=%22human%20factors%22&amp;termshow=matchall&amp;cfid=105690261&amp;cftoken=43084137" target="_self"><span class="small-text" style="padding-right: 0px; color:#000000">human factors</span></a>
+
+<a href="results.cfm?query=%22user%20interfaces%22&amp;querydisp=%22user%20interfaces%22&amp;termshow=matchall&amp;cfid=105690261&amp;cftoken=43084137" target="_self"><span class="small-text" style="padding-right: 0px; color:#356b20">user interfaces</span></a>
+
+
+
+
+</div>
+
+		</td>
+	</tr>
+    
+</table>
+
+
+
+</div>
+
+
+<div class="layout" style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+
+
+
+
+<div id="fback" style="text-align:left; padding-top:10px; padding-bottom:20px">
+<span class="small-text" style="padding-right:10px; margin-bottom:0px;">
+<a title="feedback" href="mailto:portal-feedback@hq.acm.org?subject=Comments_on_new_design" style=" vertical-align:middle"><img src="img/feedbackg.gif" width="20" height="19" alt="feedback" border="0" /></a>
+<a title="feedback" href="mailto:portal-feedback@hq.acm.org?subject=Comments_on_new_design"><strong>Feedback</strong></a>
+
+<span style="padding:10px;">|</span>
+
+
+
+
+<span>Switch to <a href="citation.cfm?id=238218&amp;preflayout=tabs">tabbed view</a> <noscript> (javascript required)</noscript></span>
+
+
+</span>
+
+ 
+<div class="small-text" style="margin-top:10px; margin-bottom:5px;"> 
+<br />
+
+    <a href="#abstract"  title="Abstract" style="padding:5px"><span style='color:#999999'>Abstract</span></a> |
+    
+    <a href="#authors"  title="Authors" style="padding:5px"><span>Authors</span></a> |
+    <a href="#references"  title="References" style="padding:5px"><span style='color:#999999'>References</span></a> |
+    <a href="#citedby"  title="Cited By" style="padding:5px"><span style='color:#999999'>Cited By</span></a> |
+    <a href="#indexterms"  title="Index Terms" style="padding:5px"><span>Index Terms</span></a> |
+    <a href="#source"  title="Publication" style="padding:5px"><span>Publication</span></a> |
+    <a href="#revs"  title="Reviews" style="padding:5px"><span style='color:#999999'>Reviews</span></a> |               
+	<a href="#comments"  title="Comments" style="padding:5px"><span>Comments</span></a>
+	
+     |               
+	<a href="#prox"  title="Table of Contents" style="padding:5px"><span>Table of Contents</span></a>
+    
+</div>
+    
+<div style="right: 0pt; border-top:1px solid #356b20; font-size:1px; margin-bottom:20px;"/>
+
+
+
+</div>
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="abstract" class="small-text">ABSTRACT</A></h1>
+       	
+		  	<div class="flatbody">
+              <div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;">
+                  An abstract is not available.
+              </div>            
+                      
+			
+			</div>
+            
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="authors" class="small-text"><SPAN class="heading">AUTHORS</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<dl title="Authors" style="margin-top:0px">
+
+
+
+
+<dt style="float: left; clear: left; width: 100%; margin-top: 0px; margin-bottom: 0px;">
+ <strong>
+ Editors 
+  </strong>
+ </dt> 
+          
+          <dd style="margin: 0 0 0 60px; padding: 0 0 0.5em 0;">
+			
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Johanna Moore" href="author_page.cfm?id=81100045785&CFID=105690261&CFTOKEN=43084137">Johanna Moore</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1983-2011</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">90</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">790</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">54</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">125</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">1,055</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Johanna Moore" href="author_page.cfm?id=81100045785&amp;dsp=coll&amp;trk=1&amp;CFID=105690261&CFTOKEN=43084137" target="_self">View colleagues</a> of Johanna Moore
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Ernest Edmonds" href="author_page.cfm?id=81100163076&CFID=105690261&CFTOKEN=43084137">Ernest Edmonds</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1982-2011</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">88</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">214</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">48</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">308</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">2,133</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Ernest Edmonds" href="author_page.cfm?id=81100163076&amp;dsp=coll&amp;trk=1&amp;CFID=105690261&CFTOKEN=43084137" target="_self">View colleagues</a> of Ernest Edmonds
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+								<span>
+									
+                                    <br><br />
+                                    
+                                        <table border="0" cellspacing="10">
+                                        <tr><td><table border="0" width="300"  cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+
+	<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+		
+			<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+		
+	</td>
+
+<td  bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+	&nbsp;<span class="small-text"><strong><a title="author page of Angel Puerta" href="author_page.cfm?id=81100290318&CFID=105690261&CFTOKEN=43084137">Angel Puerta</a></strong><br /></span>
+	
+	
+	
+	<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+	
+	
+			
+	
+	</span>
+	
+	
+	
+</td>
+</tr>
+
+
+</table></td>
+                                            <td><table border="0" width="300" cellpadding="0" cellspacing="0">
+
+<tr>
+
+	<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+		
+        <table width="90%" style="margin-top: 1px; margin-bottom: 10px" border="0" align="left">
+			<tr>
+				<td class="smaller-text">Publication years</td><td class="small-text" align="right">1990-2009</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">28</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Citation Count</td><td class="small-text" align="right">403</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">13</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+			<tr>
+				<td class="smaller-text">Downloads (6 Weeks)</td><td class="small-text" align="right">77</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+			<tr>
+				<td class="smaller-text">Downloads (12 Months)</td><td class="small-text" align="right">526</td>
+			</tr>
+			<tr><td height="1" bgcolor="#808080" colspan="2"></td></tr>
+ 			
+		</table>
+	</td>
+	
+</tr>
+
+</table></td>
+                                        </tr>
+                                        <tr><td style="padding:0px">
+                                                    <a title="colleagues of Angel Puerta" href="author_page.cfm?id=81100290318&amp;dsp=coll&amp;trk=1&amp;CFID=105690261&CFTOKEN=43084137" target="_self">View colleagues</a> of Angel Puerta
+                                            </td>
+                                         </tr>
+                                        </table>
+                                     
+								</span>
+					
+			</dd>
+                              
+
+</dl>
+</div>
+
+		  
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="references" class="small-text"><SPAN class="heading">REFERENCES</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	References are not available
+
+</div>
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="citedby" class="small-text"><SPAN class="heading">CITED BY</SPAN></A></h1>
+		
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	Citings are not available
+		
+ </div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="indexterms" class="small-text"><SPAN class="heading">INDEX TERMS</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<p class="Categories">
+<A NAME="indexterms"></A>
+
+        <span class=heading>Primary Classification:</span>
+        <br /> 
+            <strong>H.</strong> <a href="results.cfm?query=PrimaryCCS%3AH&querydisp=PrimaryCCS%3AH&termshow=matchboolean&CFID=105690261&CFTOKEN=43084137" target="_self">Information Systems</a><br />
+        
+            	<span style="padding-left:0px;"><img src="http://dl.acm.org/images/tree.gif" alt="" border="0" height="20" width="20"></span>
+            
+            <strong>H.5</strong> <a href="results.cfm?query=PrimaryCCS%3AH5&querydisp=PrimaryCCS%3AH5&termshow=matchboolean&CFID=105690261&CFTOKEN=43084137" target="_self">INFORMATION INTERFACES AND PRESENTATION (I.7)</a><br />
+        
+            	<span style="padding-left:20px;"><img src="http://dl.acm.org/images/tree.gif" alt="" border="0" height="20" width="20"></span>
+            
+            <strong>H.5.2</strong> <a href="results.cfm?query=PrimaryCCS%3AH52&querydisp=PrimaryCCS%3AH52&termshow=matchboolean&CFID=105690261&CFTOKEN=43084137" target="_self">User Interfaces (D.2.2, H.1.2, I.3.6)</a><br />
+        <br /><br />
+        <span class=heading>Additional Classification:</span>
+        
+            <strong>I.</strong> <a href="results.cfm?query=CCS%3AI&querydisp=CCS%3AI&termshow=matchboolean&CFID=105690261&CFTOKEN=43084137" target="_self">Computing Methodologies</a><br />
+        
+            	<span style="padding-left:0px;"><img src="http://dl.acm.org/images/tree.gif" alt="" border="0" height="20" width="20"></span>
+            
+            <strong>I.2</strong> <a href="results.cfm?query=CCS%3AI2&querydisp=CCS%3AI2&termshow=matchboolean&CFID=105690261&CFTOKEN=43084137" target="_self">ARTIFICIAL INTELLIGENCE</a><br />
+        
+            	<span style="padding-left:20px;"><img src="http://dl.acm.org/images/tree.gif" alt="" border="0" height="20" width="20"></span>
+            
+            <strong>I.2.1</strong> <a href="results.cfm?query=CCS%3AI21&querydisp=CCS%3AI21&termshow=matchboolean&CFID=105690261&CFTOKEN=43084137" target="_self">Applications and Expert Systems</a><br />
+        
+</p>
+
+
+
+</div>
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="source" class="small-text"><SPAN class="heading">PUBLICATION</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+
+<table border="0" class="medium-text" cellpadding="0" cellspacing="5">
+
+
+
+    <tr valign="top">
+    	<td>Title</td> 
+	    <td>
+		   <a href="http://smi.stanford.edu/projects/mecano/iui97/iui97.html" title="Conference Website"  target="_self" class="link-text">IUI97</a> 1997 International Conference on Intelligent User  Interfaces 
+        </td>
+	</tr>
+    <tr><td></td><td>Orlando, FL, USA &mdash; January 06 - 09, 1997</td></tr> <tr><td>Pages</td><td>271</td></tr> 
+                 <tr>
+                 
+                     <td>Sponsors</td>
+                    
+                  <td>
+                  <a href="sig.cfm?id=SP918&CFID=105690261&CFTOKEN=43084137"> SIGART</a> ACM Special Interest Group on Artificial Intelligence
+                  </td>
+                  </tr>
+              
+                 <tr>
+                 
+                      <td></td>
+                  
+                  <td>
+                  <a href="sig.cfm?id=SP923&CFID=105690261&CFTOKEN=43084137"> SIGCHI</a> ACM Special Interest Group on Computer-Human Interaction
+                  </td>
+                  </tr>
+              
+                 <tr>
+                 
+                      <td></td>
+                  
+                  <td>
+                  <a name="sponsor"> AAAI</a> Am Assoc for Artifical Intelligence
+                  </td>
+                  </tr>
+              
+                 <tr>
+                 
+                      <td></td>
+                  
+                  <td>
+                  <a name="sponsor"> British HCI Group</a> 
+                  </td>
+                  </tr>
+              
+                  <tr><td>Publisher</td><td><a href="http://www.acm.org/publications">ACM</a> New York, NY, USA</td>
+				  </tr>
+             <tr><td>ISBN</td><td>0-89791-839-8 </td></tr> <tr><td>Order Number</td><td>608970</td></tr> 
+			<tr valign="top">
+        	<td>Conference</td>
+            <td valign="top" align="left"  style="padding-bottom: 25px;">
+	            <strong style="padding-right:10px">IUI</strong><a href="event.cfm?id=RE306&CFID=105690261&CFTOKEN=43084137" title="Intelligent User Interfaces">Intelligent User Interfaces</a>
+                
+                       
+                        <a href="event.cfm?id=RE306&CFID=105690261&CFTOKEN=43084137" title="Intelligent User Interfaces"><img border="0" src="http://portalparts.acm.org/event_logos/823/823.jpg" title="IUI logo" height="66"  width="62" ALT="IUI logo" style="vertical-align:top"></a>
+						 
+
+        	 </td>
+            </tr>
+		    <tr valign="top"><td style="pading-top:20px;" colspan="2">Overall Acceptance Rate 552 of 1,888 submissions, 29%</td></tr>
+                       <tr valign="top">
+                        <td colspan="2" style="padding-left:25px;">
+                        	<table>
+                            	<tr><td>
+                                        <!-- WebCharts3D v5.1(2077) -->
+<IMG SRC="/CFIDE/GraphData.cfm?graphCache=wc50&graphID=Images/693691440522898.JPG" id="Images_693691440522898_JPG" name="Images_693691440522898_JPG" usemap="#Images_693691440522898_JPG_map" border="0"/>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAB' id='GP1338212177932AAAB'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '98</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>57</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAC' id='GP1338212177932AAAC'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '98</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>20</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAD' id='GP1338212177932AAAD'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '99</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>70</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAE' id='GP1338212177932AAAE'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '99</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>21</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAF' id='GP1338212177932AAAF'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '02</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>111</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAG' id='GP1338212177932AAAG'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '02</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>49</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAH' id='GP1338212177932AAAH'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '03</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>134</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAI' id='GP1338212177932AAAI'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '03</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>28</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAJ' id='GP1338212177932AAAJ'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '04</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>140</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAK' id='GP1338212177932AAAK'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '04</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>72</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAL' id='GP1338212177932AAAL'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '05</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>135</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAM' id='GP1338212177932AAAM'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '05</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>30</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAN' id='GP1338212177932AAAN'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '06</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>127</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAO' id='GP1338212177932AAAO'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '06</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>30</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAP' id='GP1338212177932AAAP'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '07</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>118</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAQ' id='GP1338212177932AAAQ'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '07</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>26</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAR' id='GP1338212177932AAAR'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '08</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>205</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAS' id='GP1338212177932AAAS'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '08</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>30</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAT' id='GP1338212177932AAAT'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '09</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>193</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAU' id='GP1338212177932AAAU'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '09</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>56</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAV' id='GP1338212177932AAAV'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '10</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>206</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAW' id='GP1338212177932AAAW'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '10</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>62</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAX' id='GP1338212177932AAAX'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '11</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>180</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAY' id='GP1338212177932AAAY'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '11</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>79</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AAAZ' id='GP1338212177932AAAZ'><tr><td width='8'>&nbsp;</td><td width='62'>Submitted</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>IUI '12</td></tr><tr><td width='8'>&nbsp;</td><td width='62'>212</td></tr></table>
+<table cellpadding='0' cellspacing='1' style='visibility: hidden;display: none; position:absolute;font-family: Dialog;font-size: 11px;background:#FFFFFF;foreground:#333333;color:#333333;-moz-opacity:.78;-opacity:.78;filter:alpha(opacity=78);border:1px solid #333333;' name='GP1338212177932AABA' id='GP1338212177932AABA'><tr><td width='8'>&nbsp;</td><td width='58'>Accepted</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>IUI '12</td></tr><tr><td width='8'>&nbsp;</td><td width='58'>49</td></tr></table>
+<MAP name='Images_693691440522898_JPG_map'>
+<AREA shape='rect' coords='0,0,1,1'/>
+<AREA shape="rect" coords="302,170,310,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AABA",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AABA",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AABA",event)'/>
+<AREA shape="rect" coords="294,73,302,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAZ",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAZ",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAZ",event)'/>
+<AREA shape="rect" coords="280,152,288,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAY",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAY",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAY",event)'/>
+<AREA shape="rect" coords="272,92,280,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAX",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAX",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAX",event)'/>
+<AREA shape="rect" coords="259,163,267,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAW",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAW",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAW",event)'/>
+<AREA shape="rect" coords="251,77,259,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAV",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAV",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAV",event)'/>
+<AREA shape="rect" coords="237,166,245,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAU",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAU",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAU",event)'/>
+<AREA shape="rect" coords="229,84,237,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAT",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAT",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAT",event)'/>
+<AREA shape="rect" coords="215,182,223,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAS",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAS",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAS",event)'/>
+<AREA shape="rect" coords="207,77,215,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAR",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAR",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAR",event)'/>
+<AREA shape="rect" coords="194,184,202,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAQ",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAQ",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAQ",event)'/>
+<AREA shape="rect" coords="186,129,194,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAP",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAP",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAP",event)'/>
+<AREA shape="rect" coords="172,182,180,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAO",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAO",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAO",event)'/>
+<AREA shape="rect" coords="164,124,172,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAN",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAN",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAN",event)'/>
+<AREA shape="rect" coords="151,182,159,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAM",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAM",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAM",event)'/>
+<AREA shape="rect" coords="143,119,151,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAL",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAL",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAL",event)'/>
+<AREA shape="rect" coords="129,157,137,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAK",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAK",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAK",event)'/>
+<AREA shape="rect" coords="121,116,129,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAJ",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAJ",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAJ",event)'/>
+<AREA shape="rect" coords="107,183,115,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAI",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAI",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAI",event)'/>
+<AREA shape="rect" coords="99,120,107,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAH",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAH",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAH",event)'/>
+<AREA shape="rect" coords="86,170,94,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAG",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAG",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAG",event)'/>
+<AREA shape="rect" coords="78,133,86,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAF",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAF",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAF",event)'/>
+<AREA shape="rect" coords="64,187,72,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAE",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAE",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAE",event)'/>
+<AREA shape="rect" coords="56,158,64,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAD",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAD",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAD",event)'/>
+<AREA shape="rect" coords="43,188,51,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAC",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAC",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAC",event)'/>
+<AREA shape="rect" coords="35,166,43,199" onMouseover='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAB",event,true)' onMouseout='xx_set_visible("Images_693691440522898_JPG","GP1338212177932AAAB",event,false)' onMousemove='xx_move_tag("Images_693691440522898_JPG","GP1338212177932AAAB",event)'/>
+<AREA shape="rect" coords="160,13,227,27"/>
+<AREA shape="rect" coords="89,13,160,27"/>
+</MAP>
+
+<script language="javascript" src="/CFIDE/GraphData.cfm?graphCache=wc50&graphID=script.js"></script>
+
+                                      </td>
+                                      <td style="padding-left:20px;">
+                                             <table style="border-width: 1px; border-style: solid; width:100%;  border-spacing: 6px;" class="text12">
+                                                <tr bgcolor="#ffffff">
+                                                  <th style="width:50%">Year</th>
+                                                  <th  align="right" style="width:15%">Submitted</th>
+                                                  <th  align="right" style="width:15%">Accepted</th>
+                                                  <th  align="center">Rate</th>
+                                                </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>IUI '98</td>
+                                                            <td align="right">57</td>
+                                                            <td align="right">20</td>
+                                                            <td align="center">35%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>IUI '99</td>
+                                                            <td align="right">70</td>
+                                                            <td align="right">21</td>
+                                                            <td align="center">30%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>IUI '02</td>
+                                                            <td align="right">111</td>
+                                                            <td align="right">49</td>
+                                                            <td align="center">44%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>IUI '03</td>
+                                                            <td align="right">134</td>
+                                                            <td align="right">28</td>
+                                                            <td align="center">21%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>IUI '04</td>
+                                                            <td align="right">140</td>
+                                                            <td align="right">72</td>
+                                                            <td align="center">51%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>IUI '05</td>
+                                                            <td align="right">135</td>
+                                                            <td align="right">30</td>
+                                                            <td align="center">22%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>IUI '06</td>
+                                                            <td align="right">127</td>
+                                                            <td align="right">30</td>
+                                                            <td align="center">24%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>IUI '07</td>
+                                                            <td align="right">118</td>
+                                                            <td align="right">26</td>
+                                                            <td align="center">22%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>IUI '08</td>
+                                                            <td align="right">205</td>
+                                                            <td align="right">30</td>
+                                                            <td align="center">15%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>IUI '09</td>
+                                                            <td align="right">193</td>
+                                                            <td align="right">56</td>
+                                                            <td align="center">29%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>IUI '10</td>
+                                                            <td align="right">206</td>
+                                                            <td align="right">62</td>
+                                                            <td align="center">30%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#ffffff">
+                                                            <td>IUI '11</td>
+                                                            <td align="right">180</td>
+                                                            <td align="right">79</td>
+                                                            <td align="center">44%</td>
+                                                         </tr>
+                                                
+                                                        <tr bgcolor="#f0f0f0">
+                                                            <td>IUI '12</td>
+                                                            <td align="right">212</td>
+                                                            <td align="right">49</td>
+                                                            <td align="center">23%</td>
+                                                         </tr>
+                                                
+                                                 <tr bgcolor="#ffffff">
+                                                    <td><strong>Overall</strong></td>
+                                                    <td align="right">1,888</td>
+                                                    <td align="right">552</td>
+                                                    <td align="center">29%</td>
+                                                  </tr>
+                                                </table>
+                                       </td>
+                                     </tr>
+                               </table>
+                        </td>
+                    </tr>
+                     
+                     
+            
+</table>
+
+
+</table>
+
+
+
+
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="revs" class="small-text"><SPAN class="heading">REVIEWS</SPAN></A></h1>
+        
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+    	<br />Reviews are not available for this item
+        
+        <div align="left" style="margin-top:30px">
+					<a title="Computing Reviews" href="ocr_review_main.cfm?CFID=105690261&CFTOKEN=43084137">
+                 <img src="http://dl.acm.org/images/ocrs-s.jpg" alt="Computing Reviews logo" border="0" style="vertical-align:middle"></a>
+        
+        
+       		<ul style="list-style:disc; display:inline-block">
+	            <li>Access <a href="ocr_review_main.cfm?CFID=105690261&CFTOKEN=43084137" target="_blank">critical reviews</a> of computing literature.</li>
+            	<li><a href="http://www.computingreviews.com/Reviewer/"  target="_blank">Become a reviewer</a> for Computing Reviews</li>
+            </ul>
+        </div>
+        
+</div>
+
+
+
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="comments" class="small-text"><SPAN class="heading">COMMENTS</SPAN></A></h1>
+         
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+
+
+<div>
+<div>
+	
+	<p style="margin-left:5px;">
+    <strong>Be the first to comment</strong>
+    	
+          	To Post a comment please <a href="signin.cfm?CFID=105690261&CFTOKEN=43084137">sign in or create</a> a free Web account</a>
+        
+    
+    
+	 </p>
+	   	
+ 
+</div>
+
+
+</div>
+
+	
+		<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="http://dl.acm.org/images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="prox" class="small-text">Table of Contents</A></h1>
+        
+<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;" >
+
+<h5 style="margin-bottom:0px; margin-top:0px" class="medium-text">Proceedings of the 2nd international conference on Intelligent user interfaces</h5>
+
+
+<h5 class="medium-text" style="margin-bottom:10px; margin-top:10px;">Table of Contents</h5>
+
+<div style="clear:both">
+    
+        <div style="margin-top:5px; margin-bottom: 10px;" class="small-text"><a href="citation.cfm?id=169891&picked=prox&CFID=105690261&CFTOKEN=43084137" title="previous: IUI '93"><img hspace="5" align="absmiddle" border="0" src="img/prev.gif" width="19" height="11" alt="previous" />previous proceeding</a> <span style="padding-left:5px;padding-right:5px;">|</span><a href="citation.cfm?id=268389&picked=prox&CFID=105690261&CFTOKEN=43084137" title="Next: IUI '98">next proceeding <img align="absmiddle" hspace="5" border="0" src="img/next.gif" width="19" height="11" alt="next" /></a></div>
+        
+</div>
+
+
+ 
+<table class="text12" border="0">
+
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238219&CFID=105690261&CFTOKEN=43084137">Technology transfer from university to industry</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100302796&CFID=105690261&CFTOKEN=43084137">Jim Foley</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 3 - 4</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238219" title="DOI">10.1145/238218.238219</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238219&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238220&CFID=105690261&CFTOKEN=43084137">Local plan recognition in direct manipulation interfaces</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100020339&CFID=105690261&CFTOKEN=43084137">Annika W&#230;rn</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 7 - 14</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238220" title="DOI">10.1145/238218.238220</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238220&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238221&CFID=105690261&CFTOKEN=43084137">Interaction with a mixed-initiative system for exploratory data analysis</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81452610940&CFID=105690261&CFTOKEN=43084137">Robert St. Amant</a>, 
+                        <a href="author_page.cfm?id=81100149856&CFID=105690261&CFTOKEN=43084137">Paul R. Cohen</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 15 - 22</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238221" title="DOI">10.1145/238218.238221</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238221&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238222&CFID=105690261&CFTOKEN=43084137">Segmented interaction history in a collaborative interface agent</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100311645&CFID=105690261&CFTOKEN=43084137">Charles Rich</a>, 
+                        <a href="author_page.cfm?id=81100223737&CFID=105690261&CFTOKEN=43084137">Candace L. Sidner</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 23 - 30</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238222" title="DOI">10.1145/238218.238222</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238222&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238281&CFID=105690261&CFTOKEN=43084137">Direct manipulation for comprehensible, predictable and controllable user interfaces</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100146468&CFID=105690261&CFTOKEN=43084137">Ben Shneiderman</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 33 - 39</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238281" title="DOI">10.1145/238218.238281</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238281&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238283&CFID=105690261&CFTOKEN=43084137">Intelligent software</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100086306&CFID=105690261&CFTOKEN=43084137">Pattie Maes</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 41 - 43</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238283" title="DOI">10.1145/238218.238283</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238283&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238285&CFID=105690261&CFTOKEN=43084137">The selection recognition agent: instant access to relevant information and operations</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100023553&CFID=105690261&CFTOKEN=43084137">Milind S. Pandit</a>, 
+                        <a href="author_page.cfm?id=81100549395&CFID=105690261&CFTOKEN=43084137">Sameer Kalbag</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 47 - 52</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238285" title="DOI">10.1145/238218.238285</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238285&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238287&CFID=105690261&CFTOKEN=43084137">Using agents to personalize the Web</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81332531603&CFID=105690261&CFTOKEN=43084137">Christoph G. Thomas</a>, 
+                        <a href="author_page.cfm?id=81409592298&CFID=105690261&CFTOKEN=43084137">Gerhard Fischer</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 53 - 60</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238287" title="DOI">10.1145/238218.238287</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238287&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238290&CFID=105690261&CFTOKEN=43084137">Multimodal user interfaces in the Open Agent Architecture</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100516225&CFID=105690261&CFTOKEN=43084137">Douglas B. Moran</a>, 
+                        <a href="author_page.cfm?id=81100182667&CFID=105690261&CFTOKEN=43084137">Adam J. Cheyer</a>, 
+                        <a href="author_page.cfm?id=81100165126&CFID=105690261&CFTOKEN=43084137">Luc E. Julia</a>, 
+                        <a href="author_page.cfm?id=81406600432&CFID=105690261&CFTOKEN=43084137">David L. Martin</a>, 
+                        <a href="author_page.cfm?id=81423595537&CFID=105690261&CFTOKEN=43084137">Sangkyu Park</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 61 - 68</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238290" title="DOI">10.1145/238218.238290</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238290&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238293&CFID=105690261&CFTOKEN=43084137">Generating Web-based presentations in spatial hypertext</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100155993&CFID=105690261&CFTOKEN=43084137">Frank M. Shipman, III</a>, 
+                        <a href="author_page.cfm?id=81100039520&CFID=105690261&CFTOKEN=43084137">Richard Furuta</a>, 
+                        <a href="author_page.cfm?id=81100281009&CFID=105690261&CFTOKEN=43084137">Catherine C. Marshall</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 71 - 78</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238293" title="DOI">10.1145/238218.238293</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238293&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238298&CFID=105690261&CFTOKEN=43084137">Adding animated presentation agents to the interface</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100155248&CFID=105690261&CFTOKEN=43084137">Thomas Rist</a>, 
+                        <a href="author_page.cfm?id=81100557226&CFID=105690261&CFTOKEN=43084137">Elisabeth Andr&#233;</a>, 
+                        <a href="author_page.cfm?id=81100615719&CFID=105690261&CFTOKEN=43084137">Jochen M&#252;ller</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 79 - 86</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238298" title="DOI">10.1145/238218.238298</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238298&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238309&CFID=105690261&CFTOKEN=43084137">Dynamic dramatization of multimedia story presentations</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100140469&CFID=105690261&CFTOKEN=43084137">Nikitas M. Sgouros</a>, 
+                        <a href="author_page.cfm?id=81100110177&CFID=105690261&CFTOKEN=43084137">George Papakonstantinou</a>, 
+                        <a href="author_page.cfm?id=81409595959&CFID=105690261&CFTOKEN=43084137">Panagiotis Tsanakas</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 87 - 94</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238309" title="DOI">10.1145/238218.238309</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238309&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238310&CFID=105690261&CFTOKEN=43084137">Description and recognition methods for sign language based on gesture components</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100275834&CFID=105690261&CFTOKEN=43084137">Hirohiko Sagawa</a>, 
+                        <a href="author_page.cfm?id=81100252732&CFID=105690261&CFTOKEN=43084137">Masaru Takeuchi</a>, 
+                        <a href="author_page.cfm?id=81100257373&CFID=105690261&CFTOKEN=43084137">Masaru Ohki</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 97 - 104</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238310" title="DOI">10.1145/238218.238310</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238310&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238311&CFID=105690261&CFTOKEN=43084137">Haptic output in multimodal user interfaces</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100292179&CFID=105690261&CFTOKEN=43084137">Stefan M&#252;nch</a>, 
+                        <a href="author_page.cfm?id=81100225179&CFID=105690261&CFTOKEN=43084137">R&#252;diger Dillmann</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 105 - 112</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238311" title="DOI">10.1145/238218.238311</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238311&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238312&CFID=105690261&CFTOKEN=43084137">Helping users think in three dimensions: steps toward incorporating spatial cognition in user modelling</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81322492935&CFID=105690261&CFTOKEN=43084137">Michael Eisenberg</a>, 
+                        <a href="author_page.cfm?id=81100462069&CFID=105690261&CFTOKEN=43084137">Ann Nishioka</a>, 
+                        <a href="author_page.cfm?id=81100303380&CFID=105690261&CFTOKEN=43084137">M. E. Schreiner</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 113 - 120</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238312" title="DOI">10.1145/238218.238312</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238312&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238313&CFID=105690261&CFTOKEN=43084137">Computational approaches to interface design: what works, what doesn't, what should and what might</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81332515776&CFID=105690261&CFTOKEN=43084137">Christopher A. Miller</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 123 - 126</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238313" title="DOI">10.1145/238218.238313</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238313&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238314&CFID=105690261&CFTOKEN=43084137">Top-down hierarchical planning of coherent visual discourse</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100264735&CFID=105690261&CFTOKEN=43084137">Michelle X. Zhou</a>, 
+                        <a href="author_page.cfm?id=81100427474&CFID=105690261&CFTOKEN=43084137">Steven K. Feiner</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 129 - 136</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238314" title="DOI">10.1145/238218.238314</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238314&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238315&CFID=105690261&CFTOKEN=43084137">Declarative models of presentation</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100073022&CFID=105690261&CFTOKEN=43084137">Pablo Castells</a>, 
+                        <a href="author_page.cfm?id=81100625746&CFID=105690261&CFTOKEN=43084137">Pedro Szekely</a>, 
+                        <a href="author_page.cfm?id=81100031465&CFID=105690261&CFTOKEN=43084137">Ewald Salcher</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 137 - 144</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238315" title="DOI">10.1145/238218.238315</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238315&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238316&CFID=105690261&CFTOKEN=43084137">Integrating planning and task-based design for multimedia presentation</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100621853&CFID=105690261&CFTOKEN=43084137">Stephan Kerpedjiev</a>, 
+                        <a href="author_page.cfm?id=81100417032&CFID=105690261&CFTOKEN=43084137">Giuseppe Carenini</a>, 
+                        <a href="author_page.cfm?id=81100201011&CFID=105690261&CFTOKEN=43084137">Steven F. Roth</a>, 
+                        <a href="author_page.cfm?id=81100045785&CFID=105690261&CFTOKEN=43084137">Johanna D. Moore</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 145 - 152</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238316" title="DOI">10.1145/238218.238316</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238316&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238317&CFID=105690261&CFTOKEN=43084137">The pedagogical design studio: exploiting artifact-based task models for constructivist learning</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81339512416&CFID=105690261&CFTOKEN=43084137">James C. Lester</a>, 
+                        <a href="author_page.cfm?id=81332498446&CFID=105690261&CFTOKEN=43084137">Patrick J. Fitzgerald</a>, 
+                        <a href="author_page.cfm?id=81100387882&CFID=105690261&CFTOKEN=43084137">Brian A. Stone</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 155 - 162</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238317" title="DOI">10.1145/238218.238317</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238317&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238318&CFID=105690261&CFTOKEN=43084137">Some interface issues in developing intelligent communication aids for people with disabilities</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100228295&CFID=105690261&CFTOKEN=43084137">Kathleen F. McCoy</a>, 
+                        <a href="author_page.cfm?id=81100623583&CFID=105690261&CFTOKEN=43084137">Patrick Demasco</a>, 
+                        <a href="author_page.cfm?id=81100342962&CFID=105690261&CFTOKEN=43084137">Christopher A. Pennington</a>, 
+                        <a href="author_page.cfm?id=81100577397&CFID=105690261&CFTOKEN=43084137">Arlene Luberoff Badman</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 163 - 170</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238318" title="DOI">10.1145/238218.238318</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238318&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238319&CFID=105690261&CFTOKEN=43084137">Compelling intelligent user interfaces&mdash;how much AI?</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81350597590&CFID=105690261&CFTOKEN=43084137">Larry Birnbaum</a>, 
+                        <a href="author_page.cfm?id=81100323543&CFID=105690261&CFTOKEN=43084137">Eric Horvitz</a>, 
+                        <a href="author_page.cfm?id=81100041571&CFID=105690261&CFTOKEN=43084137">David Kurlander</a>, 
+                        <a href="author_page.cfm?id=81100262805&CFID=105690261&CFTOKEN=43084137">Henry Lieberman</a>, 
+                        <a href="author_page.cfm?id=81100484340&CFID=105690261&CFTOKEN=43084137">Joe Marks</a>, 
+                        <a href="author_page.cfm?id=81100201004&CFID=105690261&CFTOKEN=43084137">Steve Roth</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 173 - 175</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238319" title="DOI">10.1145/238218.238319</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238319&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238320&CFID=105690261&CFTOKEN=43084137">Evaluating the utility and usability of an adaptive hypermedia system</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81341491415&CFID=105690261&CFTOKEN=43084137">Kristina H&#246;&#246;k</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 179 - 186</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238320" title="DOI">10.1145/238218.238320</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238320&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238322&CFID=105690261&CFTOKEN=43084137">Multi-level user support through adaptive hypermedia: a highly application-independent help component</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100063439&CFID=105690261&CFTOKEN=43084137">L. Miguel Encarna&#231;&#227;o</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 187 - 194</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238322" title="DOI">10.1145/238218.238322</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238322&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238323&CFID=105690261&CFTOKEN=43084137">Decision making in intelligent user interfaces</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100228071&CFID=105690261&CFTOKEN=43084137">Constantine Stephanidis</a>, 
+                        <a href="author_page.cfm?id=81100374148&CFID=105690261&CFTOKEN=43084137">Charalampos Karagiannidis</a>, 
+                        <a href="author_page.cfm?id=81100605018&CFID=105690261&CFTOKEN=43084137">Adamantios Koumpis</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 195 - 202</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238323" title="DOI">10.1145/238218.238323</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238323&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238324&CFID=105690261&CFTOKEN=43084137">What makes an intelligent user interface intelligent (abstract)?</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100258039&CFID=105690261&CFTOKEN=43084137">Doug Riecken</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Page: 205</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238324" title="DOI">10.1145/238218.238324</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238324&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238325&CFID=105690261&CFTOKEN=43084137">An adaptive short list for documents on the World Wide Web</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100028024&CFID=105690261&CFTOKEN=43084137">Matjaz Debevc</a>, 
+                        <a href="author_page.cfm?id=81100570483&CFID=105690261&CFTOKEN=43084137">Beth Meyer</a>, 
+                        <a href="author_page.cfm?id=81100139265&CFID=105690261&CFTOKEN=43084137">Rajko Svecko</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 209 - 211</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238325" title="DOI">10.1145/238218.238325</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238325&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238326&CFID=105690261&CFTOKEN=43084137">An interface agent for nonroutine tasks</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100033267&CFID=105690261&CFTOKEN=43084137">Yuzo Fujishima</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 213 - 216</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238326" title="DOI">10.1145/238218.238326</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238326&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238327&CFID=105690261&CFTOKEN=43084137">An interface for collaborative and coached approaches to learning critical inquiry</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100317842&CFID=105690261&CFTOKEN=43084137">Dan Suthers</a>, 
+                        <a href="author_page.cfm?id=81100351789&CFID=105690261&CFTOKEN=43084137">Alan Lesgold</a>, 
+                        <a href="author_page.cfm?id=81100412078&CFID=105690261&CFTOKEN=43084137">Sandy Katz</a>, 
+                        <a href="author_page.cfm?id=81100366326&CFID=105690261&CFTOKEN=43084137">Arlene Weiner</a>, 
+                        <a href="author_page.cfm?id=81100029781&CFID=105690261&CFTOKEN=43084137">Eva Toth</a>, 
+                        <a href="author_page.cfm?id=81100515166&CFID=105690261&CFTOKEN=43084137">Kim Harrigal</a>, 
+                        <a href="author_page.cfm?id=81332507047&CFID=105690261&CFTOKEN=43084137">Dan Jones</a>, 
+                        <a href="author_page.cfm?id=81332532297&CFID=105690261&CFTOKEN=43084137">Joe Toth</a>, 
+                        <a href="author_page.cfm?id=81100071682&CFID=105690261&CFTOKEN=43084137">John Connelly</a>, 
+                        <a href="author_page.cfm?id=81100302709&CFID=105690261&CFTOKEN=43084137">Yazmine DeLeon</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 217 - 220</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238327" title="DOI">10.1145/238218.238327</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238327&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238328&CFID=105690261&CFTOKEN=43084137">Automating a classification task based on an augmented thesaurus</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100372916&CFID=105690261&CFTOKEN=43084137">Eunok Paek</a>, 
+                        <a href="author_page.cfm?id=81392594520&CFID=105690261&CFTOKEN=43084137">Hye-Jeong Jeon</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 221 - 224</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238328" title="DOI">10.1145/238218.238328</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238328&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238329&CFID=105690261&CFTOKEN=43084137">Easing interaction through user-awareness</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100161020&CFID=105690261&CFTOKEN=43084137">Alain Karsenty</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 225 - 228</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238329" title="DOI">10.1145/238218.238329</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238329&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238330&CFID=105690261&CFTOKEN=43084137">Individual user interfaces and model-based user interface software tools</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100392493&CFID=105690261&CFTOKEN=43084137">Egbert Schlungbaum</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 229 - 232</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238330" title="DOI">10.1145/238218.238330</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238330&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238331&CFID=105690261&CFTOKEN=43084137">Inductive task modeling for user interface customization</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100340093&CFID=105690261&CFTOKEN=43084137">David Maulsby</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 233 - 236</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238331" title="DOI">10.1145/238218.238331</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238331&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238332&CFID=105690261&CFTOKEN=43084137">Intelligent network news reader</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100636896&CFID=105690261&CFTOKEN=43084137">Hitoshi Isahara</a>, 
+                        <a href="author_page.cfm?id=81331500668&CFID=105690261&CFTOKEN=43084137">Hiromi Ozaku</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 237 - 240</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238332" title="DOI">10.1145/238218.238332</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238332&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238333&CFID=105690261&CFTOKEN=43084137">Intelligent word-prediction to enhance text input rate (a syntactic analysis-based word-prediction aid for people with severe motor and speech disability)</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100406319&CFID=105690261&CFTOKEN=43084137">Nestor Garay-Vitoria</a>, 
+                        <a href="author_page.cfm?id=81100255566&CFID=105690261&CFTOKEN=43084137">Julio Gonz&#225;lez-Abascal</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 241 - 244</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238333" title="DOI">10.1145/238218.238333</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238333&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238335&CFID=105690261&CFTOKEN=43084137">Interactive model-based coding for face metaphor user interface in network communications</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100180592&CFID=105690261&CFTOKEN=43084137">Kazuo Ohzeki</a>, 
+                        <a href="author_page.cfm?id=81100652657&CFID=105690261&CFTOKEN=43084137">Takahiro Saito</a>, 
+                        <a href="author_page.cfm?id=81100379776&CFID=105690261&CFTOKEN=43084137">Masahide Kaneko</a>, 
+                        <a href="author_page.cfm?id=81100242376&CFID=105690261&CFTOKEN=43084137">Hiroshi Harashima</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 245 - 248</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238335" title="DOI">10.1145/238218.238335</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238335&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238337&CFID=105690261&CFTOKEN=43084137">Management of interface design knowledge with MOBI-D</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100290318&CFID=105690261&CFTOKEN=43084137">Angel R. Puerta</a>, 
+                        <a href="author_page.cfm?id=81100340093&CFID=105690261&CFTOKEN=43084137">David Maulsby</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 249 - 252</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238337" title="DOI">10.1145/238218.238337</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238337&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238338&CFID=105690261&CFTOKEN=43084137">Providing user support for interactive applications with FUSE</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81392609547&CFID=105690261&CFTOKEN=43084137">Frank Lonczewski</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 253 - 256</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238338" title="DOI">10.1145/238218.238338</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238338&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238342&CFID=105690261&CFTOKEN=43084137">A response model for a CG character based on timing of interactions in a multimodal human interface</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81351591026&CFID=105690261&CFTOKEN=43084137">Kenji Sakamoto</a>, 
+                        <a href="author_page.cfm?id=81332504566&CFID=105690261&CFTOKEN=43084137">Haruo Hinode</a>, 
+                        <a href="author_page.cfm?id=81100534235&CFID=105690261&CFTOKEN=43084137">Keiko Watanuki</a>, 
+                        <a href="author_page.cfm?id=81100632553&CFID=105690261&CFTOKEN=43084137">Susumu Seki</a>, 
+                        <a href="author_page.cfm?id=81100468854&CFID=105690261&CFTOKEN=43084137">Jiro Kiyama</a>, 
+                        <a href="author_page.cfm?id=81332532144&CFID=105690261&CFTOKEN=43084137">Fumio Togawa</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 257 - 260</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238342" title="DOI">10.1145/238218.238342</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238342&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238344&CFID=105690261&CFTOKEN=43084137">The stick-e note architecture: extending the interface beyond the user</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100449379&CFID=105690261&CFTOKEN=43084137">Jason Pascoe</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 261 - 264</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238344" title="DOI">10.1145/238218.238344</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238344&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+  <tr>
+  <td></td>
+  <td colspan="1"><span style="padding-left:0"><a href="citation.cfm?id=238347&CFID=105690261&CFTOKEN=43084137">Wizards, guides, and beyond: rational and empirical methods for selecting optimal intelligent user interface agents</a></span></td>
+  </tr>
+  
+          <tr>
+          <td></td>
+          <td>
+          <span style="padding-left:0">
+          
+                        <a href="author_page.cfm?id=81100298821&CFID=105690261&CFTOKEN=43084137">D. Christopher Dryer</a> 
+          </span>    
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">Pages: 265 - 268</span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td> <span style="padding-left:0">doi&gt;<a href="http://dx.doi.org/10.1145/238218.238347" title="DOI">10.1145/238218.238347</a></span></td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td>
+           <span style="padding-left:0">
+          Full text: <a name="FullTextPdf" title="FullText Pdf" href="ft_gateway.cfm?id=238347&type=pdf&CFID=105690261&CFTOKEN=43084137" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="Pdf" class="fulltext_lnk" border="0" />Pdf</a>
+           </span>
+          </td>
+          </tr>
+          
+          <tr>
+          <td></td>
+          <td style="padding-bottom:15px;">
+          
+          </td>
+          </tr>
+		  
+</table>
+
+
+</div> 
+</div>
+
+
+ <p class="small-text" align="center">Powered by <a id="theguide" name="theguide" href="javascript:ColdFusion.Window.show('theguide')"><img src="img/poweredbyacm.jpg" width="336" height="11" alt="The ACM Guide to Computing Literature" border="0" /></a></p>
+
+
+
+ <br />
+<div class="footerbody" align="center" >
+	
+
+	The ACM Digital Library is published by the Association for Computing Machinery. Copyright &copy; 2012 ACM, Inc.<br />
+	<a href="http://www.acm.org/publications/policies/usage">Terms of Usage</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/privacy-policy">Privacy Policy</a>&nbsp;&nbsp;
+	<a href="http://www.acm.org/about/code-of-ethics">Code of Ethics</a>&nbsp;&nbsp;	  
+	<a href="http://www.acm.org/about/contact-us">Contact Us</a>
+
+<br /><br />
+Useful downloads: 
+<a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="http://dl.acm.org/images/pdf_logo.gif" width="16" height="16" alt="" border="0" /> Adobe Acrobat</a>
+&nbsp;&nbsp;
+<a href="http://www.apple.com/quicktime/download/" target="_blank"><img src="http://dl.acm.org/images/qtlogo.gif" width="16" height="16" alt="" border="0" /> QuickTime</a>
+&nbsp;&nbsp;
+<a href="http://www.microsoft.com/windows/windowsmedia/download/default.asp" target="_blank"><img src="http://dl.acm.org/images/wmv.gif" width="16" height="15" alt="" border="0" /> Windows Media Player</a>
+&nbsp;&nbsp;
+<a href="http://www.real.com/" target="_blank"><img src="http://dl.acm.org/images/realplayer.gif" width="20" height="18" alt="" border="0" /> Real Player</a>
+
+</div> 
+
+
+
+<div  id="cf_window1338212177568" class="yuiextdlg">
+	
+	<div  id="theguide_title" class="x-dlg-hd">
+		The ACM Guide to Computing Literature
+	 </div>
+	<div  id="theguide_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338212177571" class="yuiextdlg">
+	
+	<div  id="thetags_title" class="x-dlg-hd">
+		All Tags
+	 </div>
+	<div  id="thetags_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338212177574" class="yuiextdlg">
+	
+	<div  id="theformats_title" class="x-dlg-hd">
+		Export Formats
+	 </div>
+	<div  id="theformats_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338212177576" class="yuiextdlg">
+	
+	<div  id="theexplaination_title" class="x-dlg-hd">
+		&nbsp;
+	 </div>
+	<div  id="theexplaination_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338212177578" class="yuiextdlg">
+	
+	<div  id="theservices_title" class="x-dlg-hd">
+		&nbsp;
+	 </div>
+	<div  id="theservices_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> <div  id="cf_window1338212177580" class="yuiextdlg">
+	
+	<div  id="savetobinder_title" class="x-dlg-hd">
+		Save to Binder
+	 </div>
+	<div  id="savetobinder_body" class="x-dlg-bd">
+		
+		
+	 </div>
+ </div> 
+
+</body>
+</html>
