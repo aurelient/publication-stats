@@ -34,39 +34,58 @@ class Fetcher:
         # time.sleep(3)
 
 class ConferenceProcessor:
-  def process(self, conferenceName, conferenceYear):
+  def process(self, conferenceName, conferenceYear, fromDOI):
     conferenceFile = os.path.join(conferenceName, conferenceName + "\'"+ conferenceYear + ".html")
     print conferenceFile
-    self.getConferencePapersDOIfromFile(conferenceFile, conferenceName, conferenceYear)
+    self.getConferencePapersDOIfromFile(conferenceFile, conferenceName, conferenceYear, fromDOI)
   
-  ##
-  ## This counting method is not precise
-  ## It counts the number of bullets in the page rather than the number of true papers
-  ##
-  def getConferencePapersDOIfromFile(self,filePath, conferenceName, conferenceYear):
+  def getConferencePapersDOIfromFile(self,filePath, conferenceName, conferenceYear, fromDOI):
     f = open(filePath)
     filetext = f.read()
     f.close()
     
-    paperList = ["conference", "year", "doi", "title", "citationCount", "download6weeks", "download12months", "downloadAll", "keywords", "pageNumber", "authors"]
+    paperList = [["conference", "year", "doi", "title", "citationCount", "download6weeks", "download12months", "downloadAll", "keywords", "pageNumber", "authors"]]
 
     start = 'doi&gt;<a href="'
     end = '" title'
     doiList = re.findall(re.escape(start)+"(.*)"+re.escape(end),filetext)
 
+    startDownload = False
+
+    folder = filePath.split(".")[0]
+    # let's create a directory for the conference if none exists
+    if not os.path.exists(folder):
+      os.makedirs(folder)
+
     for doi in doiList:
-      print doi
-      folder = filePath.split(".")[0]
-      # let's create a directory for the conference if none exists
-      if not os.path.exists(folder):
-        os.makedirs(folder)
       paper = string.lstrip(doi,"http://dx.doi.org/10.1145/")
-      print "paper " + paper
-      Mycurl().curl_limit_rate("http://dl.acm.org/citation.cfm?doid="+paper+"&preflayout=flat", folder+"/"+paper+".html", 10000)
+      print paper, fromDOI
+      if startDownload:
+        url = "http://dl.acm.org/citation.cfm?doid="+paper #+"&preflayout=flat"
+        bckFile = folder+"/"+paper+".html"
+        print url
+        Mycurl().curl_limit_rate(url, bckFile, 3000)      
+        paperDescription = self.processPaper(folder+"/"+paper+".html", conferenceName, conferenceYear)
+        paperList.append(paperDescription)
+      else:
+        if paper == fromDOI:
+          startDownload = True
       
-      paperDescription = self.processPaper(folder+"/"+paper+".html", conferenceName, conferenceYear)
-      paperList.append(paperDescription)
-      
+    out = csv.writer(open(conferenceName + conferenceYear + ".csv","w"), delimiter=',',quoting=csv.QUOTE_ALL)
+    for p in paperList:
+      out.writerow(p)
+
+  def processConference(self, conferenceName, conferenceYear):
+    folder = os.path.join(conferenceName, conferenceName + "\'"+ conferenceYear)
+
+    paperList = [["conference", "year", "doi", "title", "citationCount", "download6weeks", "download12months", "downloadAll", "keywords", "pageNumber", "authors"]]
+
+    if os.path.exists(folder):
+      for filename in os.listdir(folder): 
+        if filename != ".DS_Store" and not os.path.isdir(os.path.join(conferenceName,filename)):
+          paperDescription = self.processPaper(os.path.join(folder, filename), conferenceName, conferenceYear)
+          paperList.append(paperDescription)
+    
     out = csv.writer(open(conferenceName + conferenceYear + ".csv","w"), delimiter=',',quoting=csv.QUOTE_ALL)
     for p in paperList:
       out.writerow(p)
@@ -145,11 +164,13 @@ class Mycurl:
     c = pycurl.Curl()
     c.setopt(c.URL, url)
     c.setopt(c.MAX_RECV_SPEED_LARGE, rate_limit)
-    if os.path.exists(filename):
-        file_id = open(filename, "ab")
-        c.setopt(c.RESUME_FROM, os.path.getsize(filename))
-    else:
-        file_id = open(filename, "wb")
+#   if os.path.exists(filename):
+#       print "exists", filename
+#       file_id = open(filename, "ab")
+#       c.setopt(c.RESUME_FROM, os.path.getsize(filename))
+#   else:
+#       print "doesnt exists"
+    file_id = open(filename, "wb")
 
     c.setopt(c.WRITEDATA, file_id)
     # c.setopt(c.NOPROGRESS, 0)
@@ -164,6 +185,6 @@ class Mycurl:
       print "Downloaded %d/%d (%0.2f%%)" % (existing, total, frac)
 
 confProc = ConferenceProcessor()
-#confProc.process("CHI","12")
-confProc.processPaper("CHI/CHI'12/2207676.2207678.html", "CHI","12")
-
+#confProc.process("CHI","12","2207676.2208622")
+#confProc.processPaper("CHI/CHI'12/2207676.2207678.html", "CHI","12")
+confProc.processConference("CHI","12")
