@@ -80,12 +80,15 @@ class ConferenceProcessor:
 
     paperList = [["conference", "year", "doi", "title", "citationCount", "download6weeks", "download12months", "downloadAll", "keywords", "pageNumber", "authors"]]
 
+    i = 0
     if os.path.exists(folder):
       for filename in os.listdir(folder): 
         if filename != ".DS_Store" and not os.path.isdir(os.path.join(conferenceName,filename)):
           paperDescription = self.processPaper(os.path.join(folder, filename), conferenceName, conferenceYear)
           paperList.append(paperDescription)
+          i = i+1
     
+    print i
     out = csv.writer(open(conferenceName + conferenceYear + ".csv","w"), delimiter=',',quoting=csv.QUOTE_ALL)
     for p in paperList:
       out.writerow(p)
@@ -105,7 +108,7 @@ class ConferenceProcessor:
     pageNumber = self.getPageNumber(filetext)
     authors = self.getAuthors(filetext)
     
-    print conferenceName, conferenceYear, doi, title, citationCount, download6weeks, download12months, downloadAll, keywords, pageNumber, authors
+    # print conferenceName, conferenceYear, doi, title, citationCount, download6weeks, download12months, downloadAll, keywords, pageNumber, authors
     
     paperDescription = [conferenceName, conferenceYear, doi, title, citationCount, download6weeks, download12months, downloadAll, keywords, pageNumber, authors]
     
