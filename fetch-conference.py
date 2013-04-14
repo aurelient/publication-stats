@@ -50,7 +50,10 @@ class ConferenceProcessor:
     end = '" title'
     doiList = re.findall(re.escape(start)+"(.*)"+re.escape(end),filetext)
 
-    startDownload = False
+    if "" == fromDOI:
+      startDownload = True
+    else:
+      startDownload = False
 
     folder = filePath.split(".")[0]
     # let's create a directory for the conference if none exists
@@ -97,7 +100,10 @@ class ConferenceProcessor:
     f = open(filePath)
     filetext = f.read()
     f.close()
-    
+        
+    ## 
+    ## Checking if this is really a paper
+    ##
     doi = self.getFirstOccurence('doi&gt;<a href="', '" target="_self"', filetext)
     title = self.getFirstOccurence('<h1 class="mediumb-text" style="margin-top:0px; margin-bottom:0px;"><strong>', '</strong></h1>', filetext)
     citationCount = self.getFirstOccurence("Citation Count: ", "\r\n", filetext)
@@ -106,10 +112,12 @@ class ConferenceProcessor:
     downloadAll = self.getFirstOccurence("Downloads (cumulative): ", "<br />", filetext)
     keywords = '; '.join( self.getData('<span class="small-text" style="padding-right: 0px; color:#356b20">', '</span></a>', filetext) ) 
     pageNumber = self.getPageNumber(filetext)
+    if pageNumber == "":
+      return []
     authors = self.getAuthors(filetext)
-    
+  
     # print conferenceName, conferenceYear, doi, title, citationCount, download6weeks, download12months, downloadAll, keywords, pageNumber, authors
-    
+  
     paperDescription = [conferenceName, conferenceYear, doi, title, citationCount, download6weeks, download12months, downloadAll, keywords, pageNumber, authors]
     
     print paperDescription
@@ -134,8 +142,11 @@ class ConferenceProcessor:
 
   def getPageNumber(self, filetext):
     pages = self.getFirstOccurence('Pages  ', ' \r\n', filetext)
-    pp = string.split(pages, "-")
-    pageNumber = int(pp[1]) - int(pp[0]) + 1
+    try: 
+      pp = string.split(pages, "-")
+      pageNumber = int(pp[1]) - int(pp[0]) + 1
+    except :
+        return ""
     return str(pageNumber)
 
   def getAuthors(self, filetext):
@@ -188,6 +199,6 @@ class Mycurl:
       print "Downloaded %d/%d (%0.2f%%)" % (existing, total, frac)
 
 confProc = ConferenceProcessor()
-#confProc.process("CHI","12","2207676.2208622")
+confProc.process("CHI","02","")
 #confProc.processPaper("CHI/CHI'12/2207676.2207678.html", "CHI","12")
-confProc.processConference("CHI","12")
+#confProc.processConference("CHI","12")
