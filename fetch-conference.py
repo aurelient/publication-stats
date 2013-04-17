@@ -199,6 +199,6 @@ class Mycurl:
       print "Downloaded %d/%d (%0.2f%%)" % (existing, total, frac)
 
 confProc = ConferenceProcessor()
-confProc.process("CHI","02","")
+confProc.process("CHI","89","")
 #confProc.processPaper("CHI/CHI'12/2207676.2207678.html", "CHI","12")
 #confProc.processConference("CHI","12")
