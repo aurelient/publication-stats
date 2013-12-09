@@ -104,7 +104,7 @@ class Mycurl:
       print "Downloaded %d/%d (%0.2f%%)" % (existing, total, frac)
 
 fetcher = Fetcher()
-fetcher.start("DIS")
+fetcher.start("TEI")
 
 confProc = ConferenceProcessor()
-confProc.process("DIS")
+confProc.process("TEI")

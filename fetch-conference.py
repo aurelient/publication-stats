@@ -150,9 +150,12 @@ class ConferenceProcessor:
     return str(pageNumber)
 
   def getAuthors(self, filetext):
+    plop = re.findall(re.escape('<table style="margin-top: 10px; border-collapse:collapse; padding:2px;" class="medium-text">')+"(.*)"+re.escape("</table>"), filetext)
+    print plop
     # ATTENTION
     # this is also catching the conference chairs!
     authors = re.findall(re.escape('title="Author Profile Page" target="_self">')+"(.*)"+re.escape("</a>"), filetext)
+    authorsId = re.findall(re.escape('<a  href="author_page.cfm?id=')+"(.*)"+re.escape("&amp;coll=DL&amp;dl=ACM&amp;"), filetext)
     affiliations = re.findall(re.escape('title="Institutional Profile Page"><small>')+"(.*)"+re.escape("</small></a>"), filetext)
 #   for author in authors:
 #   author = string.replace(author,'<td valign="bottom">',"")
@@ -163,12 +166,14 @@ class ConferenceProcessor:
 #   print authors
 
     print authors
+    print authorsId
     print affiliations
     result = ''
-    for i in range(len(affiliations)-1):
-      result = result + authors[i] + ", " +  affiliations[i]
-      if i != len(affiliations)-2:
-        result = result + "; "
+    for i in range(len(authors)):
+      result = result + authorsId[i] + ", " + authors[i] 
+      if len(affiliations)>i:
+        result = result + ", " + affiliations[i]
+      result = result + "; "
     return result
     
     
@@ -199,6 +204,36 @@ class Mycurl:
       print "Downloaded %d/%d (%0.2f%%)" % (existing, total, frac)
 
 confProc = ConferenceProcessor()
-confProc.process("CHI","10","")
-#confProc.processPaper("CHI/CHI'12/2207676.2207678.html", "CHI","12")
-#confProc.processConference("CHI","12")
+# confProc.process("CHI","82","")
+# confProc.process("CHI","83","")
+# confProc.process("CHI","85","")
+# confProc.process("CHI","86","")
+# confProc.process("CHI","87","")
+# confProc.process("CHI","88","")
+# confProc.process("CHI","89","")
+# confProc.process("CHI","90","")
+# confProc.process("CHI","91","")
+# confProc.process("CHI","92","")
+# confProc.process("CHI","93","")
+# confProc.process("CHI","94","")
+# confProc.process("CHI","95","")
+# confProc.process("CHI","96","")
+# confProc.process("CHI","97","")
+# confProc.process("CHI","98","")
+# confProc.process("CHI","99","")
+# confProc.process("CHI","00","")
+# confProc.process("CHI","01","")
+# confProc.process("CHI","02","")
+# confProc.process("CHI","03","")
+# confProc.process("CHI","04","")
+# confProc.process("CHI","05","")
+# confProc.process("CHI","06","")
+# confProc.process("CHI","07","")
+# confProc.process("CHI","08","")
+# confProc.process("CHI","09","")
+# confProc.process("CHI","10","")
+# confProc.process("CHI","11","")
+confProc.process("CHI","12","")
+confProc.process("CHI","13","")
+# confProc.processPaper("TEI/TEI'13/2460625.2460627.html", "TEI","13")
+# confProc.processConference("TEI","08")
