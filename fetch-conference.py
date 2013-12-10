@@ -233,7 +233,16 @@ confProc = ConferenceProcessor()
 # confProc.process("CHI","09","")
 # confProc.process("CHI","10","")
 # confProc.process("CHI","11","")
-confProc.process("CHI","12","")
-confProc.process("CHI","13","")
+# confProc.process("CHI","12","")
+
+# Relaunching conference meta-data download and processing
+# confProc.process("CHI","13","")
+
+# Relaunching conference meta-data download from this article
+# confProc.process("CHI","12","2207676.2208730")
+
+# Processing conference data from disk
+# confProc.processConference("CHI","12")
+
+# Processing article data from disk
 # confProc.processPaper("TEI/TEI'13/2460625.2460627.html", "TEI","13")
-# confProc.processConference("TEI","08")
